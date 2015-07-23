@@ -1,0 +1,16 @@
+site_name: Remark Admin Template Docs
+repo_url: https://github.com/amazingSurge/remark-docs/
+site_author: amazingsurge
+pages:
+- [index.md, Home]
+- [overview.md, 1. Overview]
+- [build.md, 2. Building Tools]
+- [style.md, 3. Customize Styles]
+- [javascript.md, 4. Modular JavaScript]
+- [structure.md, 5. Theme Structure]
+- [components.md, 6. Components]
+- [psd.md, 7. PSD Files]
+- [credits.md, 8. Sources and Credits]
+- [support.md, 9. Support]
+theme: readthedocs
+use_directory_urls: false

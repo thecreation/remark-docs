@@ -1,0 +1,9 @@
+{
+  "name": "remark-docs",
+  "description": "The best backend-end framework for developing responsive, mobile first projects on the web.",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-json-editor": "*"
+  }
+}
