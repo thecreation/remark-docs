@@ -12,5 +12,6 @@ pages:
 - [psd.md, 7. PSD Files]
 - [credits.md, 8. Sources and Credits]
 - [support.md, 9. Support]
+- [changelog.md, 10. Changelog]
 theme: readthedocs
 use_directory_urls: false

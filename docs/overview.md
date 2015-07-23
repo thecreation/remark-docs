@@ -59,6 +59,3 @@ Remark is built to work best in the latest desktop and mobile browsers, older br
 **Note**: IE9 does not support transitions or animations. The template will function properly but it won't use animations/transitions on IE9.
 
 Learn more form [bootstrap documentation](http://getbootstrap.com/getting-started/#support).
-
-##1.5 Changelogs
-* **Update Version 1.0.0, Update Release: 07/23/15**
