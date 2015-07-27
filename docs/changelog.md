@@ -5,23 +5,23 @@
 ### Added
 - Panel Transition
 - Transitions for Contact App, Mailbox App, Media App, Projects App
-- Animation for tabs
+- Animation for Tabs
 - Item edit for Contact App
 - Table Section
 - Table Selectable
-- dark style for Alert
-- social alert styles
-- reply box for sidebar chat
+- Dark style for Alert
+- Social alert styles
+- Reply box for Sidebar Chat
 
 ### Improved
 - Calendar App
 
 ### Fixed
-- checkbox click issue on Media App
-- sub-menu item cutoff in collapsed menu mode issue
+- Checkbox click issue on Media App
+- Sub-menu item cutoff in collapsed menu mode
 - Google Map page script missing issue
-- donut chart label position issue
-- wizard pager not working issue
+- Donut chart label position issue
+- Wizard pager not working issue
 
 [1.0.1] - 2015-07-24
 --------------------
