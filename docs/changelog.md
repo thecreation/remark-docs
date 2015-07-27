@@ -9,7 +9,7 @@
 - Item edit for Contact App
 - Table Section
 - Table Selectable
-- dark style for alert
+- dark style for Alert
 - social alert styles
 - reply box for sidebar chat
 
