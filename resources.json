@@ -20,6 +20,13 @@
     "author": "Google, Inc",
     "version": "1.4.3"
   },
+  "angular-animate": {
+    "name": "angular-animate",
+    "homepage": "https://github.com/angular/bower-angular-animate",
+    "license": "MIT",
+    "author": "Angular Core Team",
+    "version": "1.4.3"
+  },
   "angular-sanitize": {
     "name": "angular-sanitize",
     "homepage": "https://github.com/angular/bower-angular-sanitize",
@@ -32,7 +39,7 @@
     "homepage": "http://angular-ui.github.io/bootstrap/",
     "license": "MIT",
     "author": "https://github.com/angular-ui/bootstrap/graphs/contributors",
-    "version": "0.13.0"
+    "version": "0.13.1"
   },
   "angular-ui-grid": {
     "name": "angular-ui-grid",
@@ -67,28 +74,28 @@
     "homepage": "https://github.com/blueimp/JavaScript-Canvas-to-Blob",
     "license": "MIT",
     "author": "Sebastian Tschan",
-    "version": "2.1.1"
+    "version": "2.2.0"
   },
   "blueimp-file-upload": {
     "name": "blueimp-file-upload",
     "homepage": "https://github.com/blueimp/jQuery-File-Upload",
     "license": "MIT",
     "author": "Sebastian Tschan",
-    "version": "9.10.4"
+    "version": "9.10.5"
   },
   "blueimp-load-image": {
     "name": "blueimp-load-image",
     "homepage": "https://github.com/blueimp/JavaScript-Load-Image",
     "license": "MIT",
     "author": "Sebastian Tschan",
-    "version": "1.13.0"
+    "version": "1.13.1"
   },
   "blueimp-tmpl": {
     "name": "blueimp-tmpl",
     "homepage": "https://github.com/blueimp/JavaScript-Templates",
     "license": "MIT",
     "author": "Sebastian Tschan",
-    "version": "2.5.4"
+    "version": "2.5.5"
   },
   "bootbox": {
     "name": "bootbox.js",
@@ -271,7 +278,7 @@
     "homepage": "http://jonthornton.github.com/Datepair.js",
     "license": "MIT",
     "author": "Jon Thornton",
-    "version": "0.4.8"
+    "version": "0.4.9"
   },
   "draggabilly": {
     "name": "draggabilly",
@@ -382,7 +389,7 @@
     "homepage": "https://github.com/isagalaev/highlight.js",
     "license": "BSD",
     "author": "isagalaev",
-    "version": "8.6.0"
+    "version": "8.7.0"
   },
   "icheck": {
     "name": "iCheck",
@@ -397,6 +404,13 @@
     "license": "MIT",
     "author": "Afshin Mehrabani",
     "version": "1.0.0"
+  },
+  "isotope": {
+    "name": "isotope",
+    "homepage": "http://isotope.metafizzy.co",
+    "license": "Commercial license",
+    "author": "Metafizzy",
+    "version": "2.2.1"
   },
   "jquery": {
     "name": "jquery",
@@ -485,7 +499,7 @@
     "homepage": "https://github.com/chjj/marked",
     "license": "MIT",
     "author": "Christopher Jeffrey",
-    "version": "0.3.2"
+    "version": "0.3.4"
   },
   "masonry": {
     "name": "masonry",
@@ -517,8 +531,7 @@
     "name": "moment",
     "homepage": "http://momentjs.com",
     "license": "MIT",
-    "author": "Iskren Ivov Chernev",
-    "version": "2.10.3"
+    "author": "Iskren Ivov Chernev"
   },
   "morris-js": {
     "name": "morris.js",
@@ -560,7 +573,7 @@
     "homepage": "https://github.com/ocombe/ocLazyLoad",
     "license": "MIT",
     "author": "Olivier Combe <olivier.combe@gmail.com>",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "owl-carousel": {
     "name": "owl.carousel",
@@ -581,7 +594,7 @@
     "homepage": "http://plyr.io",
     "license": "MIT",
     "author": "Sam Potts",
-    "version": "1.2.1"
+    "version": "1.2.6"
   },
   "raphael": {
     "name": "raphael",
@@ -636,7 +649,7 @@
     "homepage": "http://kenwheeler.github.io/slick",
     "license": "MIT",
     "author": "Ken Wheeler",
-    "version": "1.5.6"
+    "version": "1.5.8"
   },
   "sparkline": {
     "name": "jquery.sparkline",

@@ -1,5 +1,32 @@
 #10. Changelog
 
+[1.0.3] - 2015-07-29
+--------------------
+### Added
+- Skins: brown, cyan, green, grey, indigo, orange, pink, purple, red, teal, yellow
+- Gallery Page (with isotope)
+
+### Improved
+- Dashboard pages
+- Angular Ui
+
+### Updated
+- angular-bootstrap to v0.13.1
+- blueimp-canvas-to-blob to v2.2.0
+- blueimp-file-upload to v9.10.5
+- blueimp-load-image to v1.13.1
+- blueimp-tmpl to v2.5.5
+- bootstrap-datepicker
+- datepair-js to v0.4.9
+- highlight.js to v8.6.0
+- marked to v0.3.4
+- oclazyload to v1.0.3
+- plyr to v1.2.6
+- slick-carousel to v1.5.8
+
+### Fixed
+- Wizard pager issue
+
 [1.0.2] - 2015-07-28
 --------------------
 ### Added
