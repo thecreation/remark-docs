@@ -1,4 +1,40 @@
-#10. Changelog
+#11. Changelog
+
+[1.0.5] - 2015-08-03
+--------------------
+### Improved
+- Material form webkit autofill
+
+### Changed
+- '.before-rum' change to '.css-menubar'
+- '.after-rum' change to '.js-menubar'
+
+### Updated
+` Angular ui bootstrap to v0.13.2
+
+### Fixed
+- Menu collapsed page twinkle issue
+
+[1.0.4] - 2015-08-02
+--------------------
+### Added
+- Login page v2
+- Register page v2
+
+### Improved
+- Documentation
+- Label editable for Contacts app, Mailbox app, Calendar app
+- Event edit for Contact app
+- Selectable component
+- Datatable add row example
+- Chartist tooltip for dashboard
+
+### Updated
+- oclazyload to v1.0.4
+
+### Fixed
+- Skins override issues
+- Animsition loader issue
 
 [1.0.3] - 2015-07-29
 --------------------

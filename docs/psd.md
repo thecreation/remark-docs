@@ -1,4 +1,4 @@
-#7. PSD Files
+#8. PSD Files
 
 We've shared all design psd files with this theme on dropbox.
 

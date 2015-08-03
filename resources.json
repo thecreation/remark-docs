@@ -39,7 +39,7 @@
     "homepage": "http://angular-ui.github.io/bootstrap/",
     "license": "MIT",
     "author": "https://github.com/angular-ui/bootstrap/graphs/contributors",
-    "version": "0.13.1"
+    "version": "0.13.2"
   },
   "angular-ui-grid": {
     "name": "angular-ui-grid",
@@ -220,6 +220,13 @@
     "homepage": "https://gionkunz.github.io/chartist-js",
     "license": "WTFPL",
     "author": "Gion Kunz"
+  },
+  "chartist-plugin-tooltip": {
+    "name": "chartist-plugin-tooltip",
+    "homepage": "https://github.com/Globegitter/chartist-plugin-tooltip",
+    "license": "MIT",
+    "author": "Globegitter",
+    "version": "0.0.11"
   },
   "clockpicker": {
     "name": "clockpicker",
@@ -573,7 +580,7 @@
     "homepage": "https://github.com/ocombe/ocLazyLoad",
     "license": "MIT",
     "author": "Olivier Combe <olivier.combe@gmail.com>",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   "owl-carousel": {
     "name": "owl.carousel",

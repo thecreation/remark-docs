@@ -1,4 +1,4 @@
-#6. Components
+#7. Components
 Remark template based on all [Bootstrap 3](http://getbootstrap.com/) components. It's a good start to review the [Bootstrap documentation](http://getbootstrap.com/) to get an idea of the various components which this documentation does not cover.
 
 Of course, we have extended works for the default componets, contains a huge sets of style. Please check them in our example pages. We think you'll find what you need.

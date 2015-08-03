@@ -23,7 +23,7 @@ alertify.js  | 0.3.18  | [https://alertifyjs.org/](https://alertifyjs.org/)  | M
 angular  | 1.4.3  | [https://github.com/angular/angular](https://github.com/angular/angular)  | Apache-2.0
 angular-animate  | 1.4.3  | [https://github.com/angular/bower-angular-animate](https://github.com/angular/bower-angular-animate)  | MIT
 angular-sanitize  | 1.4.3  | [https://github.com/angular/bower-angular-sanitize](https://github.com/angular/bower-angular-sanitize)  | MIT
-angular-bootstrap  | 0.13.1  | [http://angular-ui.github.io/bootstrap/](http://angular-ui.github.io/bootstrap/)  | MIT
+angular-bootstrap  | 0.13.2  | [http://angular-ui.github.io/bootstrap/](http://angular-ui.github.io/bootstrap/)  | MIT
 angular-ui-grid  | 3.0.1  | [http://ui-grid.info/](http://ui-grid.info/)  | MIT
 angular-ui-router  | 0.2.15  | [http://angular-ui.github.com/](http://angular-ui.github.com/)  | MIT
 angular-ui-sortable  | 0.13.4  | [http://angular-ui.github.com](http://angular-ui.github.com)  | MIT
@@ -50,6 +50,7 @@ c3  | 0.4.11-rc1  | [http://c3js.org/](http://c3js.org/)  | MIT
 card  | 1.1.0  | [https://github.com/jessepollak/card](https://github.com/jessepollak/card)  | MIT
 Chart.js  | 1.0.2  | [http://www.chartjs.org](http://www.chartjs.org)  | MIT
 chartist  | stable  | [https://gionkunz.github.io/chartist-js](https://gionkunz.github.io/chartist-js)  | WTFPL
+chartist-plugin-tooltip  | 0.0.11  | [https://github.com/Globegitter/chartist-plugin-tooltip](https://github.com/Globegitter/chartist-plugin-tooltip)  | MIT
 clockpicker  | 0.0.7  | [http://weareoutman.github.io/clockpicker/](http://weareoutman.github.io/clockpicker/)  | MIT
 codemirror  | stable  | [http://codemirror.net](http://codemirror.net)  | MIT
 cropper  | 0.10.1  | [https://github.com/fengyuanchen/cropper](https://github.com/fengyuanchen/cropper)  | MIT
@@ -101,7 +102,7 @@ jquery-mousewheel  | 3.1.13  | [https://github.com/jquery/jquery-mousewheel](htt
 multiselect  | 0.9.10  | [http://loudev.com/](http://loudev.com/)  | WTFPL
 nestable2  | 1.2.3  | [https://github.com/RamonSmit/Nestable](https://github.com/RamonSmit/Nestable)  | MIT
 nprogress  | 0.2.0  | [http://ricostacruz.com/nprogress](http://ricostacruz.com/nprogress)  | MIT
-oclazyload  | 1.0.3  | [https://github.com/ocombe/ocLazyLoad](https://github.com/ocombe/ocLazyLoad)  | MIT
+oclazyload  | 1.0.4  | [https://github.com/ocombe/ocLazyLoad](https://github.com/ocombe/ocLazyLoad)  | MIT
 owl.carousel  | 2.0.0-beta.3  | [https://github.com/smashingboxes/OwlCarousel2](https://github.com/smashingboxes/OwlCarousel2)  | MIT
 peity  | 3.2.0  | [https://github.com/benpickles/peity](https://github.com/benpickles/peity)  | MIT
 plyr  | 1.2.6  | [http://plyr.io](http://plyr.io)  | MIT

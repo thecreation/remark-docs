@@ -8,10 +8,11 @@ pages:
 - [style.md, 3. Customize Styles]
 - [javascript.md, 4. Modular JavaScript]
 - [structure.md, 5. Theme Structure]
-- [components.md, 6. Components]
-- [psd.md, 7. PSD Files]
-- [credits.md, 8. Sources and Credits]
-- [support.md, 9. Support]
-- [changelog.md, 10. Changelog]
+- [layouts.md, 6. Layouts]
+- [components.md, 7. Components]
+- [psd.md, 8. PSD Files]
+- [credits.md, 9. Sources and Credits]
+- [support.md, 10. Support]
+- [changelog.md, 11. Changelog]
 theme: readthedocs
 use_directory_urls: false

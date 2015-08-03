@@ -19,75 +19,446 @@ All javascript source files are under ```src/js/``` folder:
 
 All minified and combined files are under ```assets/js/``` folder.
 
-##4.2 Data API
-We appreciate **data-api** syntax defined by [Bootstrap](http://getbootstrap.com/). It's a modualr way to organize the initialize script for the 3rd plugin.
+##4.2 Core.js
+In ```assets/js/core.js```, we provides three useful functionality: **Site initialization**, **Config api**, **Component registration**.
+###Site initialization
+We provide a site initialization script which you can hook your script into the process easily by extend the ```$.site```.
+
+You will see we have a dequeue system. It provied dequeue functions for prepare, run and complete state.
+
+``` javascript
+/* line 10 */
+$.extend($.site, {
+  _queue: {
+    prepare: [],
+    run: [],
+    complete: []
+  },
+
+  dequeue: function(name, done) {
+    var self = this,
+      queue = this.getQueue(name),
+      fn = queue.shift(),
+      next = function() {
+        self.dequeue(name, done);
+      };
+
+    if (fn) {
+      fn.call(this, next);
+    } else if ($.isFunction(done)) {
+      done.call(this);
+    }
+  },
+
+  getQueue: function(name) {
+    if (!$.isArray(this._queue[name])) {
+      this._queue[name] = [];
+    }
+
+    return this._queue[name];
+  }
+};
+```
+
+The mainly run function is defined below in the file:
+
+``` javascript
+/* line 17 */
+run: function() {
+  var self = this;
+
+  this.dequeue('prepare', function() {
+    self.trigger('before.run', self);
+  });
+
+  this.dequeue('run', function() {
+    self.dequeue('complete', function() {
+      self.trigger('after.run', self);
+    });
+  });
+}
+```
+
+And the ```$.site.extend``` method below:
+
+``` javascript
+/* line 54 */
+extend: function(obj) {
+  $.each(this._queue, function(name, queue) {
+    if ($.isFunction(obj[name])) {
+      queue.push(obj[name]);
+
+      delete obj[name];
+    }
+  });
+
+  $.extend(this, obj);
+
+  return this;
+}
+```
+
+We also provide ```assets/js/site.js``` file which set up all theme functionality e.g. menubar, gridmenu, sidebar, tooltip, page load animation and compoents. You can see the code snippet below:
+
+``` javascript
+/* line 18 */
+window.Site = $.site.extend({
+  run: function(next) {
+    $('html').removeClass('before-run').addClass('after-run');
+
+    // polyfill
+    this.polyfillIEWidth();
+
+    // Menubar setup
+    // =============
+    $.site.menu.init();
+
+    $(".site-menubar").on('changing.site.menubar', function() {
+      $('[data-toggle="menubar"]').each(function() {
+        var $this = $(this);
+        var $hamburger = $(this).find('.hamburger');
+
+        function toggle($el) {
+          $el.toggleClass('hided', !$.site.menubar.opened);
+          $el.toggleClass('unfolded', !$.site.menubar.folded);
+        }
+        if ($hamburger.length > 0) {
+          toggle($hamburger);
+        } else {
+          toggle($this);
+        }
+      });
+    });
+
+    // ...
+  }
+});
+```
+
+So, in your html, just add the ```assets/js/core.js``` and the ```assets/js/site.js``` to the page, then write your scripts as follows:
+
+
+``` html
+<script src="assets/js/core.js"></script>
+<script src="assets/js/site.js"></script>
+<script>
+window.YouSite = Site.extend({
+  run: function(next) {
+    // your scripts here
+
+    next();
+  }
+});
+
+$(document).ready(function(){
+  YouSite.run();
+});
+</script>
+```
+
+It will excuted when document ready and all theme functionality will be initialized.
+
+##4.3 Config api
+In ```assets/js/core.js```, we provide a simple config api:
+
+``` javascript
+/* line 121 */
+// Configs
+// =======
+$.configs = $.configs || {};
+
+$.extend($.configs, {
+  data: {},
+  get: function(name) {
+    var callback = function(data, name) {
+      return data[name];
+    }
+
+    var data = this.data;
+
+    for (var i = 0; i < arguments.length; i++) {
+      name = arguments[i];
+
+      data = callback(data, name);
+    }
+
+    return data;
+  },
+
+  set: function(name, value) {
+    this.data[name] = value;
+  },
+
+  extend: function(name, options) {
+    var value = this.get(name);
+    return $.extend(true, value, options);
+  }
+});
+```
+
+You can share your config data on all your js files loaded in the page.
+
+For example, you can setup your site configs in your ```assets/js/configs.js```:
+
+``` javascript
+$.configs.set('site', {
+  fontFamily: "Noto Sans, sans-serif",
+  primaryColor: "blue"
+});
+```
+
+Then in your ```assets/js/site.js```
+
+``` javascript
+var color = $.configs.get('site', 'primaryColor');
+console.info(color); // will output 'blue'
+```
+
+##4.4 Component registration
+In ```assets/js/core.js``` we also provide a simple component registration that will help your organize your 3rd component.
+
+The full implementation code:
+
+``` javascript
+/* line 176 */
+// Components
+// ==========
+$.components = $.components || {};
+
+$.extend($.components, {
+  _components: {},
+
+  register: function(name, obj) {
+    this._components[name] = obj;
+  },
+
+  init: function(name, context, args) {
+    var self = this;
+
+    if (typeof name === 'undefined') {
+      $.each(this._components, function(name) {
+        self.init(name);
+      });
+    } else {
+      context = context || document;
+      args = args || [];
+
+      var obj = this.get(name);
+
+      if (obj) {
+        switch (obj.mode) {
+          case 'default':
+            return this._initDefault(name, context);
+          case 'init':
+            return this._initComponent(name, obj, context, args);
+          case 'api':
+            return this._initApi(name, obj, args);
+          default:
+            this._initApi(name, obj, context, args);
+            this._initComponent(name, obj, context, args);
+            return;
+        }
+      }
+    }
+  },
+
+  /* init alternative, but only or init mode */
+  call: function(name, context) {
+    var args = Array.prototype.slice.call(arguments, 2);
+    var obj = this.get(name);
+
+    context = context || document;
+
+    return this._initComponent(name, obj, context, args);
+  },
+
+  _initDefault: function(name, context) {
+    if (!$.fn[name]) return;
+
+    var defaults = this.getDefaults(name);
+
+    $('[data-plugin=' + name + ']', context).each(function() {
+      var $this = $(this),
+        options = $.extend(true, {}, defaults, $this.data());
+
+      $this[name](options);
+    });
+  },
+
+
+  _initComponent: function(name, obj, context, args) {
+    if ($.isFunction(obj.init)) {
+      obj.init.apply(obj, [context].concat(args));
+    }
+  },
+
+  _initApi: function(name, obj, args) {
+    if (typeof obj.apiCalled === 'undefined' && $.isFunction(obj.api)) {
+      obj.api.apply(obj, args);
+
+      obj.apiCalled = true;
+    }
+  },
+
+
+  getDefaults: function(name) {
+    var component = this.get(name);
+
+    if (component && typeof component.defaults !== "undefined") {
+      return component.defaults;
+    } else {
+      return {};
+    }
+  },
+
+  get: function(name, property) {
+    if (typeof this._components[name] !== "undefined") {
+      if (typeof property !== "undefined") {
+        return this._components[name][property];
+      } else {
+        return this._components[name];
+      }
+    } else {
+      console.warn('component:' + component + ' script is not loaded.');
+
+      return undefined;
+    }
+  }
+});
+```
+
+
+##4.5 Data API
+Our component solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modualr way to organize the initialize script for the 3rd plugin.
 
 ###Register
-We use the function below to register data-api:
+We use the function below to register component:
 
     $.components.register(name, obj);
 
-The ```obj``` is defined ```data-api``` mode and plugin initialize function. There are three modes in Remark template:
+We defined component register mode and initialize function in the object as second argument passed to the register method. There are three modes in the template:
 
-* ```api```: will use **dataAPI{plugin name}** function and not need to be re-initialized when new elements added in ```document```.
-* ```default```: will use **default initialize function**.
-* ```init```: will use **init{plugin name}** function and need to be re-initialized when new elements added in ```document```.
+* ```api```: will use **api** function defined in the obj and not need to be re-initialized when new elements added in ```document```.
+* ```default```: will use **default initialize function** which is defined in ```assets/js/core.js```.
+* ```init```: will use **init** function and need to be re-initialized when new elements added in ```document```.
 
-The card  ```obj``` example:
+The raty  ```obj``` example:
 
-    /*src/js/components/card.js*/
-    $.components.register("card", {
+    /*src/js/components/raty.js*/
+    $.components.register("rating", {
       mode: "init",
+      defaults: {
+        targetKeep: true,
+        icon: "font",
+        starType: "i",
+        starOff: "icon wb-star",
+        starOn: "icon wb-star orange-600",
+        cancelOff: "icon wb-minus-circle",
+        cancelOn: "icon wb-minus-circle orange-600",
+        starHalf: "icon wb-star-half orange-500"
+      },
       init: function(context) {
-        if (!$.fn.card) return;
-        var defaults = $.components.getDefaults("card");
+        if (!$.fn.raty) return;
 
-        $('[data-plugin="card"]', context).each(function() {
-          var options = $.extend({}, defaults, $(this).data());
+        var defaults = $.components.getDefaults("rating");
 
-          if (options.target) {
-            options.container = $(options.target);
+        $('[data-plugin="rating"]', context).each(function() {
+          var $this = $(this);
+          var options = $.extend(true, {}, defaults, $this.data());
+
+          if (options.hints) {
+            options.hints = options.hints.split(',');
           }
-          $(this).card(options);
+
+          $this.raty(options);
         });
       }
     });
 
 
-###Usage
-Just like [Bootstrap](http://getbootstrap.com/) ```data-api``` usage, add data-plugin="{plugin name}" to element and add [data-{options}] to element. The plugin will be initialized. You can also manually initialize the ```data-api``` whose type is ```default``` or ```init```:
-
-    $.components.get('multiSelect').init();
-
-##4.3 Options
+### Default Options for 3rd plugin
 We define the **default options** for 3rd plugin by default property in each components' object. You can modify the **default** property to suit your use case.
-When you manually initialize plugin, you can get the defaults options:
+When you manually initialize plugin, you can get the defaults options as follow:
 
     var defaults = $.components.getDefaults('{plugin name}');
 
 
-##4.4 Javascript Initialization
-Site core javascript initialization implemented in ```src/js/site.js'```.
+### Usage
+Just like [Bootstrap](http://getbootstrap.com/) ```data-api``` usage, add ```data-plugin="{plugin name}"``` to element and add ```[data-{options}]``` to element. The components will be initialized.
 
-Run the code below:
+For example:
 
-    $(document).ready(function(){
-      Site.run();
+``` html
+// Load plugin necessary files
+<link rel="stylesheet" href="assets/vendor/raty/jquery.raty.css">
+<script src="assets/vendor/raty/jquery.raty.js"></script>
+// Load Component register file
+<script src="assets/js/components/raty.js"></script>
+// Component dom
+<div class="rating" data-score="4" data-plugin="rating"></div>
+```
+
+The rating component will be initialized after when page ready.
+
+If we write script without our component solution, it will be
+
+``` html
+// Load plugin necessary files
+<link rel="stylesheet" href="assets/vendor/raty/jquery.raty.css">
+<script src="assets/vendor/raty/jquery.raty.js"></script>
+// Component dom
+<div class="rating" data-score="4"></div>
+
+// Init Script
+<script>
+$(document).ready(function(){
+  $('rating').each(function(){
+    var $this = $(this);
+    var score = $this.data('score');
+
+    $this.raty({
+      score: score,
+      targetKeep: true,
+      icon: "font",
+      starType: "i",
+      starOff: "icon wb-star",
+      starOn: "icon wb-star orange-600",
+      cancelOff: "icon wb-minus-circle",
+      cancelOn: "icon wb-minus-circle orange-600",
+      starHalf: "icon wb-star-half orange-500"
     });
+  });
+});
+</script>
+```
 
-It will initialize the registed ```data-api``` and initialize site structure script. Maybe you need more customize initialization script, you can refer to the following example:
+The code is simple for one instance, but if you need use a lot rating instaces in different pages, and all rating instaces have different options or can not be initialized with the same code, that will be hard to maintenance.
 
-    var MyApp = Site.extend({
-      customFunction : function(){
-          ....
-      },
+###Manually call
+You can also initialize the component manually:
 
-      run: function(next) {
-        this.customFunction();
+    $.components.init('rating');
 
-        next();//queue next run function
-      }
-    });
+We can specific the context with the second argument for the component, it's very useful when we load the dom via ajax:
 
-    MyApp.run();
+    $.components.init('rating', $('.page'));
 
+
+### Components Initialization
+The components initialization script is implemented in ```src/js/site.js'```.
+
+``` html
+window.Site = $.site.extend({
+  run: function(next) {
+    // code omitted
+    // ...
+
+    /* line 194 */
+    // Init Loaded Components
+    // ======================
+    $.components.init();
+  }
+});
+```
+
+You can remove it if you don't need our components solution.
