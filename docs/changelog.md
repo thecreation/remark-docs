@@ -6,8 +6,8 @@
 - Material form webkit autofill
 
 ### Changed
-- '.before-rum' change to '.css-menubar'
-- '.after-rum' change to '.js-menubar'
+- '.before-run' class change to '.css-menubar'
+- '.after-run' class change to '.js-menubar'
 
 ### Updated
 - Angular ui bootstrap to v0.13.2
