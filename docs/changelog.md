@@ -10,7 +10,7 @@
 - '.after-rum' change to '.js-menubar'
 
 ### Updated
-` Angular ui bootstrap to v0.13.2
+- Angular ui bootstrap to v0.13.2
 
 ### Fixed
 - Menu collapsed page twinkle issue
