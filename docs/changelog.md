@@ -1,5 +1,32 @@
 #11. Changelog
 
+[1.0.6] - 2015-08-12
+--------------------
+### Added
+- Login page v3
+- Register page v3
+
+### Improved
+- Make gridmenu scrollable
+- Make navbar search button more clickable in xs resolution
+- Make dashboard more interactive
+
+### Changed
+- Move inline styles & scripts into standalone file
+- Move gridmenu seciton script from site.js to standalone file
+
+### Updated
+- Angular ui grid to v3.0.3
+- cropper to v0.11.0
+- jvectormap to v2.0.4
+- plyr to v1.3.3
+- toastr to v2.1.1
+
+### Fixed
+- Site footer overlap issue on two column layout page
+- Submenu hover background color issue in light menubar version
+- Html overflow issue when slidePanel opened
+
 [1.0.5] - 2015-08-03
 --------------------
 ### Improved
