@@ -1,5 +1,30 @@
 #11. Changelog
 
+[1.0.7] - 2015-09-01
+--------------------
+### Improved
+- Make light menubar hover color using primary color in skins
+- Make form focus color using primary color in skins
+- Site Action Button plugin for better using floating buttons
+- Add vars-customs.less file for writing custom less variables
+
+### Changed
+- Move inline styles & scripts into standalone file
+- Move gridmenu seciton script from site.js to standalone file
+
+### Fixed
+- Site Menu click stop progagation issue
+- Btn icon padding issue
+- Floating labels input issue in firefox & ie
+- login v3 responsive issue
+
+### Updated
+- angular-ui-grid to v3.0.5
+- animsition to v3.6.0
+- cropper to v0.11.1
+- gmaps to v0.4.19
+- plyr to v1.3.5
+
 [1.0.6] - 2015-08-12
 --------------------
 ### Added
