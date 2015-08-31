@@ -8,10 +8,6 @@
 - Site Action Button plugin for better using floating buttons
 - Add vars-customs.less file for writing custom less variables
 
-### Changed
-- Move inline styles & scripts into standalone file
-- Move gridmenu seciton script from site.js to standalone file
-
 ### Fixed
 - Site Menu click stop progagation issue
 - Btn icon padding issue
