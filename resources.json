@@ -46,7 +46,7 @@
     "homepage": "http://ui-grid.info/",
     "license": "MIT",
     "author": "UI Grid Team",
-    "version": "3.0.5"
+    "version": "3.0.7"
   },
   "angular-ui-router": {
     "name": "angular-ui-router",
@@ -67,7 +67,7 @@
     "homepage": "http://blivesta.github.io/animsition/",
     "license": "MIT",
     "author": "blivesta",
-    "version": "3.6.0"
+    "version": "4.0.0"
   },
   "blueimp-canvas-to-blob": {
     "name": "blueimp-canvas-to-blob",
@@ -164,7 +164,7 @@
     "homepage": "https://github.com/wenzhixin/bootstrap-table",
     "license": "MIT",
     "author": "zhixin",
-    "version": "1.8.1"
+    "version": "1.9.0"
   },
   "bootstrap-tagsinput": {
     "name": "bootstrap-tagsinput",
@@ -245,7 +245,7 @@
     "homepage": "https://github.com/fengyuanchen/cropper",
     "license": "MIT",
     "author": "Fengyuan Chen",
-    "version": "0.11.1"
+    "version": "1.0.0"
   },
   "d3": {
     "name": "d3",
@@ -395,7 +395,7 @@
     "homepage": "https://github.com/isagalaev/highlight.js",
     "license": "BSD",
     "author": "isagalaev",
-    "version": "8.7.0"
+    "version": "8.8.0"
   },
   "icheck": {
     "name": "iCheck",
@@ -531,7 +531,8 @@
     "name": "modernizr",
     "homepage": "http://modernizr.com",
     "license": "MIT",
-    "author": "Modernizr"
+    "author": "Modernizr",
+    "version": "3.1.0"
   },
   "moment": {
     "name": "moment",
@@ -600,7 +601,7 @@
     "homepage": "http://plyr.io",
     "license": "MIT",
     "author": "Sam Potts",
-    "version": "1.3.5"
+    "version": "1.3.6"
   },
   "raphael": {
     "name": "raphael",

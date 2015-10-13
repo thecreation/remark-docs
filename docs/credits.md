@@ -24,10 +24,10 @@ angular  | 1.4.5  | [https://github.com/angular/angular](https://github.com/angu
 angular-animate  | 1.4.5  | [https://github.com/angular/bower-angular-animate](https://github.com/angular/bower-angular-animate)  | MIT
 angular-sanitize  | 1.4.5  | [https://github.com/angular/bower-angular-sanitize](https://github.com/angular/bower-angular-sanitize)  | MIT
 angular-bootstrap  | 0.13.3  | [http://angular-ui.github.io/bootstrap/](http://angular-ui.github.io/bootstrap/)  | MIT
-angular-ui-grid  | 3.0.5  | [http://ui-grid.info/](http://ui-grid.info/)  | MIT
+angular-ui-grid  | 3.0.7  | [http://ui-grid.info/](http://ui-grid.info/)  | MIT
 angular-ui-router  | 0.2.15  | [http://angular-ui.github.com/](http://angular-ui.github.com/)  | MIT
 angular-ui-sortable  | 0.13.4  | [http://angular-ui.github.com](http://angular-ui.github.com)  | MIT
-animsition  | 3.6.0  | [http://blivesta.github.io/animsition/](http://blivesta.github.io/animsition/)  | MIT
+animsition  | 4.0.0  | [http://blivesta.github.io/animsition/](http://blivesta.github.io/animsition/)  | MIT
 blueimp-canvas-to-blob  | 2.2.0  | [https://github.com/blueimp/JavaScript-Canvas-to-Blob](https://github.com/blueimp/JavaScript-Canvas-to-Blob)  | MIT
 blueimp-file-upload  | 9.10.7  | [https://github.com/blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)  | MIT
 blueimp-load-image  | 1.14.0  | [https://github.com/blueimp/JavaScript-Load-Image](https://github.com/blueimp/JavaScript-Load-Image)  | MIT
@@ -41,7 +41,7 @@ bootstrap-markdown  | 2.9.0  | [https://github.com/toopay/bootstrap-markdown](ht
 bootstrap-maxlength  | 1.6.0  | [https://github.com/mimo84/bootstrap-maxlength](https://github.com/mimo84/bootstrap-maxlength)  | MIT
 bootstrap-select  | stable  | [http://silviomoreto.github.io/bootstrap-select](http://silviomoreto.github.io/bootstrap-select)  | MIT
 bootstrap-sweetalert  | 0.4.2  | [http://lipis.github.io/bootstrap-sweetalert/](http://lipis.github.io/bootstrap-sweetalert/)  | MIT
-bootstrap-table  | 1.8.1  | [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)  | MIT
+bootstrap-table  | 1.9.0  | [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)  | MIT
 bootstrap-tagsinput  | 0.5.0  | [http://timschlechter.github.io/bootstrap-tagsinput/examples/](http://timschlechter.github.io/bootstrap-tagsinput/examples/)  | MIT
 bootstrap-tokenfield  | 0.12.1  | [http://sliptree.github.io/bootstrap-tokenfield/](http://sliptree.github.io/bootstrap-tokenfield/)  | MIT
 bootstrap-touchspin  | 3.0.1  | [http://www.virtuosoft.eu/code/bootstrap-touchspin/](http://www.virtuosoft.eu/code/bootstrap-touchspin/)  | Apache-2.0
@@ -53,7 +53,7 @@ chartist  | stable  | [https://gionkunz.github.io/chartist-js](https://gionkunz.
 chartist-plugin-tooltip  | 0.0.11  | [https://github.com/Globegitter/chartist-plugin-tooltip](https://github.com/Globegitter/chartist-plugin-tooltip)  | MIT
 clockpicker  | 0.0.7  | [http://weareoutman.github.io/clockpicker/](http://weareoutman.github.io/clockpicker/)  | MIT
 codemirror  | stable  | [http://codemirror.net](http://codemirror.net)  | MIT
-cropper  | 0.11.1  | [https://github.com/fengyuanchen/cropper](https://github.com/fengyuanchen/cropper)  | MIT
+cropper  | 1.0.0  | [https://github.com/fengyuanchen/cropper](https://github.com/fengyuanchen/cropper)  | MIT
 d3  | stable  | [http://d3js.org](http://d3js.org)  | BSD-3-Clause
 datatables  | 1.10.9-dev  | [http://datatables.net](http://datatables.net)  | MIT
 datatables-bootstrap  | stable  | [https://github.com/DataTables/Plugins](https://github.com/DataTables/Plugins)  | MIT
@@ -75,7 +75,7 @@ holderjs  | 2.4.1  | [http://holderjs.com](http://holderjs.com)  | MIT
 jquery-hoverintent  | 1.8.1  | [http://cherne.net/brian/resources/jquery.hoverIntent.html](http://cherne.net/brian/resources/jquery.hoverIntent.html)  | MIT
 html5shiv  | 3.7.3  | [https://github.com/aFarkas/html5shiv](https://github.com/aFarkas/html5shiv)  | MIT and GPL2
 html.sortable  | 0.3.0  | [https://github.com/voidberg/html5sortable](https://github.com/voidberg/html5sortable)  | MIT
-highlight.js  | 8.7.0  | [https://github.com/isagalaev/highlight.js](https://github.com/isagalaev/highlight.js)  | BSD
+highlight.js  | 8.8.0  | [https://github.com/isagalaev/highlight.js](https://github.com/isagalaev/highlight.js)  | BSD
 iCheck  | 1.0.2  | [http://fronteed.com/iCheck](http://fronteed.com/iCheck)  | MIT
 intro.js  | 1.0.0  | [http://usablica.github.com/intro.js](http://usablica.github.com/intro.js)  | MIT
 isotope  | 2.2.2  | [http://isotope.metafizzy.co](http://isotope.metafizzy.co)  | Commercial license
@@ -95,7 +95,7 @@ marked  | 0.3.4  | [https://github.com/chjj/marked](https://github.com/chjj/mark
 masonry  | 3.3.2  | [http://masonry.desandro.com](http://masonry.desandro.com)  | MIT
 media-match  | stable  | [https://github.com/weblinc/media-match](https://github.com/weblinc/media-match)  | MIT
 matchHeight  | 0.6.0  | [https://github.com/liabru/jquery-match-height](https://github.com/liabru/jquery-match-height)  | MIT
-modernizr  | stable  | [http://modernizr.com](http://modernizr.com)  | MIT
+modernizr  | 3.1.0  | [http://modernizr.com](http://modernizr.com)  | MIT
 moment  | stable  | [http://momentjs.com](http://momentjs.com)  | MIT
 morris.js  | 0.5.1  | [http://morrisjs.github.com/morris.js](http://morrisjs.github.com/morris.js)  | BSD-2-Clause
 jquery-mousewheel  | 3.1.13  | [https://github.com/jquery/jquery-mousewheel](https://github.com/jquery/jquery-mousewheel)  | MIT
@@ -105,7 +105,7 @@ nprogress  | 0.2.0  | [http://ricostacruz.com/nprogress](http://ricostacruz.com/
 oclazyload  | 1.0.4  | [https://github.com/ocombe/ocLazyLoad](https://github.com/ocombe/ocLazyLoad)  | MIT
 owl.carousel  | 2.0.0-beta.3  | [https://github.com/smashingboxes/OwlCarousel2](https://github.com/smashingboxes/OwlCarousel2)  | MIT
 peity  | 3.2.0  | [https://github.com/benpickles/peity](https://github.com/benpickles/peity)  | MIT
-plyr  | 1.3.5  | [http://plyr.io](http://plyr.io)  | MIT
+plyr  | 1.3.6  | [http://plyr.io](http://plyr.io)  | MIT
 raphael  | 2.1.4  | [https://github.com/DmitryBaranovskiy/raphael](https://github.com/DmitryBaranovskiy/raphael)  | MIT
 raty  | 2.7.0  | [https://github.com/wbotelhos/raty](https://github.com/wbotelhos/raty)  | MIT
 respond  | 1.4.2  | [https://github.com/scottjehl/Respond](https://github.com/scottjehl/Respond)  | MIT
