@@ -1,5 +1,51 @@
 #11. Changelog
 
+[1.1.0] - 2015-10-13
+--------------------
+### Added
+- Handlebars templates support
+- Gulp support
+- Taskboard app
+- jsGrid plugin
+- Layout grid
+- Dropify plugin
+- Menubar fold alt skin
+- Octicons icon package
+
+### Improved
+- Better menubar item structure (remove unnecessary icon html)
+- .site-menubar-keep instead of data-auto-menubar="false"
+
+### Fixed
+- Menubar click not working on touch device issue
+- Fanel fullscreen scrolling issue
+- file upload input group text issue
+- fix material fields highlight color in skin
+
+### Updated
+- Alertify.js to 1.0.3
+- angluar to 1.4.7
+- angular-animate to 1.4.7
+- angular-sanitize to 1.4.7
+- angular-ui-bootstrap to 0.14.1
+- angular-ui-grid to 3.0.7
+- animsition to 4.0.0
+- bootstrap-datepicker to 1.4.1
+- bootstrap-maxlength to 1.7.0
+- bootstrap-table to 1.9.0
+- chartist-plugin-tooltip to 0.0.12
+- cropper to 1.0.0
+- datatables to 1.10.10
+- datepair-js to 0.4.11
+- filament-tablesaw to 2.0.1
+- gmap to 0.4.21
+- highlight.js to 8.8.0
+- jt-timepicker to 1.8.2
+- modernizr to 3.1.0
+- oclazyload to 1.0.6
+- plyr to 1.3.6
+- slidepanel to 0.2.2
+
 [1.0.7] - 2015-09-01
 --------------------
 ### Improved

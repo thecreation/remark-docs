@@ -11,35 +11,35 @@
     "homepage": "https://alertifyjs.org/",
     "license": "MIT",
     "author": "Fabien Doiron",
-    "version": "0.3.18"
+    "version": "1.0.3"
   },
   "angular": {
     "name": "angular",
     "homepage": "https://github.com/angular/angular",
     "license": "Apache-2.0",
     "author": "Google, Inc",
-    "version": "1.4.5"
+    "version": "1.4.7"
   },
   "angular-animate": {
     "name": "angular-animate",
     "homepage": "https://github.com/angular/bower-angular-animate",
     "license": "MIT",
     "author": "Angular Core Team",
-    "version": "1.4.5"
+    "version": "1.4.7"
   },
   "angular-sanitize": {
     "name": "angular-sanitize",
     "homepage": "https://github.com/angular/bower-angular-sanitize",
     "license": "MIT",
     "author": "Angular Core Team",
-    "version": "1.4.5"
+    "version": "1.4.7"
   },
   "angular-ui-bootstrap": {
     "name": "angular-bootstrap",
     "homepage": "http://angular-ui.github.io/bootstrap/",
     "license": "MIT",
     "author": "https://github.com/angular-ui/bootstrap/graphs/contributors",
-    "version": "0.13.3"
+    "version": "0.14.1"
   },
   "angular-ui-grid": {
     "name": "angular-ui-grid",
@@ -123,7 +123,7 @@
     "homepage": "https://github.com/eternicode/bootstrap-datepicker",
     "license": "Apache-2.0",
     "author": "Andrew Rowls",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   "bootstrap-hover-dropdown": {
     "name": "bootstrap-hover-dropdown",
@@ -144,7 +144,7 @@
     "homepage": "https://github.com/mimo84/bootstrap-maxlength",
     "license": "MIT",
     "author": "Maurizio Napoleoni",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   "bootstrap-select": {
     "name": "bootstrap-select",
@@ -225,7 +225,7 @@
     "homepage": "https://github.com/Globegitter/chartist-plugin-tooltip",
     "license": "MIT",
     "author": "Globegitter",
-    "version": "0.0.11"
+    "version": "0.0.12"
   },
   "clockpicker": {
     "name": "clockpicker",
@@ -258,7 +258,7 @@
     "homepage": "http://datatables.net",
     "license": "MIT",
     "author": "Allan Jardine",
-    "version": "1.10.9-dev"
+    "version": "1.10.10-dev"
   },
   "datatables-bootstrap": {
     "name": "datatables-bootstrap",
@@ -284,7 +284,7 @@
     "homepage": "http://jonthornton.github.com/Datepair.js",
     "license": "MIT",
     "author": "Jon Thornton",
-    "version": "0.4.9"
+    "version": "0.4.11"
   },
   "draggabilly": {
     "name": "draggabilly",
@@ -292,6 +292,12 @@
     "license": "MIT",
     "author": "David DeSandro",
     "version": "1.2.4"
+  },
+  "dropify": {
+    "name": "dropify",
+    "homepage": "http://jeremyfagis.github.io/dropify/",
+    "author": "Jeremy FAGIS",
+    "version": "0.2.0"
   },
   "editable-table": {
     "name": "editable-table",
@@ -304,7 +310,7 @@
     "homepage": "https://github.com/filamentgroup/tablesaw",
     "license": "MIT",
     "author": "Zach Leatherman",
-    "version": "1.0.4"
+    "version": "2.0.1"
   },
   "flag-icon-css": {
     "name": "flag-icon-css",
@@ -353,7 +359,7 @@
     "homepage": "http://hpneo.github.com/gmaps",
     "license": "MIT",
     "author": "Gustavo Leon",
-    "version": "0.4.19"
+    "version": "0.4.21"
   },
   "gridstack": {
     "name": "gridstack",
@@ -408,8 +414,7 @@
     "name": "intro.js",
     "homepage": "http://usablica.github.com/intro.js",
     "license": "MIT",
-    "author": "Afshin Mehrabani",
-    "version": "1.0.0"
+    "author": "Afshin Mehrabani"
   },
   "isotope": {
     "name": "isotope",
@@ -457,8 +462,7 @@
     "name": "jquery-placeholder",
     "homepage": "https://github.com/mathiasbynens/jquery-placeholder",
     "license": "MIT",
-    "author": "Mathias Bynens",
-    "version": "2.1.2"
+    "author": "Mathias Bynens"
   },
   "jquery-ui": {
     "name": "jquery-ui",
@@ -467,12 +471,18 @@
     "author": "jQuery Foundation",
     "version": "1.11.4"
   },
+  "jsgrid": {
+    "name": "jsGrid",
+    "homepage": "http://js-grid.com/",
+    "license": "MIT",
+    "author": "Artem Tabalin"
+  },
   "jt-timepicker": {
     "name": "jt.timepicker",
     "homepage": "http://jonthornton.github.com/jquery-timepicker",
     "license": "MIT",
     "author": "Jon Thornton",
-    "version": "1.8.1"
+    "version": "1.8.2"
   },
   "jvectormap": {
     "name": "jvectormap",
@@ -486,6 +496,12 @@
     "homepage": "http://msurguy.github.io/ladda-bootstrap",
     "license": "MIT",
     "author": "msurguy"
+  },
+  "layout-grid": {
+    "name": "layout-grid",
+    "homepage": "http://clippings.github.io/layout-grid/",
+    "license": "BSD-3-Clause",
+    "author": "Ivan Kerin"
   },
   "lodash": {
     "name": "lodash",
@@ -565,8 +581,7 @@
     "name": "nestable2",
     "homepage": "https://github.com/RamonSmit/Nestable",
     "license": "MIT",
-    "author": "Ramon Smit, David Bushell",
-    "version": "1.2.3"
+    "author": "Ramon Smit, David Bushell"
   },
   "nprogress": {
     "name": "nprogress",
@@ -580,7 +595,7 @@
     "homepage": "https://github.com/ocombe/ocLazyLoad",
     "license": "MIT",
     "author": "Olivier Combe <olivier.combe@gmail.com>",
-    "version": "1.0.4"
+    "version": "1.0.6"
   },
   "owl-carousel": {
     "name": "owl.carousel",
@@ -911,6 +926,6 @@
     "homepage": "https://github.com/amazingSurge/jquery-slidePanel",
     "license": "GPL",
     "author": "amazingSurge",
-    "version": "0.2.1"
+    "version": "0.2.2"
   }
 }
