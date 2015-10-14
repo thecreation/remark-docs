@@ -1,5 +1,12 @@
 #11. Changelog
 
+[1.1.1] - 2015-10-15
+--------------------
+### Fixed
+- Alertify.js not working issue
+- Taskboard slidepanel not working issue
+
+
 [1.1.0] - 2015-10-13
 --------------------
 ### Added
