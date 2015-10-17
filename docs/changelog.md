@@ -1,5 +1,11 @@
 #11. Changelog
 
+[1.1.2] - 2015-10-17
+--------------------
+### Fixed
+- Responsive table init file missing issue
+- Gulp dist html issue
+
 [1.1.1] - 2015-10-15
 --------------------
 ### Fixed
