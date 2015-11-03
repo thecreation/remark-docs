@@ -18,34 +18,88 @@ You'll find the following folder struction and files in Remark download package.
 
 ###Folders
 Once downloaded, unzip the compressed folder to see the structure of (the compiled) Remark. You'll see something like this:
+We have ```classic``` style and ```material``` style. You can choose one to use. Under ```classic/material``` folder, you will find ```global``` folder and some layouts folder.
 
     remark/
+    ├── classic/
+    │   ├── global/
+    │   ├── base/ (layout)
+    │   ├── iconbar/ (layout)
+    │   ├── mmenu/ (layout)
+    │   └── topbar/ (layout)
+    ├── material/
+    │   ├── global/
+    │   └── base/ (layout)
+    ├── changelog.md
+    └── docs
+
+###Global's Folder
+The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files, along with source Less, and JavaScript. It have independent grunt/gulp environment. The assets will serve all layouts.
+
+    global/
+    ├── css/
+    ├── fonts/
+    ├── js/
+    ├── grunt/ (grunt task configs)
+    ├── gulp/ (gulp task configs)
+    ├── portraits/ (example portraits images)
+    ├── vendor/ (3rd plugins)
+    ├── src/ (source files)
+    │   ├── fonts/
+    │   ├── js/
+    │   │   ├── components/
+    │   │   ├── configs/
+    │   │   ├── plugins/
+    │   │   └── core.js
+    │   ├── less/
+    │   │   ├── bootstrap/ (bootstrap source files)
+    │   │   ├── bootstrap_extend/ (bootstrap override files)
+    │   │   ├── mixins/ (bootstrap mixins)
+    │   │   └── vars.less
+    │   ├── skins/
+    │   └── vendor/
+    ├── config.json (config for grunt or gulp)
+    ├── color.yml (use for generate src/less/vars-color.less)
+    ├── components.json (define which component file to be combined)
+    ├── Gruntfile.js
+    ├── gulpfile.js
+    ├── package.json
+    ├── package.json.grunt (use to replace package.json if use grunt)
+    └── package.json.gulp (use to replace package.json if use gulp)
+
+###Layout's Folder
+The layout folder is the main folder that you may working with. Each layout have independent grunt/gulp environment. The folder includes the pre-complied assets, source files, and examples pages. More specifically, it includes the following and more:
+
+    base/
     ├── assets/
     │   ├── css/
-    │   ├── fonts/
+    │   ├── data/
+    │   ├── examples/ (assets files for example pages)
     │   ├── images/
-    │   ├── data/ (data for plugins)
-    │   └── vendor/
+    │   ├── js/
+    │   └── skins/
+    ├── grunt/ (grunt task configs)
+    ├── gulp/ (gulp task configs)
     ├── html/ (compiled html file)
     ├── src/ (source files)
-    ├── grunt/ (grunt task configs)
     ├── README.md
-    ├── CHANGELOG.md
-    ├── config.json
-    ├── components.json
     ├── bower.json
-    ├── color.yml
+    ├── config.json (config for grunt or gulp)
     ├── Gruntfile.js
-    └── package.json
+    ├── gulpfile.js
+    ├── package.json
+    ├── package.json.grunt (use to replace package.json if use grunt)
+    └── package.json.gulp (use to replace package.json if use gulp)
 
-###Source code
-The template source code downloaded includes the pre-compiled assets,CSS, JavaScript, and font assets, along with source Less, and JavaScript. More specifically, it includes the following and more:
+###Layout's Source Folder
+The layout's source folder inludes source Less, JavaScript, Skins less, Templates hbs files and assets source files for examples pages.
 
     src/
+    ├── examples/
     ├── js/
     ├── less/
-    ├── fonts/
-    └── vendor/
+    ├── skins/
+    └── templates/
 
 ##1.4 Bowser Support
 Remark is built to work best in the latest desktop and mobile browsers, older browsers might display differently styled, though fully functional, renderings of certain components.

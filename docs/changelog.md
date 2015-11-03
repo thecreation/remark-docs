@@ -1,5 +1,50 @@
 #11. Changelog
 
+[2.0.0] - 2015-11-03
+--------------------
+### Added
+- Material style
+- Mmenu layout
+- Topbar layout
+- Iconbar layout
+- Message app
+- Notebook app
+- Page aside fixed example
+- autosize plugin
+
+### Updated
+- ace to 1.2.2
+- alertify-js to 1.0.5
+- blueimp-file-upload to 9.10.7
+- bootstrap-contextmenu to 0.3.3
+- bootstrap-datepicker to 1.5.0
+- bootstrap-table to 1.9.1
+- bootstrap-treeview to 1.2.0
+- card to 1.1.0
+- chart-js to 1.0.2
+- datatables-fixedheader to 3.0.0
+- datepair-js to 0.4.12
+- filament-tablesaw to 2.0.1
+- fullcalendar to 2.4.0
+- highlight.js to 8.9.1
+- jquery to 2.1.4
+- jt-timepicker to 1.8.4
+- jvectormap to 2.0.4
+- marked to 0.3.4
+- masonry to 3.3.2
+- modernizr to 3.2.0
+- multi-select to 0.9.12
+- nestable to 1.2.3
+- owl-carousel to 2.0.0-beta.3
+- slick-carousel to 1.5.8
+- switchery to 0.8.1
+- toastr to 2.1.2
+- webui-popover to 1.1.7
+- brand-icons to 0.3.3
+- web-icons to 0.2.3
+- aspieprogress to 0.3.4
+- asscrollable to 0.3.1
+
 [1.1.2] - 2015-10-17
 --------------------
 ### Fixed
@@ -11,7 +56,6 @@
 ### Fixed
 - Alertify.js not working issue
 - Taskboard slidepanel not working issue
-
 
 [1.1.0] - 2015-10-13
 --------------------

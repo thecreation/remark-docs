@@ -4,14 +4,14 @@
     "homepage": "https://github.com/ajaxorg/ace-builds",
     "license": "BSD",
     "author": "Ajax.org",
-    "version": "1.2.0"
+    "version": "1.2.2"
   },
   "alertify-js": {
     "name": "alertify.js",
     "homepage": "https://alertifyjs.org/",
     "license": "MIT",
     "author": "Fabien Doiron",
-    "version": "1.0.3"
+    "version": "1.0.5"
   },
   "angular": {
     "name": "angular",
@@ -39,7 +39,7 @@
     "homepage": "http://angular-ui.github.io/bootstrap/",
     "license": "MIT",
     "author": "https://github.com/angular-ui/bootstrap/graphs/contributors",
-    "version": "0.14.1"
+    "version": "0.14.3"
   },
   "angular-ui-grid": {
     "name": "angular-ui-grid",
@@ -68,6 +68,13 @@
     "license": "MIT",
     "author": "blivesta",
     "version": "4.0.0"
+  },
+  "autosize": {
+    "name": "autosize",
+    "homepage": "http://www.jacklmoore.com/autosize/",
+    "license": "MIT",
+    "author": "Jackl Moore",
+    "version": "3.0.13"
   },
   "blueimp-canvas-to-blob": {
     "name": "blueimp-canvas-to-blob",
@@ -123,7 +130,7 @@
     "homepage": "https://github.com/eternicode/bootstrap-datepicker",
     "license": "Apache-2.0",
     "author": "Andrew Rowls",
-    "version": "1.4.1"
+    "version": "1.5.0"
   },
   "bootstrap-hover-dropdown": {
     "name": "bootstrap-hover-dropdown",
@@ -164,7 +171,7 @@
     "homepage": "https://github.com/wenzhixin/bootstrap-table",
     "license": "MIT",
     "author": "zhixin",
-    "version": "1.9.0"
+    "version": "1.9.1"
   },
   "bootstrap-tagsinput": {
     "name": "bootstrap-tagsinput",
@@ -271,20 +278,22 @@
     "name": "datatables-fixedheader",
     "homepage": "https://github.com/DataTables/FixedHeader",
     "license": "MIT",
-    "author": "SpryMedia Limited"
+    "author": "SpryMedia Limited",
+    "version": "3.0.0"
   },
   "datatables-responsive": {
     "name": "datatables-responsive",
     "homepage": "https://github.com/DataTables/Responsive",
     "license": "MIT",
-    "author": "SpryMedia Limited"
+    "author": "SpryMedia Limited",
+    "version": "1.0.7"
   },
   "datepair-js": {
     "name": "datepair.js",
     "homepage": "http://jonthornton.github.com/Datepair.js",
     "license": "MIT",
     "author": "Jon Thornton",
-    "version": "0.4.11"
+    "version": "0.4.12"
   },
   "draggabilly": {
     "name": "draggabilly",
@@ -310,7 +319,7 @@
     "homepage": "https://github.com/filamentgroup/tablesaw",
     "license": "MIT",
     "author": "Zach Leatherman",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   "flag-icon-css": {
     "name": "flag-icon-css",
@@ -401,7 +410,7 @@
     "homepage": "https://github.com/isagalaev/highlight.js",
     "license": "BSD",
     "author": "isagalaev",
-    "version": "8.8.0"
+    "version": "8.9.1"
   },
   "icheck": {
     "name": "iCheck",
@@ -458,6 +467,12 @@
     "author": "Francisco Neves",
     "version": "1.1.0"
   },
+  "jquery-mmenu": {
+    "name": "jquery-mmenu",
+    "homepage": "https://github.com/BeSite/jQuery.mmenu",
+    "license": "MIT",
+    "author": "Fred Heusschen"
+  },
   "jquery-placeholder": {
     "name": "jquery-placeholder",
     "homepage": "https://github.com/mathiasbynens/jquery-placeholder",
@@ -482,7 +497,7 @@
     "homepage": "http://jonthornton.github.com/jquery-timepicker",
     "license": "MIT",
     "author": "Jon Thornton",
-    "version": "1.8.2"
+    "version": "1.8.4"
   },
   "jvectormap": {
     "name": "jvectormap",
@@ -548,7 +563,7 @@
     "homepage": "http://modernizr.com",
     "license": "MIT",
     "author": "Modernizr",
-    "version": "3.1.0"
+    "version": "3.2.0"
   },
   "moment": {
     "name": "moment",
@@ -575,13 +590,14 @@
     "homepage": "http://loudev.com/",
     "license": "WTFPL",
     "author": "lou",
-    "version": "0.9.10"
+    "version": "0.9.12"
   },
   "nestable": {
     "name": "nestable2",
     "homepage": "https://github.com/RamonSmit/Nestable",
     "license": "MIT",
-    "author": "Ramon Smit, David Bushell"
+    "author": "Ramon Smit, David Bushell",
+    "version": "1.2.3"
   },
   "nprogress": {
     "name": "nprogress",
@@ -734,7 +750,7 @@
     "homepage": "https://github.com/sandywalker/webui-popover",
     "license": "MIT",
     "author": "Sandy Walker",
-    "version": "1.1.6"
+    "version": "1.1.7"
   },
   "x-editable": {
     "name": "x-editable",
@@ -756,7 +772,7 @@
     "license": "MIT",
     "author": "amazingSurge",
     "type": "icon",
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   "font-awesome": {
     "name": "font-awesome",
@@ -808,7 +824,7 @@
     "license": "MIT",
     "author": "amazingSurge",
     "type": "icon",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   "asbreadcrumbs": {
     "name": "jquery-asBreadcrumbs",

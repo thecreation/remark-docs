@@ -1,26 +1,27 @@
-#4. Modular JavaScript
-##4.1 Source Structure
+#5. Modular JavaScript
+##5.1 Source Structure
 Remark template features a highly modular JavaScript source system. Each page can only uses the JavaScript it needs and nothing more.
 
-All javascript source files are under ```src/js/``` folder:
+The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` folder:
 
-      src/js/
-      ├── angular/
-      │   ├── app.js (angular app)
-      │   ├── router.js (angular router)
-      │   └── ui/
-      ├── apps/ (app initialize function extend from site initialize)
-      ├── components/ (components data api)
-      ├── configs/ (js config file)
-      ├── plugins/ (template plugins)
-      ├── sections/ (site section script, such as: nav, sidebar...)
-      ├── site.js (site initialize function)
-      └── core.js (define root object $.site and $.components)
+    (layout)/assets/js/
+    ├── configs/
+    ├── sections/ (site section script, such as: nav, sidebar...)
+    ├── app.js (basic app site example)
+    └── site.js (site initialize function)
 
-All minified and combined files are under ```assets/js/``` folder.
+    global/js/
+    ├── components/ (bootstrap source files)
+    ├── configs/ (js config file)
+    ├── plugins/ (template plugins)
+    ├── components.js (combine the files in components folder)
+    └── core.js (define root object $.site and $.components)
 
-##4.2 Core.js
-In ```assets/js/core.js```, we provides three useful functionality: **Site initialization**, **Config api**, **Component registration**.
+You can find their source files from ```(layout)/src/js/``` and ```global/src/js``` folder.
+
+##5.2 Core.js
+In ```global/js/core.js```, we provides three useful functionality: **Site initialization**, **Config api**, **Component registration**.
+
 ###Site initialization
 We provide a site initialization script which you can hook your script into the process easily by extend the ```$.site```.
 
@@ -135,11 +136,11 @@ window.Site = $.site.extend({
 });
 ```
 
-So, in your html, just add the ```assets/js/core.js``` and the ```assets/js/site.js``` to the page, then write your scripts as follows:
+So, in your html, just add the ```global/js/core.js``` and the ```assets/js/site.js``` to the page, then write your scripts as follows:
 
 
 ``` html
-<script src="assets/js/core.js"></script>
+<script src="../global/js/core.js"></script>
 <script src="assets/js/site.js"></script>
 <script>
 window.YouSite = Site.extend({
@@ -158,8 +159,8 @@ $(document).ready(function(){
 
 It will excuted when document ready and all theme functionality will be initialized.
 
-##4.3 Config api
-In ```assets/js/core.js```, we provide a simple config api:
+##5.3 Config api
+In ```global/js/core.js```, we provide a simple config api:
 
 ``` javascript
 /* line 121 */
@@ -214,8 +215,8 @@ var color = $.configs.get('site', 'primaryColor');
 console.info(color); // will output 'blue'
 ```
 
-##4.4 Component registration
-In ```assets/js/core.js``` we also provide a simple component registration that will help your organize your 3rd component.
+##5.4 Component registration
+In ```global/js/core.js``` we also provide a simple component registration that will help your organize your 3rd component.
 
 The full implementation code:
 
@@ -328,7 +329,7 @@ $.extend($.components, {
 ```
 
 
-##4.5 Data API
+##5.5 Data API
 Our component solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modualr way to organize the initialize script for the 3rd plugin.
 
 ###Register
@@ -339,12 +340,12 @@ We use the function below to register component:
 We defined component register mode and initialize function in the object as second argument passed to the register method. There are three modes in the template:
 
 * ```api```: will use **api** function defined in the obj and not need to be re-initialized when new elements added in ```document```.
-* ```default```: will use **default initialize function** which is defined in ```assets/js/core.js```.
+* ```default```: will use **default initialize function** which is defined in ```global/js/core.js```.
 * ```init```: will use **init** function and need to be re-initialized when new elements added in ```document```.
 
 The raty  ```obj``` example:
 
-    /*src/js/components/raty.js*/
+    /*global/src/js/components/raty.js*/
     $.components.register("rating", {
       mode: "init",
       defaults: {
@@ -405,7 +406,7 @@ If we write script without our component solution, it will be
 ``` html
 // Load plugin necessary files
 <link rel="stylesheet" href="assets/vendor/raty/jquery.raty.css">
-<script src="assets/vendor/raty/jquery.raty.js"></script>
+<script src="../global/vendor/raty/jquery.raty.js"></script>
 // Component dom
 <div class="rating" data-score="4"></div>
 
