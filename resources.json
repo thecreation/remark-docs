@@ -11,28 +11,28 @@
     "homepage": "https://alertifyjs.org/",
     "license": "MIT",
     "author": "Fabien Doiron",
-    "version": "1.0.5"
+    "version": "1.0.8"
   },
   "angular": {
     "name": "angular",
     "homepage": "https://github.com/angular/angular",
     "license": "Apache-2.0",
     "author": "Google, Inc",
-    "version": "1.4.7"
+    "version": "1.4.8"
   },
   "angular-animate": {
     "name": "angular-animate",
     "homepage": "https://github.com/angular/bower-angular-animate",
     "license": "MIT",
     "author": "Angular Core Team",
-    "version": "1.4.7"
+    "version": "1.4.8"
   },
   "angular-sanitize": {
     "name": "angular-sanitize",
     "homepage": "https://github.com/angular/bower-angular-sanitize",
     "license": "MIT",
     "author": "Angular Core Team",
-    "version": "1.4.7"
+    "version": "1.4.8"
   },
   "angular-ui-bootstrap": {
     "name": "angular-bootstrap",
@@ -67,28 +67,27 @@
     "homepage": "http://blivesta.github.io/animsition/",
     "license": "MIT",
     "author": "blivesta",
-    "version": "4.0.0"
+    "version": "4.0.1"
   },
   "autosize": {
     "name": "autosize",
     "homepage": "http://www.jacklmoore.com/autosize/",
     "license": "MIT",
-    "author": "Jackl Moore",
-    "version": "3.0.13"
+    "author": "Jackl Moore"
   },
   "blueimp-canvas-to-blob": {
     "name": "blueimp-canvas-to-blob",
     "homepage": "https://github.com/blueimp/JavaScript-Canvas-to-Blob",
     "license": "MIT",
     "author": "Sebastian Tschan",
-    "version": "2.2.0"
+    "version": "2.2.4"
   },
   "blueimp-file-upload": {
     "name": "blueimp-file-upload",
     "homepage": "https://github.com/blueimp/jQuery-File-Upload",
     "license": "MIT",
     "author": "Sebastian Tschan",
-    "version": "9.10.7"
+    "version": "9.11.2"
   },
   "blueimp-load-image": {
     "name": "blueimp-load-image",
@@ -102,7 +101,7 @@
     "homepage": "https://github.com/blueimp/JavaScript-Templates",
     "license": "MIT",
     "author": "Sebastian Tschan",
-    "version": "2.5.5"
+    "version": "2.5.7"
   },
   "bootbox": {
     "name": "bootbox.js",
@@ -116,7 +115,7 @@
     "homepage": "http://getbootstrap.com",
     "license": "MIT",
     "author": "Twitter, Inc.",
-    "version": "3.3.5"
+    "version": "3.3.6"
   },
   "bootstrap-contextmenu": {
     "name": "bootstrap-contextmenu",
@@ -137,7 +136,7 @@
     "homepage": "https://github.com/CWSpear/bootstrap-hover-dropdown",
     "license": "MIT",
     "author": "Cameron Spear",
-    "version": "2.1.3"
+    "version": "2.2.1"
   },
   "bootstrap-markdown": {
     "name": "bootstrap-markdown",
@@ -212,7 +211,7 @@
     "homepage": "https://github.com/jessepollak/card",
     "license": "MIT",
     "author": "Jesse Pollak",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "chart-js": {
     "name": "Chart.js",
@@ -252,7 +251,7 @@
     "homepage": "https://github.com/fengyuanchen/cropper",
     "license": "MIT",
     "author": "Fengyuan Chen",
-    "version": "1.0.0"
+    "version": "2.2.1"
   },
   "d3": {
     "name": "d3",
@@ -265,7 +264,7 @@
     "homepage": "http://datatables.net",
     "license": "MIT",
     "author": "Allan Jardine",
-    "version": "1.10.10-dev"
+    "version": "1.10.10"
   },
   "datatables-bootstrap": {
     "name": "datatables-bootstrap",
@@ -293,7 +292,7 @@
     "homepage": "http://jonthornton.github.com/Datepair.js",
     "license": "MIT",
     "author": "Jon Thornton",
-    "version": "0.4.12"
+    "version": "0.4.14"
   },
   "draggabilly": {
     "name": "draggabilly",
@@ -354,7 +353,7 @@
     "homepage": "http://fullcalendar.io/",
     "license": "MIT",
     "author": "Adam Shaw",
-    "version": "2.4.0"
+    "version": "2.5.0"
   },
   "gauge-js": {
     "name": "gauge.js",
@@ -409,8 +408,7 @@
     "name": "highlight.js",
     "homepage": "https://github.com/isagalaev/highlight.js",
     "license": "BSD",
-    "author": "isagalaev",
-    "version": "8.9.1"
+    "author": "isagalaev"
   },
   "icheck": {
     "name": "iCheck",
@@ -455,10 +453,10 @@
   },
   "jquery-knob": {
     "name": "jquery-Knob",
+    "bower": "aterrien/jQuery-Knob",
     "homepage": "https://github.com/aterrien/jQuery-Knob",
     "license": "MIT",
-    "author": "Anthony Terrien",
-    "version": "1.2.11"
+    "author": "Anthony Terrien"
   },
   "jquery-labelauty": {
     "name": "jquery-labelauty",
@@ -497,14 +495,14 @@
     "homepage": "http://jonthornton.github.com/jquery-timepicker",
     "license": "MIT",
     "author": "Jon Thornton",
-    "version": "1.8.4"
+    "version": "1.8.8"
   },
   "jvectormap": {
     "name": "jvectormap",
     "homepage": "http://jvectormap.com",
     "license": "GPL",
     "author": "Kirill Lebedev",
-    "version": "2.0.4"
+    "version": "2.0.2"
   },
   "ladda-bootstrap": {
     "name": "ladda-bootstrap",
@@ -549,7 +547,8 @@
     "name": "media-match",
     "homepage": "https://github.com/weblinc/media-match",
     "license": "MIT",
-    "author": "WebLinc"
+    "author": "WebLinc",
+    "version": "0.1.0"
   },
   "matchheight": {
     "name": "matchHeight",
@@ -611,7 +610,7 @@
     "homepage": "https://github.com/ocombe/ocLazyLoad",
     "license": "MIT",
     "author": "Olivier Combe <olivier.combe@gmail.com>",
-    "version": "1.0.6"
+    "version": "1.0.9"
   },
   "owl-carousel": {
     "name": "owl.carousel",
@@ -632,7 +631,7 @@
     "homepage": "http://plyr.io",
     "license": "MIT",
     "author": "Sam Potts",
-    "version": "1.3.6"
+    "version": "1.3.7"
   },
   "raphael": {
     "name": "raphael",
@@ -667,14 +666,14 @@
     "homepage": "https://github.com/sindresorhus/screenfull.js",
     "license": "MIT",
     "author": "Sindre Sorhus",
-    "version": "2.0.0"
+    "version": "3.0.0"
   },
   "select2": {
     "name": "select2",
     "homepage": "https://select2.github.io",
     "license": "MIT",
     "author": "Kevin Brown",
-    "version": "4.0.0"
+    "version": "4.0.1"
   },
   "skycons": {
     "name": "skycons",
@@ -687,7 +686,7 @@
     "homepage": "http://kenwheeler.github.io/slick",
     "license": "MIT",
     "author": "Ken Wheeler",
-    "version": "1.5.8"
+    "version": "1.5.9"
   },
   "sparkline": {
     "name": "jquery.sparkline",
@@ -722,7 +721,7 @@
     "homepage": "https://github.com/domchristie/to-markdown",
     "license": "MIT",
     "author": "Dom Christie",
-    "version": "1.2.1"
+    "version": "1.3.0"
   },
   "toastr": {
     "name": "toastr",
@@ -750,7 +749,7 @@
     "homepage": "https://github.com/sandywalker/webui-popover",
     "license": "MIT",
     "author": "Sandy Walker",
-    "version": "1.1.7"
+    "version": "1.2.3"
   },
   "x-editable": {
     "name": "x-editable",
@@ -859,7 +858,7 @@
     "homepage": "https://github.com/amazingSurge/jquery-asHoverScroll",
     "license": "GPL",
     "author": "amazingSurge",
-    "version": "0.2.0"
+    "version": "0.2.3"
   },
   "aspaginator": {
     "name": "jquery-asPaginator",
@@ -886,7 +885,7 @@
     "homepage": "https://github.com/amazingSurge/jquery-asRange",
     "license": "GPL",
     "author": "amazingSurge",
-    "version": "0.2.5"
+    "version": "0.2.6"
   },
   "asscroll": {
     "name": "jquery-asScroll",

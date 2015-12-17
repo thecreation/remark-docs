@@ -1,5 +1,55 @@
 #11. Changelog
 
+[2.1.0] - 2015-12-18
+--------------------
+### Added
+- Topicon layout
+- Classic style for Center layout
+- Material style Mmenu, Topbar, Iconbar and Base layouts
+- Ecommerce dashboard
+- Analytics dashboard
+- Team dashboard
+- Work app
+- Location app
+- Sitemap page
+
+### Changed
+- Rewrite Contacts and Taskboard app with js mvc structure
+
+### Fixed
+- iconbar layout touch screen not working issue
+- base layout touch screen not working issue
+- slider range not working on mobile issue
+- page aside fixed issue
+- datepicker dropdown arrow issue
+- checkbox-custom and raido-custom in form horizontal layout issue
+- and others
+
+### Updated
+- bootstrap to 3.3.6
+- alertify-js to 1.0.8
+- animsition to 4.0.1
+- blueimp-canvas-to-blob to 2.2.4
+- blueimp-file-upload to 9.11.2
+- blueimp-tmpl to 2.5.7
+- bootstrap-hover-dropdown to 2.2.1
+- card to 1.2.0
+- cropper to 2.2.1
+- datatables to 1.10.10
+- datepair-js to 0.4.14
+- fullcalendar to 2.5.0
+- jt-timepicker to 1.8.8
+- media-match to 0.1.0
+- oclazyload to 1.0.9
+- plyr to 1.3.7
+- screenfull to 3.0.0
+- select2 to 4.0.1
+- slick-carousel to 1.5.9
+- to-markdown to 1.3.0
+- webui-popover to 1.2.3
+- ashoverscroll to 0.2.3
+- asrange to 0.2.6
+
 [2.0.0] - 2015-11-03
 --------------------
 ### Added
