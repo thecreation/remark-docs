@@ -101,7 +101,7 @@ The layout's source folder inludes source Less, JavaScript, Skins less, Template
     ├── skins/
     └── templates/
 
-##1.4 Bowser Support
+##1.4 Browser Support
 Remark is built to work best in the latest desktop and mobile browsers, older browsers might display differently styled, though fully functional, renderings of certain components.
 
 * IE9+
