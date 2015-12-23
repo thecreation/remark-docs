@@ -62,7 +62,7 @@ For ```(layout)```
 You can learn more about how to write grunt task files from **[http://gruntjs.com/](http://gruntjs.com/)**
 
 ##2.4 Working with Gulp
-[Gulp](http://gruntjs.com/) is another awesome JavaScript task runner. If you are familiar with gulp, you can use it instead of Grunt.
+[Gulp](http://gulpjs.com/) is another awesome JavaScript task runner. If you are familiar with gulp, you can use it instead of Grunt.
 
 ###Installing Gulp
 From the command line:
