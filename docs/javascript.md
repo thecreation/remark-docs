@@ -1,5 +1,5 @@
-#5. Modular JavaScript
-##5.1 Source Structure
+#6. Modular JavaScript
+##6.1 Source Structure
 Remark template features a highly modular JavaScript source system. Each page can only uses the JavaScript it needs and nothing more.
 
 The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` folder:
@@ -19,7 +19,7 @@ The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` f
 
 You can find their source files from ```(layout)/src/js/``` and ```global/src/js``` folder.
 
-##5.2 Core.js
+##6.2 Core.js
 In ```global/js/core.js```, we provides three useful functionality: **Site initialization**, **Config api**, **Component registration**.
 
 ###Site initialization
@@ -159,7 +159,7 @@ $(document).ready(function(){
 
 It will excuted when document ready and all theme functionality will be initialized.
 
-##5.3 Config api
+##6.3 Config api
 In ```global/js/core.js```, we provide a simple config api:
 
 ``` javascript
@@ -215,7 +215,7 @@ var color = $.configs.get('site', 'primaryColor');
 console.info(color); // will output 'blue'
 ```
 
-##5.4 Component registration
+##6.4 Component registration
 In ```global/js/core.js``` we also provide a simple component registration that will help your organize your 3rd component.
 
 The full implementation code:
@@ -329,7 +329,7 @@ $.extend($.components, {
 ```
 
 
-##5.5 Data API
+##6.5 Data API
 Our component solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modualr way to organize the initialize script for the 3rd plugin.
 
 ###Register

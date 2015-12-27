@@ -1,4 +1,4 @@
-#3. Global Assets
+#4. Global Assets
 We separate some assets that can be used in all layouts into standalone folder named ```global```.
 
 The pre-complied files list belew

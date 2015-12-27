@@ -1,8 +1,8 @@
-#8. Sources and Credits
+#10. Sources and Credits
 
 We've used the following images, icons or other plugins files as listed.
 
-###Icons
+###10.1 Icons
 Name          | Version      | Url
 ------------- | ------------ | -------------
 pixeden-stroke-7-icon  | stable  | [http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set](http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set)
@@ -15,7 +15,7 @@ Ionicons  | 2.0.1  | [https://github.com/driftyco/ionicons](https://github.com/d
 open-iconic  | 1.1.1  | [https://github.com/iconic/open-iconic](https://github.com/iconic/open-iconic)
 web-icons  | 0.2.3  | [https://github.com/amazingSurge/web-icons](https://github.com/amazingSurge/web-icons)
 
-###Plugins
+###10.2 Plugins
 Name          | Version      | Url        | License
 ------------- | ------------ |------------|------------
 ace-builds  | 1.2.2  | [https://github.com/ajaxorg/ace-builds](https://github.com/ajaxorg/ace-builds)  | BSD
@@ -147,7 +147,7 @@ jquery-strength  | 0.1.1  | [https://github.com/amazingSurge/jquery-strength](ht
 jquery-wizard.js  | 0.3.1  | [https://github.com/amazingSurge/jquery-wizard](https://github.com/amazingSurge/jquery-wizard)  | GPL
 jquery-slidePanel  | 0.2.2  | [https://github.com/amazingSurge/jquery-slidePanel](https://github.com/amazingSurge/jquery-slidePanel)  | GPL
 
-###Images
+###10.3 Images
 
 Name          | Url
 ------------- | -------------
