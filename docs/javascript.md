@@ -1,6 +1,6 @@
 #6. Modular JavaScript
 ##6.1 Source Structure
-Remark template features a highly modular JavaScript source system. Each page can only uses the JavaScript it needs and nothing more.
+Remark template features a highly modular JavaScript source system. Each page only uses the JavaScript it needs and nothing more.
 
 The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` folder:
 
@@ -20,12 +20,13 @@ The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` f
 You can find their source files from ```(layout)/src/js/``` and ```global/src/js``` folder.
 
 ##6.2 Core.js
-In ```global/js/core.js```, we provides three useful functionality: **Site initialization**, **Config api**, **Component registration**.
+In ```global/js/core.js```, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
 
 ###Site initialization
-We provide a site initialization script which you can hook your script into the process easily by extend the ```$.site```.
+We provided a site initialization script which helps you hook your scripts into the process easily.
+You can hook your scripts by extending ```$.site```.
 
-You will see we have a dequeue system. It provied dequeue functions for prepare, run and complete state.
+We have a dequeue system. It provides dequeue functions for prepare, run and complete state.
 
 ``` javascript
 /* line 10 */
@@ -61,7 +62,7 @@ $.extend($.site, {
 };
 ```
 
-The mainly run function is defined below in the file:
+The main run function is defined below in the file:
 
 ``` javascript
 /* line 17 */
@@ -99,7 +100,8 @@ extend: function(obj) {
 }
 ```
 
-We also provide ```assets/js/site.js``` file which set up all theme functionality e.g. menubar, gridmenu, sidebar, tooltip, page load animation and compoents. You can see the code snippet below:
+We also provided ```assets/js/site.js``` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar, tooltip, page load animation and components. 
+Example code snippet below:
 
 ``` javascript
 /* line 18 */
@@ -136,7 +138,7 @@ window.Site = $.site.extend({
 });
 ```
 
-So, in your html, just add the ```global/js/core.js``` and the ```assets/js/site.js``` to the page, then write your scripts as follows:
+So, in your html, just add ```global/js/core.js``` and ```assets/js/site.js``` to the page, then write your scripts as follows:
 
 
 ``` html
@@ -157,7 +159,7 @@ $(document).ready(function(){
 </script>
 ```
 
-It will excuted when document ready and all theme functionality will be initialized.
+It will be executed on document ready and all theme functionalities will be initialized.
 
 ##6.3 Config api
 In ```global/js/core.js```, we provide a simple config api:
@@ -330,7 +332,7 @@ $.extend($.components, {
 
 
 ##6.5 Data API
-Our component solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modualr way to organize the initialize script for the 3rd plugin.
+Our component solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modular way to organize the initialize script for the 3rd plugin.
 
 ###Register
 We use the function below to register component:

@@ -7,7 +7,7 @@ The pre-complied styles for 3rd plugins are in each plugin folders under ```glob
 To prevent losing your changes, you should add all of your customizations to a new stylesheet and include it separately in your pages. **Note** Also you must disable all ```grunt less``` tasks in ```Gruntfile.js```.
 
 ##5.2 Using LESS
- [Bootstrap](http://getbootstrap.com/) is use [Less](http://lesscss.org/) as CSS pre-processor system. It will give you access to all the tools to perform even the most complex customizations with ease. So it is highly recommended that you switch to use the [Less](http://lesscss.org/) system as it is far superior, and offers a great deal of features and optimizations.
+ [Bootstrap](http://getbootstrap.com/) uses [Less](http://lesscss.org/) as its CSS pre-processor system. It will give you access to all the tools to perform even the most complex customizations with ease. So it is highly recommended that you switch to use the [Less](http://lesscss.org/) system as it is far superior, and offers a great deal of features and optimizations.
 
 All the original [Less](http://lesscss.org/) files used for development are included for you to modify.
 
