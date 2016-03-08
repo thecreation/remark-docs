@@ -34,7 +34,7 @@ We have ```classic``` style and ```material``` style. You can choose one to use.
     └── docs
 
 ###Global's Folder
-The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files, along with source Less, and JavaScript. It have independent grunt/gulp environment. The assets will serve all layouts.
+The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files, along with source Less, and JavaScript. It has independent grunt/gulp environment. The assets will serve all layouts.
 
     global/
     ├── css/
