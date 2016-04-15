@@ -1,8 +1,8 @@
-#7. Template Structure
+#8. Template Structure
 
 The general template structure is the same throughout the template. Here is the general structure.
 
-##7.1 Sections
+##8.1 Sections
 
 ###Header
 
@@ -90,7 +90,7 @@ So, to ensure that your new styles are applied, make sure that they carry enough
 
 Remark template comes with some layouts for you to use.
 
-##7.2 Layouts
+##8.2 Layouts
 
 ###Default
 

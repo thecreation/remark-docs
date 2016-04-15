@@ -1,4 +1,55 @@
-#11. Changelog
+#13. Changelog
+
+[2.2.0] - 2016-4-12
+### Added
+- Generator
+- 'gulp serve' and 'grunt serve' task
+
+### Improved
+- Calendar app
+- Email app
+- Media app
+
+### Fixed
+- iconbar layout single item not clickable on mobile issue
+- use toast error instead of toast danger
+- sidebar modal width issue in mobile device
+- navs skin
+- disable hover issue in center layout
+- chat reply scrollable issue
+- and other issues
+
+### Updated
+- ace to 1.2.3
+- alertify to 1.0.10
+- blueimp-canvas-to-blob to 3.3.0
+- blueimp-file-upload to 9.12.3
+- blueimp-load-image to 2.6.1
+- blueimp-tmpl to 3.4.0
+- bootstrap-contextmenu to 0.3.4
+- bootstrap-datepicker to 1.6.0
+- bootstrap-markdown to 2.10.0
+- bootstrap-table to 1.10.1
+- bootstrap-touchspin to 3.1.1
+- card to 1.2.2
+- chart-js to 2.0.0
+- cropper to 2.3.0
+- d3 to 3.5.16
+- fullcalendar to 2.6.1
+- gmaps to 0.4.24
+- gridstack to 0.2.5
+- html5sortable to 0.3.1
+- jquery-appear to 0.3.6
+- jt-timepicker to 1.8.11
+- ladda-bootstrap to 0.1.0
+- magnific-popup to 1.1.0
+- matchheight to 0.7.0
+- modernizr to 3.3.1
+- plyr to 1.5.21
+- rickshaw to 1.6.0-rc.0
+- select2 to 4.0.2
+- to-markdown to 3.0.0
+- webui-popover to 1.2.7
 
 [2.1.0] - 2015-12-18
 --------------------

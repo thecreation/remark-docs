@@ -1,5 +1,5 @@
-#6. Modular JavaScript
-##6.1 Source Structure
+#7. Modular JavaScript
+##7.1 Source Structure
 Remark template features a highly modular JavaScript source system. Each page only uses the JavaScript it needs and nothing more.
 
 The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` folder:
@@ -19,7 +19,7 @@ The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` f
 
 You can find their source files from ```(layout)/src/js/``` and ```global/src/js``` folder.
 
-##6.2 Core.js
+##7.2 Core.js
 In ```global/js/core.js```, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
 
 ###Site initialization
@@ -100,7 +100,7 @@ extend: function(obj) {
 }
 ```
 
-We also provided ```assets/js/site.js``` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar, tooltip, page load animation and components. 
+We also provided ```assets/js/site.js``` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar, tooltip, page load animation and components.
 Example code snippet below:
 
 ``` javascript

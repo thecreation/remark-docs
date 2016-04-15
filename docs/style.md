@@ -1,12 +1,12 @@
-#5. Customize Styles
+#6. Customize Styles
 
-##5.1 Using CSS
+##6.1 Using CSS
 All style changes, fixes, and improvements made for Remark will typically be added to ```(layout)/assets/css``` folder.
 The pre-complied styles for 3rd plugins are in each plugin folders under ```global/vendor/(plugin name)``` folder.
 
 To prevent losing your changes, you should add all of your customizations to a new stylesheet and include it separately in your pages. **Note** Also you must disable all ```grunt less``` tasks in ```Gruntfile.js```.
 
-##5.2 Using LESS
+##6.2 Using LESS
  [Bootstrap](http://getbootstrap.com/) uses [Less](http://lesscss.org/) as its CSS pre-processor system. It will give you access to all the tools to perform even the most complex customizations with ease. So it is highly recommended that you switch to use the [Less](http://lesscss.org/) system as it is far superior, and offers a great deal of features and optimizations.
 
 All the original [Less](http://lesscss.org/) files used for development are included for you to modify.
@@ -32,7 +32,7 @@ If you're new to [Less](http://lesscss.org/) and want to give it a try, you can 
 
 Note that when compile the ```layout``` less files, it will use the ```global``` less files. Keep the global folder and if you need move the global folder to other level, you need modify the ```(layout)/config.json``` file.
 
-##5.3 Easily Customize
+##6.3 Easily Customize
 This section is only for [Less](http://lesscss.org/) users.
 
 We have added many features that allow variables, mixins, functions and many other techniques that allow you to make CSS more maintainable, themable and extendable. You will find them in ```global/src/less/mixins_extend``` and you can use them to write the styles you like.

@@ -1,7 +1,7 @@
-#3. File Structure
+#4. File Structure
 We list the necessary styles and scripts that you can use in a page in this section.
 
-##3.1 Styles
+##4.1 Styles
 You should include stylesheet files below within `<head>` tag.
 
 ### Bootstrap and site stylesheets
@@ -27,13 +27,15 @@ You should include stylesheet files below within `<head>` tag.
 ```
 
 ### Font stylesheets
-You can use another fonts by edit `src/less/vars.less` file.
 
 ``` html
 <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
 ```
 
-##3.2 Javascript
+Note: You can use another fonts by edit `src/less/vars.less` file.
+
+
+##4.2 Javascript
 
 ### Ie polyfill/shiv
 You should add scripts below within `<head>` tag if you want support ie 9/10.

@@ -1,9 +1,9 @@
-#2. Building Tools
+#3. Building Tools
 
-##2.1 Install Node.js
+##3.1 Install Node.js
 First, you must download and **install node.js** (which includes npm). **npm** stands for node packaged modules and is a way to manage development dependencies through [Node.js](http://nodejs.org/download/). You can check it in your terminal window using these commands ```node --version``` and ```npm --version```. You can download [Node.js](http://nodejs.org/download/) here.
 
-##2.2 Files Structure
+##3.2 Files Structure
 We supply building tools for each layouts and global folder. They are independent that you need install the packages separately. The files relating to the building tools you will see below:
 
     (layout)/
@@ -18,7 +18,7 @@ We supply building tools for each layouts and global folder. They are independen
 
 There are two task running tools: grunt and gulp. You can choose one to work with. The default package.json use grunt. If you want use gulp, just replace package.json.gulp with package.json.
 
-##2.3 Working with Grunt
+##3.3 Working with Grunt
 [Grunt](http://gruntjs.com/) is a JavaScript task runner (Automation), save yourself from repetitive tasks. It's how we compile our code, run tests, and more.
 
 ###Installing Grunt
@@ -61,7 +61,7 @@ For ```(layout)```
 
 You can learn more about how to write grunt task files from **[http://gruntjs.com/](http://gruntjs.com/)**
 
-##2.4 Working with Gulp
+##3.4 Working with Gulp
 [Gulp](http://gulpjs.com/) is another awesome JavaScript task runner. If you are familiar with gulp, you can use it instead of Grunt.
 
 ###Installing Gulp

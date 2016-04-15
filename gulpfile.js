@@ -6,12 +6,12 @@ var fs = require('fs');
 gulp.task('credits', function(){
   var content = '';
 
-  content += "#10. Sources and Credits\n";
+  content += "#11. Sources and Credits\n";
   content += "\n";
   content += "We've used the following images, icons or other plugins files as listed.\n";
   content += "\n";
 
-  content += "###10.1 Icons\n";
+  content += "###11.1 Icons\n";
   content += "Name          | Version      | Url\n";
   content += "------------- | ------------ | -------------\n";
 
@@ -22,7 +22,7 @@ gulp.task('credits', function(){
   });
 
   content += "\n";
-  content += "###10.2 Plugins\n";
+  content += "###11.2 Plugins\n";
   content += "Name          | Version      | Url        | License\n";
   content += "------------- | ------------ |------------|------------\n";
 
@@ -36,7 +36,7 @@ gulp.task('credits', function(){
   });
 
   content += "\n";
-  content += "###10.3 Images\n";
+  content += "###11.3 Images\n";
   content += "\n";
 
   content += "Name          | Url\n";
