@@ -218,7 +218,7 @@
     "homepage": "http://www.chartjs.org",
     "license": "MIT",
     "author": "nnnick",
-    "version": "2.0.0"
+    "version": "1.0.2"
   },
   "chartist-js": {
     "name": "chartist",

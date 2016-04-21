@@ -32,7 +32,6 @@
 - bootstrap-table to 1.10.1
 - bootstrap-touchspin to 3.1.1
 - card to 1.2.2
-- chart-js to 2.0.0
 - cropper to 2.3.0
 - d3 to 3.5.16
 - fullcalendar to 2.6.1

@@ -49,7 +49,7 @@ bootstrap-touchspin  | 3.1.1  | [http://www.virtuosoft.eu/code/bootstrap-touchsp
 bootstrap-treeview  | 1.2.0  | [https://github.com/jonmiles/bootstrap-treeview](https://github.com/jonmiles/bootstrap-treeview)  | Apache
 c3  | stable  | [http://c3js.org/](http://c3js.org/)  | MIT
 card  | 1.2.2  | [https://github.com/jessepollak/card](https://github.com/jessepollak/card)  | MIT
-Chart.js  | 2.0.0  | [http://www.chartjs.org](http://www.chartjs.org)  | MIT
+Chart.js  | 1.0.2  | [http://www.chartjs.org](http://www.chartjs.org)  | MIT
 chartist  | stable  | [https://gionkunz.github.io/chartist-js](https://gionkunz.github.io/chartist-js)  | WTFPL
 chartist-plugin-tooltip  | 0.0.12  | [https://github.com/Globegitter/chartist-plugin-tooltip](https://github.com/Globegitter/chartist-plugin-tooltip)  | MIT
 clockpicker  | 0.0.7  | [http://weareoutman.github.io/clockpicker/](http://weareoutman.github.io/clockpicker/)  | MIT
