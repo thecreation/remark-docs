@@ -51,10 +51,9 @@ You should add scripts below within `<head>` tag if you want support ie 9/10.
 ```
 
 ### Scripts in head
-Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. And breakpoints will setup media query breakpoints with js.
+Breakpoints will setup media query breakpoints with js.
 
 ``` html
-<script src="../../global/vendor/modernizr/modernizr.js"></script>
 <script src="../../global/vendor/breakpoints/breakpoints.js"></script>
 <script>
 Breakpoints();
@@ -66,14 +65,15 @@ Breakpoints();
 #### Core and plugin dependencies
 
 ``` html
+<script src="../../global/vendor/babel-external-helpers/babel-external-helpers.js"></script>
 <script src="../../global/vendor/jquery/jquery.js"></script>
+<script src="../../global/vendor/tether/tether.js"></script>
 <script src="../../global/vendor/bootstrap/bootstrap.js"></script>
 <script src="../../global/vendor/animsition/animsition.js"></script>
-<script src="../../global/vendor/asscroll/jquery-asScroll.js"></script>
 <script src="../../global/vendor/mousewheel/jquery.mousewheel.js"></script>
-<script src="../../global/vendor/asscrollable/jquery.asScrollable.all.js"></script>
+<script src="../../global/vendor/asscrollbar/jquery-asScrollbar.js"></script>
+<script src="../../global/vendor/asscrollable/jquery-asScrollable.js"></script>
 <script src="../../global/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
-<script src="../../global/vendor/switchery/switchery.min.js"></script>
 <script src="../../global/vendor/screenfull/screenfull.js"></script>
 <script src="../../global/vendor/slidepanel/jquery-slidePanel.js"></script>
 ```
@@ -81,29 +81,32 @@ Breakpoints();
 #### Template relating scripts
 
 ``` html
-<script src="../../global/js/core.js"></script>
-<script src="../assets/js/site.js"></script>
-<script src="../assets/js/sections/menu.js"></script>
-<script src="../assets/js/sections/menubar.js"></script>
-<script src="../assets/js/sections/gridmenu.js"></script>
-<script src="../assets/js/sections/sidebar.js"></script>
+<script src="../../global/js/State.js"></script>
+<script src="../../global/js/Component.js"></script>
+<script src="../../global/js/Plugin.js"></script>
+<script src="../../global/js/Base.js"></script>
+<script src="../../global/js/Config.js"></script>
+<script src="../assets/js/Section/Menubar.js"></script>
+<script src="../assets/js/Section/GridMenu.js"></script>
+<script src="../assets/js/Section/Sidebar.js"></script>
+<script src="../assets/js/Section/PageAside.js"></script>
+<script src="../assets/js/Plugin/menu.js"></script>
 ```
 
 #### Template config scripts
 
 ``` html
-  <script src="../../global/js/configs/config-colors.js"></script>
-  <script src="../../global/js/components/asscrollable.js"></script>
-  <script src="../../global/js/components/animsition.js"></script>
-  <script src="../../global/js/components/slidepanel.js"></script>
-  <script src="../../global/js/components/switchery.js"></script>
+<script src="../../global/js/config/colors.js"></script>
+<script>
+Config.set('assets', '../assets');
+</script>
 ```
-
 
 #### Template initialise script
 By adding the script below, it will initialise the template functions. We explain this more in the following sections.
 
 ``` html
+<script src="../assets/js/Site.js"></script>
 <script>
 (function(document, window, $) {
   'use strict';

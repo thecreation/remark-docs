@@ -1,773 +1,1151 @@
 {
-  "ace": {
+  "ace-builds": {
     "name": "ace-builds",
     "homepage": "https://github.com/ajaxorg/ace-builds",
     "license": "BSD",
-    "author": "Ajax.org",
-    "version": "1.2.3"
+    "author": "",
+    "version": "1.2.5"
   },
-  "alertify-js": {
+  "alertify.js": {
     "name": "alertify.js",
     "homepage": "https://alertifyjs.org/",
     "license": "MIT",
-    "author": "Fabien Doiron",
-    "version": "1.0.10"
-  },
-  "angular": {
-    "name": "angular",
-    "homepage": "https://github.com/angular/angular",
-    "license": "Apache-2.0",
-    "author": "Google, Inc",
-    "version": "1.5.3"
-  },
-  "angular-animate": {
-    "name": "angular-animate",
-    "homepage": "https://github.com/angular/bower-angular-animate",
-    "license": "MIT",
-    "author": "Angular Core Team",
-    "version": "1.5.3"
-  },
-  "angular-sanitize": {
-    "name": "angular-sanitize",
-    "homepage": "https://github.com/angular/bower-angular-sanitize",
-    "license": "MIT",
-    "author": "Angular Core Team",
-    "version": "1.5.3"
-  },
-  "angular-ui-bootstrap": {
-    "name": "angular-bootstrap",
-    "homepage": "http://angular-ui.github.io/bootstrap/",
-    "license": "MIT",
-    "author": "https://github.com/angular-ui/bootstrap/graphs/contributors",
-    "version": "1.3.2"
-  },
-  "angular-ui-grid": {
-    "name": "angular-ui-grid",
-    "homepage": "http://ui-grid.info/",
-    "license": "MIT",
-    "author": "UI Grid Team",
-    "version": "3.1.1"
-  },
-  "angular-ui-router": {
-    "name": "angular-ui-router",
-    "homepage": "http://angular-ui.github.com/",
-    "license": "MIT",
-    "author": "AngularUI",
-    "version": "0.2.18"
-  },
-  "angular-ui-sortable": {
-    "name": "angular-ui-sortable",
-    "homepage": "http://angular-ui.github.com",
-    "license": "MIT",
-    "author": "https://github.com/angular-ui/ui-sortable/graphs/contributors",
-    "version": "0.14.0"
+    "author": {
+      "name": "Fabien Doiron",
+      "email": "fabien.doiron@gmail.com",
+      "url": "http://fabien-d.github.io/"
+    },
+    "version": "1.0.12"
   },
   "animsition": {
     "name": "animsition",
-    "homepage": "http://blivesta.github.io/animsition/",
+    "homepage": "http://blivesta.github.io/animsition",
     "license": "MIT",
-    "author": "blivesta",
-    "version": "4.0.1"
+    "author": {
+      "name": "blivesta",
+      "email": "design@blivesta.com",
+      "url": "http://blivesta.com/"
+    },
+    "version": "4.0.2"
   },
   "autosize": {
     "name": "autosize",
-    "homepage": "http://www.jacklmoore.com/autosize/",
+    "homepage": "http://www.jacklmoore.com/autosize",
     "license": "MIT",
-    "author": "Jackl Moore"
-  },
-  "blueimp-canvas-to-blob": {
-    "name": "blueimp-canvas-to-blob",
-    "homepage": "https://github.com/blueimp/JavaScript-Canvas-to-Blob",
-    "license": "MIT",
-    "author": "Sebastian Tschan",
-    "version": "3.3.0"
+    "author": {
+      "name": "Jack Moore",
+      "email": "hello@jacklmoore.com",
+      "url": "http://www.jacklmoore.com"
+    },
+    "version": "3.0.17"
   },
   "blueimp-file-upload": {
     "name": "blueimp-file-upload",
     "homepage": "https://github.com/blueimp/jQuery-File-Upload",
     "license": "MIT",
-    "author": "Sebastian Tschan",
-    "version": "9.12.3"
-  },
-  "blueimp-load-image": {
-    "name": "blueimp-load-image",
-    "homepage": "https://github.com/blueimp/JavaScript-Load-Image",
-    "license": "MIT",
-    "author": "Sebastian Tschan",
-    "version": "2.6.1"
-  },
-  "blueimp-tmpl": {
-    "name": "blueimp-tmpl",
-    "homepage": "https://github.com/blueimp/JavaScript-Templates",
-    "license": "MIT",
-    "author": "Sebastian Tschan",
-    "version": "3.4.0"
+    "author": {
+      "name": "Sebastian Tschan",
+      "url": "https://blueimp.net"
+    },
+    "version": "9.12.5"
   },
   "bootbox": {
-    "name": "bootbox.js",
+    "name": "bootbox",
     "homepage": "https://github.com/makeusabrew/bootbox",
     "license": "MIT",
-    "author": "Nick Payne",
+    "author": {
+      "name": "Nick Payne",
+      "email": "nick@kurai.co.uk"
+    },
     "version": "4.4.0"
-  },
-  "bootstrap": {
-    "name": "bootstrap",
-    "homepage": "http://getbootstrap.com",
-    "license": "MIT",
-    "author": "Twitter, Inc.",
-    "version": "3.3.6"
-  },
-  "bootstrap-contextmenu": {
-    "name": "bootstrap-contextmenu",
-    "homepage": "http://sydcanem.com/bootstrap-contextmenu/",
-    "license": "MIT",
-    "author": "James Santos",
-    "version": "0.3.4"
   },
   "bootstrap-datepicker": {
     "name": "bootstrap-datepicker",
     "homepage": "https://github.com/eternicode/bootstrap-datepicker",
     "license": "Apache-2.0",
-    "author": "Andrew Rowls",
-    "version": "1.6.0"
+    "author": {
+      "name": "Andrew Rowls",
+      "email": "eternicode@gmail.com"
+    },
+    "version": "1.6.4"
   },
   "bootstrap-hover-dropdown": {
     "name": "bootstrap-hover-dropdown",
     "homepage": "https://github.com/CWSpear/bootstrap-hover-dropdown",
     "license": "MIT",
-    "author": "Cameron Spear",
+    "author": {
+      "name": "Cameron Spear",
+      "url": "https://cameronspear.com"
+    },
     "version": "2.2.1"
   },
   "bootstrap-markdown": {
     "name": "bootstrap-markdown",
     "homepage": "https://github.com/toopay/bootstrap-markdown",
     "license": "Apache-2.0",
-    "author": "Taufan Aditya",
     "version": "2.10.0"
   },
   "bootstrap-maxlength": {
     "name": "bootstrap-maxlength",
-    "homepage": "https://github.com/mimo84/bootstrap-maxlength",
-    "license": "MIT",
-    "author": "Maurizio Napoleoni",
-    "version": "1.7.0"
+    "homepage": "https://github.com/mimo84/bootstrap-maxlength#readme",
+    "author": {
+      "name": "Maurizio Napoleoni @mimonap"
+    },
+    "version": "1.6.0"
   },
   "bootstrap-select": {
     "name": "bootstrap-select",
     "homepage": "http://silviomoreto.github.io/bootstrap-select",
     "license": "MIT",
-    "author": "Silvio Moreto"
+    "author": {
+      "name": "Silvio Moreto",
+      "url": "https://github.com/silviomoreto"
+    },
+    "version": "1.11.2"
   },
   "bootstrap-sweetalert": {
     "name": "bootstrap-sweetalert",
     "homepage": "http://lipis.github.io/bootstrap-sweetalert/",
     "license": "MIT",
-    "author": "Tristan Edwards, Panayiotis Lipiridis",
-    "version": "0.4.2"
+    "author": {
+      "name": "Panayiotis Lipiridis",
+      "email": "lipiridis@gmail.com"
+    },
+    "version": "1.0.1"
   },
   "bootstrap-table": {
     "name": "bootstrap-table",
     "homepage": "https://github.com/wenzhixin/bootstrap-table",
     "license": "MIT",
-    "author": "zhixin",
-    "version": "1.10.1"
+    "author": {
+      "name": "wenzhixin",
+      "email": "wenzhixin2010@gmail.com",
+      "url": "http://wenzhixin.net.cn/"
+    },
+    "version": "1.11.0"
   },
   "bootstrap-tagsinput": {
     "name": "bootstrap-tagsinput",
     "homepage": "http://timschlechter.github.io/bootstrap-tagsinput/examples/",
     "license": "MIT",
-    "author": "Tim Schlechter",
-    "version": "0.5.0"
+    "author": {
+      "name": "Tim Schlechter"
+    },
+    "version": "0.7.1"
   },
   "bootstrap-tokenfield": {
     "name": "bootstrap-tokenfield",
     "homepage": "http://sliptree.github.io/bootstrap-tokenfield/",
-    "license": "MIT",
-    "author": "ragulka",
-    "version": "0.12.1"
+    "author": {
+      "name": "ragulka",
+      "url": "https://github.com/ragulka"
+    },
+    "version": "0.12.0"
   },
   "bootstrap-touchspin": {
     "name": "bootstrap-touchspin",
     "homepage": "http://www.virtuosoft.eu/code/bootstrap-touchspin/",
-    "license": "Apache-2.0",
-    "author": "István Ujj-Mészáros",
+    "author": {
+      "name": "István Ujj-Mészáros",
+      "url": "https://github.com/istvan-ujjmeszaros"
+    },
     "version": "3.1.1"
   },
   "bootstrap-treeview": {
     "name": "bootstrap-treeview",
     "homepage": "https://github.com/jonmiles/bootstrap-treeview",
-    "license": "Apache",
-    "author": "Jonathan Miles",
+    "author": {
+      "name": "Jonathan Miles"
+    },
     "version": "1.2.0"
+  },
+  "breakpoints-js": {
+    "name": "breakpoints-js",
+    "homepage": "https://github.com/amazingSurge/breakpoints-js",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "1.0.3"
   },
   "c3": {
     "name": "c3",
-    "homepage": "http://c3js.org/",
+    "homepage": "https://github.com/masayuki0812/c3",
     "license": "MIT",
-    "author": "Masayuki Tanaka"
+    "author": {
+      "name": "Masayuki Tanaka"
+    },
+    "version": "0.4.11"
   },
-  "card": {
-    "name": "card",
-    "homepage": "https://github.com/jessepollak/card",
-    "license": "MIT",
-    "author": "Jesse Pollak",
-    "version": "1.2.2"
-  },
-  "chart-js": {
-    "name": "Chart.js",
+  "chart.js": {
+    "name": "chart.js",
     "homepage": "http://www.chartjs.org",
     "license": "MIT",
-    "author": "nnnick",
-    "version": "1.0.2"
+    "version": "2.3.0",
+    "author": {
+      "name": "nnnick"
+    }
   },
-  "chartist-js": {
+  "chartist": {
     "name": "chartist",
     "homepage": "https://gionkunz.github.io/chartist-js",
-    "license": "WTFPL",
-    "author": "Gion Kunz"
+    "author": {
+      "name": "Gion Kunz"
+    },
+    "version": "0.9.8",
+    "license": "WTFPL"
   },
   "chartist-plugin-tooltip": {
     "name": "chartist-plugin-tooltip",
-    "homepage": "https://github.com/Globegitter/chartist-plugin-tooltip",
-    "license": "MIT",
-    "author": "Globegitter",
-    "version": "0.0.12"
+    "homepage": "https://github.com/CodeYellowBV/chartist-plugin-tooltip#readme",
+    "license": "ISC",
+    "author": {
+      "name": "Kees Kluskens",
+      "email": "kees@codeyellow.nl"
+    },
+    "version": "0.0.11"
   },
   "clockpicker": {
     "name": "clockpicker",
     "homepage": "http://weareoutman.github.io/clockpicker/",
-    "license": "MIT",
-    "author": "Wang Shenwei",
+    "author": {
+      "name": "Wang Shenwei",
+      "email": "wangshenwei@qq.com",
+      "url": "http://wangshenwei.com/"
+    },
     "version": "0.0.7"
   },
   "codemirror": {
     "name": "codemirror",
     "homepage": "http://codemirror.net",
     "license": "MIT",
-    "author": "codemirror"
+    "version": "5.19.0"
   },
   "cropper": {
     "name": "cropper",
-    "homepage": "https://github.com/fengyuanchen/cropper",
+    "homepage": "https://fengyuanchen.github.io/cropper",
     "license": "MIT",
-    "author": "Fengyuan Chen",
-    "version": "2.3.0"
+    "author": {
+      "name": "Fengyuan Chen",
+      "url": "http://chenfengyuan.com"
+    },
+    "version": "2.3.4"
   },
   "d3": {
     "name": "d3",
     "homepage": "http://d3js.org",
     "license": "BSD-3-Clause",
-    "author": "Mike Bostock",
-    "version": "3.5.16"
+    "author": {
+      "name": "Mike Bostock",
+      "url": "http://bost.ocks.org/mike"
+    },
+    "version": "3.5.17"
   },
   "datatables": {
     "name": "datatables",
     "homepage": "http://datatables.net",
     "license": "MIT",
-    "author": "Allan Jardine"
+    "author": {
+      "name": "Allan Jardine",
+      "url": "http://sprymedia.co.uk"
+    },
+    "version": "1.10.12"
   },
   "datatables-bootstrap": {
     "name": "datatables-bootstrap",
-    "bower": "Plugins",
+    "version": "0.0.1",
     "homepage": "https://github.com/DataTables/Plugins",
     "license": "MIT",
-    "author": "SpryMedia Limited"
+    "author": {
+      "name": "SpryMedia Limited"
+    }
   },
   "datatables-fixedheader": {
     "name": "datatables-fixedheader",
-    "homepage": "https://github.com/DataTables/FixedHeader",
+    "homepage": "https://datatables.net",
     "license": "MIT",
-    "author": "SpryMedia Limited"
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "3.1.0"
   },
   "datatables-responsive": {
     "name": "datatables-responsive",
+    "version": "1.0.7",
     "homepage": "https://github.com/DataTables/Responsive",
     "license": "MIT",
     "author": "SpryMedia Limited"
   },
-  "datepair-js": {
+  "datatables-tabletools": {
+    "name": "datatables-tabletools",
+    "version": "2.2.2"
+  },
+  "datepair.js": {
     "name": "datepair.js",
     "homepage": "http://jonthornton.github.com/Datepair.js",
     "license": "MIT",
-    "author": "Jon Thornton",
+    "author": {
+      "name": "Jon Thornton",
+      "url": "https://github.com/jonthornton"
+    },
     "version": "0.4.14"
   },
   "draggabilly": {
     "name": "draggabilly",
-    "homepage": "http://draggabilly.desandro.com",
+    "homepage": "http://draggabilly.desandro.com/",
     "license": "MIT",
-    "author": "David DeSandro"
+    "author": {
+      "name": "David DeSandro"
+    },
+    "version": "2.1.1"
   },
   "dropify": {
     "name": "dropify",
-    "homepage": "http://jeremyfagis.github.io/dropify/",
-    "author": "Jeremy FAGIS",
-    "version": "0.2.0"
-  },
-  "editable-table": {
-    "name": "editable-table",
-    "homepage": "http://mindmup.github.io/editable-table",
+    "homepage": "https://github.com/JeremyFagis/dropify",
     "license": "MIT",
-    "author": "MindMup"
-  },
-  "filament-tablesaw": {
-    "name": "filament-tablesaw",
-    "homepage": "https://github.com/filamentgroup/tablesaw",
-    "license": "MIT",
-    "author": "Zach Leatherman",
-    "version": "2.0.2"
+    "author": {
+      "name": "Jeremy FAGIS",
+      "email": "jeremy@fagis.fr",
+      "url": "http://fagis.fr"
+    },
+    "version": "0.2.1"
   },
   "flag-icon-css": {
     "name": "flag-icon-css",
-    "homepage": "http://lipis.github.io/flag-icon-css",
-    "license": "MIT",
-    "author": "Panayiotis Lipiridis",
-    "version": "0.7.1"
+    "homepage": "https://github.com/lipis/flag-icon-css#readme",
+    "author": {
+      "name": "Panayiotis Lipiridis",
+      "email": "lipiridis@gmail.com"
+    },
+    "version": "2.4.0"
   },
-  "flot": {
-    "name": "Flot",
-    "homepage": "http://www.flotcharts.org",
+  "floatthead": {
+    "name": "floatthead",
+    "homepage": "https://github.com/mkoryak/floatThead",
     "license": "MIT",
-    "author": "Ole Laursen",
-    "version": "0.8.3"
+    "author": {
+      "name": "Misha Koryak"
+    },
+    "version": "1.4.4"
   },
-  "formatter-js": {
+  "formatter.js": {
     "name": "formatter.js",
     "homepage": "https://github.com/firstopinion/formatter.js",
     "license": "MIT",
-    "author": "Jarid Margolin",
+    "author": {
+      "name": "Jarid Margolin",
+      "email": "jarid@firstopinion.com"
+    },
     "version": "0.1.5"
-  },
-  "formvalidation": {
-    "name": "formvalidation",
-    "homepage": "http://formvalidation.io",
-    "license": "commercial license",
-    "author": "Nguyen Huu Phuoc",
-    "version": "0.6.2-dev"
   },
   "fullcalendar": {
     "name": "fullcalendar",
     "homepage": "http://fullcalendar.io/",
     "license": "MIT",
-    "author": "Adam Shaw",
-    "version": "2.6.1"
-  },
-  "gauge-js": {
-    "name": "gauge.js",
-    "homepage": "http://bernii.github.io/gauge.js",
-    "license": "MIT",
-    "author": "bernii",
-    "version": "1.2.1"
+    "author": {
+      "name": "Adam Shaw",
+      "email": "arshaw@arshaw.com",
+      "url": "http://arshaw.com/"
+    },
+    "version": "3.0.1"
   },
   "gmaps": {
     "name": "gmaps",
-    "homepage": "http://hpneo.github.com/gmaps",
+    "homepage": "http://hpneo.github.com/gmaps/",
     "license": "MIT",
-    "author": "Gustavo Leon",
+    "author": {
+      "name": "Gustavo Leon"
+    },
     "version": "0.4.24"
   },
   "gridstack": {
     "name": "gridstack",
-    "homepage": "http://troolee.github.io/gridstack.js",
+    "homepage": "http://troolee.github.io/gridstack.js/",
     "license": "MIT",
-    "author": "Pavel Reznikov",
-    "version": "0.2.5"
+    "author": {
+      "name": "Pavel Reznikov",
+      "email": "pashka.reznikov@gmail.com"
+    },
+    "version": "0.2.6"
+  },
+  "highlight.js": {
+    "name": "highlight.js",
+    "homepage": "https://highlightjs.org/",
+    "license": "BSD-3-Clause",
+    "author": {
+      "name": "Ivan Sagalaev",
+      "email": "maniac@softwaremaniacs.org"
+    },
+    "version": "9.7.0"
   },
   "holderjs": {
     "name": "holderjs",
     "homepage": "http://holderjs.com",
     "license": "MIT",
-    "author": "Ivan Malopinsky",
-    "version": "2.4.1"
-  },
-  "hoverintent": {
-    "name": "jquery-hoverintent",
-    "homepage": "http://cherne.net/brian/resources/jquery.hoverIntent.html",
-    "license": "MIT",
-    "author": "Brian Cherne",
-    "version": "1.8.1"
+    "author": {
+      "name": "Ivan Malopinsky",
+      "url": "http://imsky.co"
+    },
+    "version": "2.9.4"
   },
   "html5shiv": {
     "name": "html5shiv",
-    "homepage": "https://github.com/aFarkas/html5shiv",
+    "homepage": "https://github.com/aFarkas/html5shiv#readme",
+    "version": "3.7.3",
     "license": "MIT and GPL2",
-    "author": "Alexander Farkas",
-    "version": "3.7.3"
+    "author": {
+      "name": "Alexander Farkas"
+    }
   },
   "html5sortable": {
-    "name": "html.sortable",
-    "homepage": "https://github.com/voidberg/html5sortable",
+    "name": "html5sortable",
+    "homepage": "https://github.com/voidberg/html5sortable#readme",
     "license": "MIT",
-    "author": "Alexandru Badiu",
-    "version": "0.3.1"
-  },
-  "highlight.js": {
-    "name": "highlight.js",
-    "homepage": "https://github.com/isagalaev/highlight.js",
-    "license": "BSD",
-    "author": "isagalaev"
+    "author": {
+      "name": "Alexandru Badiu",
+      "email": "andu@ctrlz.ro",
+      "url": "http://alexandrubadiu.ro"
+    },
+    "version": "0.4.2"
   },
   "icheck": {
-    "name": "iCheck",
-    "homepage": "http://fronteed.com/iCheck",
+    "name": "icheck",
+    "homepage": "http://fronteed.com/iCheck/",
     "license": "MIT",
-    "author": "Damir Sultanov",
+    "author": {
+      "name": "Damir Sultanov",
+      "email": "info@fronteed.com",
+      "url": "http://fronteed.com/"
+    },
     "version": "1.0.2"
   },
-  "intro-js": {
+  "intro.js": {
     "name": "intro.js",
-    "homepage": "http://usablica.github.com/intro.js",
-    "license": "MIT",
-    "author": "Afshin Mehrabani"
+    "homepage": "http://introjs.com",
+    "license": "See LICENSE.md",
+    "author": {
+      "name": "Afshin Mehrabani",
+      "email": "afshin.meh@gmail.com"
+    },
+    "version": "2.3.0"
   },
-  "isotope": {
-    "name": "isotope",
+  "ion-rangeslider": {
+    "name": "ion-rangeslider",
+    "homepage": "http://ionden.com/a/plugins/ion.rangeSlider/en.html",
+    "license": "MIT",
+    "author": {
+      "name": "Denis Ineshin",
+      "email": "ionden.tech@gmail.com",
+      "url": "IonDen"
+    },
+    "version": "2.1.4"
+  },
+  "isotope-layout": {
+    "name": "isotope-layout",
     "homepage": "http://isotope.metafizzy.co",
-    "license": "Commercial license",
-    "author": "Metafizzy",
-    "version": "2.2.2"
+    "license": "GPL-3.0",
+    "author": {
+      "name": "Metafizzy"
+    },
+    "version": "3.0.1"
   },
   "jquery": {
     "name": "jquery",
     "homepage": "http://jquery.com",
     "license": "MIT",
-    "author": "jQuery Foundation",
-    "version": "2.1.4"
+    "author": {
+      "name": "jQuery Foundation and other contributors",
+      "url": "https://github.com/jquery/jquery/blob/2.2.4/AUTHORS.txt"
+    },
+    "version": "2.2.4"
   },
-  "jquery-appear": {
-    "name": "jquery-appear",
-    "homepage": "https://github.com/morr/jquery.appear",
-    "license": "MIT",
-    "author": "Andrey Sidorov",
-    "version": "0.3.6"
+  "jquery-asBreadcrumbs": {
+    "name": "jquery-asBreadcrumbs",
+    "homepage": "https://github.com/amazingSurge/jquery-asBreadcrumbs",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.2.1"
   },
-  "jquery-floatthead": {
-    "name": "jquery.floatThead",
-    "homepage": "http://mkoryak.github.io/floatThead",
-    "license": "MIT",
-    "author": "Misha Koryak",
-    "version": "1.2.12"
+  "jquery-asColor": {
+    "name": "jquery-asColor",
+    "homepage": "https://github.com/amazingSurge/asColor",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.3.4"
+  },
+  "jquery-asColorPicker": {
+    "name": "jquery-asColorPicker",
+    "homepage": "https://github.com/amazingSurge/jquery-asColorPicker",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.4.1"
+  },
+  "jquery-asGradient": {
+    "name": "jquery-asGradient",
+    "homepage": "https://github.com/amazingSurge/jquery-asGradient",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.3.1"
+  },
+  "jquery-asHoverScroll": {
+    "name": "jquery-asHoverScroll",
+    "homepage": "https://github.com/amazingSurge/jquery-asHoverScroll",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.3.0"
+  },
+  "jquery-asPaginator": {
+    "name": "jquery-asPaginator",
+    "homepage": "https://github.com/amazingSurge/jquery-asPaginator",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.3.1"
+  },
+  "jquery-asPieProgress": {
+    "name": "jquery-asPieProgress",
+    "homepage": "https://github.com/amazingSurge/jquery-asPieProgress",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.4.4"
+  },
+  "jquery-asProgress": {
+    "name": "jquery-asProgress",
+    "homepage": "https://github.com/amazingSurge/jquery-asProgress",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.2.2"
+  },
+  "jquery-asRange": {
+    "name": "jquery-asRange",
+    "homepage": "https://github.com/amazingSurge/jquery-asRange",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.3.0"
+  },
+  "jquery-asScrollable": {
+    "name": "jquery-asScrollable",
+    "homepage": "https://github.com/amazingSurge/jquery-asScrollable",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.4.3"
+  },
+  "jquery-asScrollbar": {
+    "name": "jquery-asScrollbar",
+    "homepage": "https://github.com/amazingSurge/jquery-asScrollbar",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.5.3"
+  },
+  "jquery-asSpinner": {
+    "name": "jquery-asSpinner",
+    "homepage": "https://github.com/amazingSurge/jquery-asSpinner",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.4.0"
   },
   "jquery-knob": {
-    "name": "jquery-Knob",
-    "bower": "aterrien/jQuery-Knob",
-    "homepage": "https://github.com/aterrien/jQuery-Knob",
+    "name": "jquery-knob",
+    "homepage": "https://github.com/aterrien/jQuery-Knob#readme",
     "license": "MIT",
-    "author": "Anthony Terrien"
+    "author": {
+      "name": "Anthony Terrien"
+    },
+    "version": "1.2.11"
   },
-  "jquery-labelauty": {
-    "name": "jquery-labelauty",
-    "homepage": "https://github.com/fntneves/jquery-labelauty",
+  "jquery-match-height": {
+    "name": "jquery-match-height",
+    "homepage": "http://brm.io/jquery-match-height/",
     "license": "MIT",
-    "author": "Francisco Neves",
-    "version": "1.1.0"
+    "author": {
+      "name": "Liam Brummitt",
+      "email": "liam@brm.io",
+      "url": "http://brm.io/"
+    },
+    "version": "0.7.0"
   },
-  "jquery-mmenu": {
-    "name": "jquery-mmenu",
-    "homepage": "https://github.com/BeSite/jQuery.mmenu",
-    "license": "MIT",
-    "author": "Fred Heusschen"
+  "jquery-mousewheel": {
+    "name": "jquery-mousewheel",
+    "homepage": "https://github.com/jquery/jquery-mousewheel",
+    "author": {
+      "name": "jQuery Foundation and other contributors",
+      "url": "https://github.com/jquery/jquery-mousewheel/blob/master/AUTHORS.txt"
+    },
+    "version": "3.1.13"
   },
   "jquery-placeholder": {
     "name": "jquery-placeholder",
     "homepage": "https://github.com/mathiasbynens/jquery-placeholder",
     "license": "MIT",
-    "author": "Mathias Bynens"
+    "author": {
+      "name": "Mathias Bynens",
+      "url": "https://mathiasbynens.be/"
+    },
+    "version": "2.3.1"
+  },
+  "jquery-selective": {
+    "name": "jquery-selective",
+    "homepage": "https://github.com/amazingSurge/jquery-selective",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.3.2"
+  },
+  "jquery-slidePanel": {
+    "name": "jquery-slidePanel",
+    "homepage": "https://github.com/amazingSurge/jquery-slidePanel",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.3.2"
+  },
+  "jquery-strength": {
+    "name": "jquery-strength",
+    "homepage": "https://github.com/amazingSurge/jquery-strength",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.2.3"
+  },
+  "@fnando": {},
+  "jquery-tabledit": {
+    "name": "jquery-tabledit",
+    "homepage": "https://github.com/piotr-mroczek/jquery-tabledit#readme",
+    "license": "ISC",
+    "author": "",
+    "version": "1.0.0"
   },
   "jquery-ui": {
     "name": "jquery-ui",
     "homepage": "http://jqueryui.com",
     "license": "MIT",
-    "author": "jQuery Foundation",
-    "version": "1.11.4"
+    "author": {
+      "name": "jQuery Foundation and other contributors",
+      "url": "https://github.com/jquery/jquery-ui/blob/1.12.1/AUTHORS.txt"
+    },
+    "version": "1.12.1"
+  },
+  "jquery-wizard": {
+    "name": "jquery-wizard",
+    "homepage": "https://github.com/amazingSurge/jquery-wizard",
+    "license": "LGPL-3.0",
+    "author": {
+      "name": "amazingSurge",
+      "email": "amazingSurge@gmail.com",
+      "url": "amazingSurge.com"
+    },
+    "version": "0.4.2"
+  },
+  "jquery.mmenu": {
+    "name": "jquery.mmenu",
+    "homepage": "https://github.com/FrDH/jQuery.mmenu#readme",
+    "license": "CC-BY-NC-4.0",
+    "author": {
+      "name": "Fred Heusschen",
+      "email": "info@frebsite.nl"
+    },
+    "version": "5.7.4"
   },
   "jsgrid": {
-    "name": "jsGrid",
-    "homepage": "http://js-grid.com/",
-    "license": "MIT",
-    "author": "Artem Tabalin"
+    "name": "jsgrid",
+    "homepage": "http://js-grid.com",
+    "license": {
+      "type": "MIT",
+      "url": "https://github.com/tabalinas/jsgrid/blob/master/LICENSE"
+    },
+    "author": {
+      "name": "Artem Tabalin"
+    },
+    "version": "1.5.2"
   },
-  "jt-timepicker": {
-    "name": "jt.timepicker",
-    "homepage": "http://jonthornton.github.com/jquery-timepicker",
+  "jstree": {
+    "name": "jstree",
+    "homepage": "http://jstree.com",
     "license": "MIT",
-    "author": "Jon Thornton",
-    "version": "1.8.11"
+    "author": {
+      "name": "Ivan Bozhanov",
+      "email": "jstree@jstree.com",
+      "url": "http://vakata.com"
+    },
+    "version": "3.3.2"
   },
   "jvectormap": {
     "name": "jvectormap",
     "homepage": "http://jvectormap.com",
-    "license": "GPL",
-    "author": "Kirill Lebedev",
-    "version": "2.0.2"
+    "author": {
+      "name": "Kirill Lebedev",
+      "email": "echo.bjornd@gmail.com"
+    },
+    "version": "2.0.4",
+    "license": "GPL"
   },
-  "ladda-bootstrap": {
-    "name": "ladda-bootstrap",
-    "homepage": "http://msurguy.github.io/ladda-bootstrap",
-    "license": "MIT",
-    "author": "msurguy",
-    "version": "0.1.0"
+  "ladda": {
+    "name": "ladda",
+    "homepage": "http://lab.hakim.se/ladda",
+    "author": {
+      "name": "Hakim El Hattab",
+      "email": "hakim.elhattab@gmail.com",
+      "url": "http://hakim.se"
+    },
+    "version": "1.0.0"
   },
   "layout-grid": {
     "name": "layout-grid",
-    "homepage": "http://clippings.github.io/layout-grid/",
+    "homepage": "https://clippings.github.com/layout-grid",
     "license": "BSD-3-Clause",
-    "author": "Ivan Kerin"
-  },
-  "lodash": {
-    "name": "lodash",
-    "homepage": "https://lodash.com",
-    "license": "MIT",
-    "author": "The Dojo Foundation",
-    "version": "4.11.1"
+    "version": "2.2.0"
   },
   "magnific-popup": {
     "name": "magnific-popup",
-    "homepage": "http://dimsemenov.com/plugins/magnific-popup",
+    "homepage": "http://dimsemenov.com/plugins/magnific-popup/",
     "license": "MIT",
-    "author": "Dmitry Semenov",
+    "author": {
+      "name": "Dmitry Semenov",
+      "email": "diiiimaaaa@gmail.com",
+      "url": "http://dimsemenov.com"
+    },
     "version": "1.1.0"
+  },
+  "maplace-js": {
+    "name": "maplace-js",
+    "homepage": "https://github.com/danielemoraschi/maplace.js",
+    "license": "MIT",
+    "author": {
+      "name": "Daniele Moraschi",
+      "email": "daniele.moraschi@gmail.com"
+    },
+    "version": "0.2.7"
   },
   "marked": {
     "name": "marked",
     "homepage": "https://github.com/chjj/marked",
     "license": "MIT",
-    "author": "Christopher Jeffrey",
-    "version": "0.3.4"
+    "author": {
+      "name": "Christopher Jeffrey"
+    },
+    "version": "0.3.6"
   },
-  "masonry": {
-    "name": "masonry",
+  "masonry-layout": {
+    "name": "masonry-layout",
     "homepage": "http://masonry.desandro.com",
     "license": "MIT",
-    "author": "David DeSandro",
-    "version": "3.3.2"
-  },
-  "media-match": {
-    "name": "media-match",
-    "homepage": "https://github.com/weblinc/media-match",
-    "license": "MIT",
-    "author": "WebLinc",
-    "version": "0.1.0"
-  },
-  "matchheight": {
-    "name": "matchHeight",
-    "homepage": "https://github.com/liabru/jquery-match-height",
-    "license": "MIT",
-    "author": "Liam Brummitt",
-    "version": "0.7.0"
-  },
-  "modernizr": {
-    "name": "modernizr",
-    "homepage": "http://modernizr.com",
-    "license": "MIT",
-    "author": "Modernizr",
-    "version": "3.3.1"
+    "author": {
+      "name": "David DeSandro"
+    },
+    "version": "4.1.1"
   },
   "moment": {
     "name": "moment",
     "homepage": "http://momentjs.com",
     "license": "MIT",
-    "author": "Iskren Ivov Chernev"
+    "author": {
+      "name": "Iskren Ivov Chernev",
+      "email": "iskren.chernev@gmail.com",
+      "url": "https://github.com/ichernev"
+    },
+    "version": "2.15.1"
   },
-  "morris-js": {
+  "morris.js": {
     "name": "morris.js",
     "homepage": "http://morrisjs.github.com/morris.js",
     "license": "BSD-2-Clause",
-    "author": "Olly Smith",
-    "version": "0.5.1"
+    "author": {
+      "name": "Olly Smith",
+      "email": "olly@oesmith.co.uk"
+    },
+    "version": "0.5.0"
   },
-  "mousewheel": {
-    "name": "jquery-mousewheel",
-    "homepage": "https://github.com/jquery/jquery-mousewheel",
-    "license": "MIT",
-    "author": "jQuery Foundation",
-    "version": "3.1.13"
-  },
-  "multi-select": {
+  "multiselect": {
     "name": "multiselect",
-    "homepage": "http://loudev.com/",
     "license": "WTFPL",
-    "author": "lou",
     "version": "0.9.12"
   },
-  "nestable": {
-    "name": "nestable2",
-    "homepage": "https://github.com/RamonSmit/Nestable",
+  "notie": {
+    "name": "notie",
+    "homepage": "https://jaredreich.com/projects/notie",
     "license": "MIT",
-    "author": "Ramon Smit, David Bushell"
+    "author": {
+      "name": "Jared Reich"
+    },
+    "version": "3.9.4"
   },
   "nprogress": {
     "name": "nprogress",
-    "homepage": "http://ricostacruz.com/nprogress",
+    "homepage": "https://github.com/rstacruz/nprogress",
     "license": "MIT",
-    "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
+    "author": {
+      "name": "Rico Sta. Cruz",
+      "email": "hi@ricostacruz.com"
+    },
     "version": "0.2.0"
   },
-  "oclazyload": {
-    "name": "oclazyload",
-    "homepage": "https://github.com/ocombe/ocLazyLoad",
-    "license": "MIT",
-    "author": "Olivier Combe <olivier.combe@gmail.com>",
-    "version": "1.0.9"
-  },
-  "owl-carousel": {
+  "owl.carousel": {
     "name": "owl.carousel",
-    "homepage": "https://github.com/smashingboxes/OwlCarousel2",
-    "license": "MIT",
-    "author": "Smashing Boxes",
-    "version": "2.0.0-beta.3"
+    "homepage": "https://github.com/OwlCarousel2/OwlCarousel2",
+    "license": {
+      "type": "MIT",
+      "url": "https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE"
+    },
+    "author": {
+      "name": "David Deutsch",
+      "email": "deutsch@medienpark.net",
+      "url": "https://owlcarousel2.github.io/OwlCarousel2"
+    },
+    "version": "2.1.4"
   },
   "peity": {
     "name": "peity",
     "homepage": "https://github.com/benpickles/peity",
     "license": "MIT",
-    "author": "Ben Pickles",
+    "author": {
+      "name": "Ben Pickles"
+    },
     "version": "3.2.0"
   },
   "plyr": {
     "name": "plyr",
     "homepage": "http://plyr.io",
     "license": "MIT",
-    "author": "Sam Potts",
-    "version": "1.5.21"
+    "author": {
+      "name": "Sam Potts",
+      "email": "sam@selz.com"
+    },
+    "version": "2.0.7"
   },
   "raphael": {
     "name": "raphael",
-    "homepage": "https://github.com/DmitryBaranovskiy/raphael",
+    "homepage": "http://dmitrybaranovskiy.github.io/raphael/",
     "license": "MIT",
-    "author": "Dmitry Baranovskiy",
-    "version": "2.1.4"
+    "author": {
+      "name": "Dmitry Baranovskiy"
+    },
+    "version": "2.2.6"
   },
-  "raty": {
-    "name": "raty",
+  "raty-js": {
+    "name": "raty-js",
     "homepage": "https://github.com/wbotelhos/raty",
     "license": "MIT",
-    "author": "Washington Botelho",
-    "version": "2.7.0"
+    "author": {
+      "name": "Washington Botelho"
+    },
+    "version": "2.7.1"
   },
-  "respond": {
-    "name": "respond",
+  "respond.js": {
+    "name": "respond.js",
     "homepage": "https://github.com/scottjehl/Respond",
-    "license": "MIT",
-    "author": "Scott Jehl",
+    "author": {
+      "name": "Scott Jehl",
+      "email": "scott@filamentgroup.com",
+      "url": "http://filamentgroup.com"
+    },
     "version": "1.4.2"
   },
   "rickshaw": {
     "name": "rickshaw",
-    "homepage": "https://github.com/shutterstock/rickshaw",
+    "homepage": "http://code.shutterstock.com/rickshaw/",
     "license": "MIT",
-    "author": "David Chester, Douglas Hunter, and Silas Sewell",
     "version": "1.6.0-rc.0"
   },
   "screenfull": {
     "name": "screenfull",
-    "homepage": "https://github.com/sindresorhus/screenfull.js",
+    "homepage": "https://github.com/sindresorhus/screenfull.js#readme",
     "license": "MIT",
-    "author": "Sindre Sorhus",
-    "version": "3.0.0"
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "version": "3.0.2"
   },
   "select2": {
     "name": "select2",
     "homepage": "https://select2.github.io",
     "license": "MIT",
-    "author": "Kevin Brown",
-    "version": "4.0.2"
-  },
-  "skycons": {
-    "name": "skycons",
-    "homepage": "http://darkskyapp.github.io/skycons",
-    "license": "CC0 1.0",
-    "author": "The Dark Sky Company, LLC"
+    "author": {
+      "name": "Kevin Brown",
+      "url": "https://github.com/kevin-brown"
+    },
+    "version": "4.0.3"
   },
   "slick-carousel": {
     "name": "slick-carousel",
-    "homepage": "http://kenwheeler.github.io/slick",
+    "homepage": "https://github.com/kenwheeler/slick#readme",
     "license": "MIT",
-    "author": "Ken Wheeler",
-    "version": "1.5.9"
+    "author": {
+      "name": "Ken Wheeler",
+      "email": "ken_wheeler@me.com"
+    },
+    "version": "1.6.0"
   },
-  "sparkline": {
-    "name": "jquery.sparkline",
-    "homepage": "http://omnipotent.net/jquery.sparkline",
-    "license": "BSD-3-Clause",
-    "author": "Gareth Watts",
-    "version": "2.1.2"
+  "stickyfill": {
+    "name": "stickyfill",
+    "homepage": "https://github.com/webmodules/stickyfill",
+    "version": "1.1.1"
   },
   "summernote": {
     "name": "summernote",
-    "homepage": "http://summernote.org",
+    "homepage": "https://github.com/summernote/summernote#readme",
     "license": "MIT",
-    "author": "Hackerwins",
-    "version": "0.6.3"
+    "author": {
+      "name": "hackerwins",
+      "email": "<susukang98@gmail.com"
+    },
+    "version": "0.8.2"
   },
   "switchery": {
     "name": "switchery",
-    "homepage": "http://abpetkov.github.io/switchery",
+    "homepage": "https://github.com/antonamurskiy/switchery#readme",
     "license": "MIT",
-    "author": "Alexander Petkov",
-    "version": "0.8.1"
+    "author": {
+      "name": "Alexander Petkov"
+    },
+    "version": "0.0.2"
   },
-  "timecircles": {
-    "name": "timecircles",
-    "homepage": "http://git.wimbarelds.nl/TimeCircles",
+  "tablesaw": {
+    "name": "tablesaw",
+    "homepage": "https://github.com/filamentgroup/tablesaw",
     "license": "MIT",
-    "author": "Wim Barelds",
-    "version": "1.5.3"
+    "author": {
+      "name": "Zach Leatherman",
+      "email": "zach@filamentgroup.com",
+      "url": "http://filamentgroup.com/"
+    },
+    "version": "3.0.0-beta.2"
+  },
+  "tether": {
+    "name": "tether",
+    "homepage": "https://github.com/HubSpot/tether#readme",
+    "license": "MIT",
+    "version": "1.3.7"
+  },
+  "textarea-autosize": {
+    "name": "textarea-autosize",
+    "homepage": "http://javierjulio.github.io/textarea-autosize/",
+    "license": "MIT",
+    "author": {
+      "name": "Javier Julio",
+      "email": "jjfutbol@gmail.com",
+      "url": "http://www.javier-julio.com/"
+    },
+    "version": "0.4.2"
+  },
+  "timepicker": {
+    "name": "timepicker",
+    "homepage": "http://jonthornton.github.com/jquery-timepicker/",
+    "license": "MIT",
+    "author": {
+      "name": "Jon Thornton",
+      "url": "https://github.com/jonthornton"
+    },
+    "version": "1.11.5"
   },
   "to-markdown": {
     "name": "to-markdown",
-    "homepage": "https://github.com/domchristie/to-markdown",
+    "homepage": "https://github.com/domchristie/to-markdown#readme",
     "license": "MIT",
-    "author": "Dom Christie",
-    "version": "3.0.0"
+    "author": {
+      "name": "Dom Christie"
+    },
+    "version": "3.0.1"
   },
   "toastr": {
     "name": "toastr",
     "homepage": "http://www.toastrjs.com",
-    "license": "MIT",
-    "author": "John Papa",
     "version": "2.1.2"
   },
-  "toolbar": {
-    "name": "toolbar",
-    "homepage": "https://github.com/paulkinzett/toolbar",
-    "license": "MIT",
-    "author": "Paul Kinzett",
-    "version": "1.1.0"
-  },
-  "typeahead-js": {
+  "typeahead.js": {
     "name": "typeahead.js",
     "homepage": "http://twitter.github.com/typeahead.js",
-    "license": "MIT",
-    "author": "Twitter, Inc.",
+    "author": {
+      "name": "Twitter, Inc.",
+      "url": "https://twitter.com/twitteross"
+    },
     "version": "0.11.1"
   },
   "webui-popover": {
     "name": "webui-popover",
     "homepage": "https://github.com/sandywalker/webui-popover",
     "license": "MIT",
-    "author": "Sandy Walker",
-    "version": "1.2.7"
+    "author": {
+      "name": "Sandy Duan",
+      "email": "sanddywalker@gmail.com"
+    },
+    "version": "1.2.16"
   },
   "x-editable": {
     "name": "x-editable",
     "homepage": "http://github.com/vitalets/x-editable",
-    "license": "MIT",
-    "author": "Vitaliy Potapov",
+    "author": {
+      "name": "Vitaliy Potapov",
+      "email": "noginsk@rambler.ru"
+    },
     "version": "1.5.1"
+  },
+  "Flot": {
+    "name": "Flot",
+    "homepage": "https://github.com/flot/flot",
+    "version": "0.8.3"
+  },
+  "FooTable": {
+    "name": "FooTable",
+    "homepage": "https://github.com/fooplugins/FooTable",
+    "version": "3.1.2"
+  },
+  "editable-table": {
+    "name": "editable-table",
+    "homepage": "https://github.com/mindmup/editable-table"
+  },
+  "gauge.js": {
+    "name": "bernii/gauge.js",
+    "homepage": "https://github.com/bernii/gauge.js",
+    "license": "MIT",
+    "version": "1.2.1"
+  },
+  "jquery-labelauty": {
+    "name": "jquery-labelauty",
+    "homepage": "https://github.com/fntneves/jquery-labelauty",
+    "license": "MIT",
+    "version": "1.1.1",
+    "author": {
+      "name": "Francisco Neves"
+    }
+  },
+  "jquery_appear": {
+    "name": "jquery_appear",
+    "homepage": "https://github.com/morr/jquery.appear",
+    "license": "MIT",
+    "version": "0.3.6"
+  },
+  "mapbox.js": {
+    "name": "mapbox.js",
+    "homepage": "https://github.com/mapbox/mapbox.js",
+    "license": "See LICENSE.md",
+    "version": "2.4.0"
+  },
+  "leaflet.markercluster": {
+    "name": "leaflet.markercluster",
+    "homepage": "https://github.com/Leaflet/Leaflet.markercluster",
+    "license": "MIT",
+    "version": "1.0.0"
+  },
+  "media-match": {
+    "name": "media-match",
+    "homepage": "https://github.com/weblinc/media-match",
+    "version": "2.0.2"
+  },
+  "nestable2": {
+    "name": "nestable2",
+    "homepage": "https://github.com/RamonSmit/Nestable",
+    "license": "MIT"
+  },
+  "skycons": {
+    "name": "skycons",
+    "homepage": "https://github.com/darkskyapp/skycons"
+  },
+  "toolbar": {
+    "name": "toolbar",
+    "homepage": "https://github.com/paulkinzett/toolbar",
+    "licenses": "MIT",
+    "author": "Paul Kinzett",
+    "version": "1.1.0"
+  },
+  "formvalidation": {
+    "name": "formvalidation",
+    "homepage": "http://formvalidation.io",
+    "license": "commercial license",
+    "author": "Nguyen Huu Phuoc",
+    "version": "0.8.1"
+  },
+  "jquery.sparkline": {
+    "name": "jquery.sparkline",
+    "homepage": "https://github.com/gwatts/jquery.sparkline",
+    "license": "BSD",
+    "version": "2.1.2"
+  },
+  "hoverintent": {
+    "name": "jquery-hoverintent",
+    "homepage": "http://cherne.net/brian/resources/jquery.hoverIntent.html",
+    "license": "MIT",
+    "author": {
+      "name": "Brian Cherne"
+    },
+    "version": "1.8.1"
   },
   "7-stroke": {
     "name": "pixeden-stroke-7-icon",
     "homepage": "http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set",
     "license": "http://www.pixeden.com/license",
-    "author": "pixeden.com",
+    "author": {
+      "name": "pixeden.com"
+    },
     "type": "icon"
   },
   "brand-icons": {
     "name": "brand-icons",
     "homepage": "https://github.com/amazingSurge/brand-icons",
     "license": "MIT",
-    "author": "amazingSurge",
+    "author": {
+      "name": "amazingSurge"
+    },
     "type": "icon",
     "version": "0.3.3"
   },
@@ -775,35 +1153,45 @@
     "name": "font-awesome",
     "homepage": "http://fontawesome.io",
     "license": "OFL-1.1, MIT, CC-BY-3.0",
-    "author": "Dave Gandy",
+    "author": {
+      "name": "Dave Gandy"
+    },
     "type": "icon"
   },
   "material-design": {
     "name": "material-design-iconic-font",
     "homepage": "http://zavoloklom.github.io/material-design-iconic-font",
     "license": "OFL-1.1, MIT, CC-BY-3.0",
-    "author": "Sergey Kupletsky",
+    "author": {
+      "name": "Sergey Kupletsky"
+    },
     "type": "icon"
   },
   "mfglabs": {
     "name": "mfglabs-iconset",
     "homepage": "http://mfglabs.github.io/mfglabs-iconset",
     "license": "CC BY-SA, SIL",
-    "author": "MfgLabs",
+    "author": {
+      "name": "MfgLabs"
+    },
     "type": "icon"
   },
   "themify-icons": {
     "name": "themify",
     "homepage": "http://themify.me/themify-icons",
     "license": "MIT, OFL",
-    "author": "lykmapipo",
+    "author": {
+      "name": "lykmapipo"
+    },
     "type": "icon"
   },
   "ionicons": {
     "name": "Ionicons",
     "homepage": "https://github.com/driftyco/ionicons",
     "license": "MIT",
-    "author": "Ben Sperry, Adam Bradley, Max Lynch",
+    "author": {
+      "name": "Ben Sperry, Adam Bradley, Max Lynch"
+    },
     "type": "icon",
     "version": "2.0.1"
   },
@@ -811,7 +1199,9 @@
     "name": "open-iconic",
     "homepage": "https://github.com/iconic/open-iconic",
     "license": "MIT, OFL-1.1",
-    "author": "Iconic",
+    "author": {
+      "name": "Iconic"
+    },
     "type": "icon",
     "version": "1.1.1"
   },
@@ -819,126 +1209,10 @@
     "name": "web-icons",
     "homepage": "https://github.com/amazingSurge/web-icons",
     "license": "MIT",
-    "author": "amazingSurge",
+    "author": {
+      "name": "amazingSurge"
+    },
     "type": "icon",
     "version": "0.2.3"
-  },
-  "asbreadcrumbs": {
-    "name": "jquery-asBreadcrumbs",
-    "homepage": "https://github.com/amazingSurge/jquery-asBreadcrumbs",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.1.0"
-  },
-  "ascolor": {
-    "name": "jquery-asColor",
-    "homepage": "https://github.com/amazingSurge/jquery-asScroll",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.2.1"
-  },
-  "ascolorpicker": {
-    "name": "jquery-asColorPicker",
-    "homepage": "https://github.com/amazingSurge/jquery-asColorPicker",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.3.1"
-  },
-  "asgradient": {
-    "name": "jquery-asGradient",
-    "homepage": "https://github.com/amazingSurge/asGradient",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.2.1"
-  },
-  "ashoverscroll": {
-    "name": "jquery-asHoverScroll",
-    "homepage": "https://github.com/amazingSurge/jquery-asHoverScroll",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.2.3"
-  },
-  "aspaginator": {
-    "name": "jquery-asPaginator",
-    "homepage": "https://github.com/amazingSurge/jquery-asPaginator",
-    "license": "GPL",
-    "author": "amazingSurge"
-  },
-  "aspieprogress": {
-    "name": "jquery-asPieProgress",
-    "homepage": "https://github.com/amazingSurge/jquery-asPieProgress",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.3.4"
-  },
-  "asprogress": {
-    "name": "jquery-asProgress",
-    "homepage": "https://github.com/amazingSurge/jquery-asProgress",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.1.1"
-  },
-  "asrange": {
-    "name": "jquery-asRange",
-    "homepage": "https://github.com/amazingSurge/jquery-asRange",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.2.6"
-  },
-  "asscroll": {
-    "name": "jquery-asScroll",
-    "homepage": "https://github.com/amazingSurge/jquery-asScroll",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.1.1"
-  },
-  "asscrollable": {
-    "name": "jquery-asScrollable",
-    "homepage": "https://github.com/amazingSurge/jquery-asScrollable",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.3.1"
-  },
-  "asspinner": {
-    "name": "jquery-asSpinner",
-    "homepage": "https://github.com/amazingSurge/jquery-asSpinner",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.2.0"
-  },
-  "breakpoints": {
-    "name": "breakpoints.js",
-    "homepage": "https://github.com/amazingSurge/breakpoints.js",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.4.2"
-  },
-  "jquery-selective": {
-    "name": "jquery-selective",
-    "homepage": "https://github.com/amazingSurge/jquery-selective",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.1.0"
-  },
-  "jquery-strength": {
-    "name": "jquery-strength",
-    "homepage": "https://github.com/amazingSurge/jquery-strength",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.1.1"
-  },
-  "jquery-wizard": {
-    "name": "jquery-wizard.js",
-    "homepage": "https://github.com/amazingSurge/jquery-wizard",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.3.1"
-  },
-  "slidepanel": {
-    "name": "jquery-slidePanel",
-    "homepage": "https://github.com/amazingSurge/jquery-slidePanel",
-    "license": "GPL",
-    "author": "amazingSurge",
-    "version": "0.2.2"
   }
 }
