@@ -1,392 +1,336 @@
 #7. Modular JavaScript
+
+
 ##7.1 Source Structure
 Remark template features a highly modular JavaScript source system. Each page only uses the JavaScript it needs and nothing more.
-
-The pre-complied files are under ```(layout)/assets/js/``` and ```global/js``` folder:
+The complied files are under ```(layout)/assets/js``` and ```global/js/``` folder:
 
     (layout)/assets/js/
-    ├── configs/
-    ├── sections/ (site section script, such as: nav, sidebar...)
-    ├── app.js (basic app site example)
-    └── site.js (site initialize function)
+    ├── config/
+    ├── Plugin/ (speical plugin for site)
+    ├── App/ (app script, such as: Calendar, Forum...)
+    ├── Section/ (site section script, such as: nav, sidebar...)
+    ├── BaseApp.js (basic script for app)
+    └── Site.js (site initialize function)
 
     global/js/
-    ├── components/ (bootstrap source files)
-    ├── configs/ (js config file)
-    ├── plugins/ (template plugins)
-    ├── components.js (combine the files in components folder)
-    └── core.js (define root object $.site and $.components)
+    ├── config/ (global config, such as color)
+    ├── Plugin/ (3rd plugins adapter)
+    ├── Base.js (core script)
+    ├── Component.js (simple viewmodel class)
+    ├── Config.js (getter/setter helper for config)
+    ├── Plugin.js (base plugin class)
+    └── State.js (simple state container for apps)
 
-You can find their source files from ```(layout)/src/js/``` and ```global/src/js``` folder.
+You can find their source files from ```(layout)/src/es/``` and ```global/src/es``` folder.
 
-##7.2 Core.js
+
+##7.2 ES2015
+
+
+When remark3.0 is coming, every js scripts have been rewritten in ES2015 to take advantage of the newest JavaScript enhancements and use ```bablejs``` as a compiler.
+The new features make our code more strong and readable. 
+
+We use ```babel-es2015-preset``` and UMD support in the babel config. You can customize them in ```global/grunt/babel.js``` or ```global/gulp/options/script.js```.
+
+ 
+##7.3 Core Script
+
+
+In the remark3.0, we build components that manage their own state, in this case the code will have a better logic. 
+
 In ```global/js/core.js```, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
 
-###Site initialization
-We provided a site initialization script which helps you hook your scripts into the process easily.
-You can hook your scripts by extending ```$.site```.
+###State Container
 
-We have a dequeue system. It provides dequeue functions for prepare, run and complete state.
+```State```is a state container which is defined in ```global/js/State.js``` .
 
-``` javascript
-/* line 10 */
-$.extend($.site, {
-  _queue: {
-    prepare: [],
-    run: [],
-    complete: []
-  },
+ You can initialize the new state with ```State Class```:
 
-  dequeue: function(name, done) {
-    var self = this,
-      queue = this.getQueue(name),
-      fn = queue.shift(),
-      next = function() {
-        self.dequeue(name, done);
-      };
-
-    if (fn) {
-      fn.call(this, next);
-    } else if ($.isFunction(done)) {
-      done.call(this);
-    }
-  },
-
-  getQueue: function(name) {
-    if (!$.isArray(this._queue[name])) {
-      this._queue[name] = [];
-    }
-
-    return this._queue[name];
-  }
-};
-```
-
-The main run function is defined below in the file:
 
 ``` javascript
-/* line 17 */
-run: function() {
-  var self = this;
-
-  this.dequeue('prepare', function() {
-    self.trigger('before.run', self);
-  });
-
-  this.dequeue('run', function() {
-    self.dequeue('complete', function() {
-      self.trigger('after.run', self);
-    });
-  });
+let initialState = {
+  x: 'valueX',
+  y: 'valueY'
 }
+let state = new State(initialState);
 ```
 
-And the ```$.site.extend``` method below:
+You can use getter/setter function in ```State Object```:
+
 
 ``` javascript
-/* line 54 */
-extend: function(obj) {
-  $.each(this._queue, function(name, queue) {
-    if ($.isFunction(obj[name])) {
-      queue.push(obj[name]);
+state.get('x') //valueX
 
-      delete obj[name];
-    }
-  });
-
-  $.extend(this, obj);
-
-  return this;
-}
+state.set('y', 'newValueY')
+state.get('y') //valueY
 ```
 
-We also provided ```assets/js/site.js``` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar, tooltip, page load animation and components.
-Example code snippet below:
+You can add listener to attach an handler when the value has been changed:
 
 ``` javascript
-/* line 18 */
-window.Site = $.site.extend({
-  run: function(next) {
-    $('html').removeClass('before-run').addClass('after-run');
-
-    // polyfill
-    this.polyfillIEWidth();
-
-    // Menubar setup
-    // =============
-    $.site.menu.init();
-
-    $(".site-menubar").on('changing.site.menubar', function() {
-      $('[data-toggle="menubar"]').each(function() {
-        var $this = $(this);
-        var $hamburger = $(this).find('.hamburger');
-
-        function toggle($el) {
-          $el.toggleClass('hided', !$.site.menubar.opened);
-          $el.toggleClass('unfolded', !$.site.menubar.folded);
-        }
-        if ($hamburger.length > 0) {
-          toggle($hamburger);
-        } else {
-          toggle($this);
-        }
-      });
-    });
-
-    // ...
-  }
+state.on('x', ()=>{
+  console.log('Value x has been changed');
 });
 ```
 
-So, in your html, just add ```global/js/core.js``` and ```assets/js/site.js``` to the page, then write your scripts as follows:
+###Base Component
+
+
+```Component``` is the core Class of Remark Template, it's defined in ```global/js/Component.js```.  It don't determine anything about your HTML or CSS for you. The general idea is to organize your interface into logical views, backed by state, each of which can be updated independently when the model changes, without having to redraw the page. 
+
+You can define an component extend ```Component```, and when you initialize it,  the component have to reference an element already in the DOM by pass the jquery element object as an option:
+
+
+``` javascript
+
+class Menubar extends Component {
+  constructor(){
+
+  }
+
+  ...
+}
+
+let menubar = new Menubar({
+  $el: $('.site-menubar')
+})
+```
+
+We introduce mutable state to the component. ```this.state``` is private to the component and can be changed by calling ```this.setState()``` and get the value by ```this.getState()```.
+```getDefaultState()``` executes exactly once during the lifecycle of the component and sets up the initial state of the component.
+
+
+``` javascript
+
+class Menubar extends Component {
+  getDefaultState(){
+     return {
+      menubarType: 'unfold' 
+    };
+  }
+}
+```
+
+You add the value change handle in ```getDefaultActions()```, and when you update the state by ```this.setState()```, the handle will be called:
+
+
+``` javascript
+
+class Menubar extends Component {
+  getDefaultState(){
+     return {
+      menubarType: 'unfold' // unfold, fold, open, hide;
+    };
+  }
+
+  getDefaultActions() {
+    return {
+      menubarType: 'change'
+    };
+  }
+
+  change(type) {
+    console.log("menubarType value is change to "+type );
+  }
+}
+
+let menubar = new Menubar({
+  $el: $('.site-menubar')
+})
+
+menubar.setState('menubarType', 'fold') //menubarType value is fold
+```
+
+There are two methods are executed at specific points in a component's lifecycle. ```willProccess()``` will be invoked before component run and ```proccessed()``` will be invoked after component run.
+
+
+##7.4 Site initialization
+
+
+We provided a site initialization script which helps you hook your scripts into the process easily.
+You can hook your scripts by extending ```Site```. It's extend by ```Component```, so you can defined the state or use ```willProccess``` and ```proccessed``` function in the ```Site```
+We also provided ```assets/js/Site.js``` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar...
+Example code snippet below:
+
+
+``` javascript
+class Site extends Base {
+  willProcess() {
+    this.initializePluginAPIs();
+    this.initializePlugins();
+  }
+
+  processed() {
+    this.polyfillIEWidth();
+    this.initBootstrap();
+
+    this.setupMenubar();
+    this.setupGridMenu();
+  }
+
+  getDefaultState() {
+    return {
+      menubarType:'folded'
+    };
+  }
+
+  getDefaultActions() {
+    return {
+      menubarType(type) {
+        let toggle = function($el) {
+          $el.toggleClass('hided', !(type === 'open'));
+          $el.toggleClass('unfolded', !(type === 'fold'));
+        };
+
+        $('[data-toggle="menubar"]').each(function() {
+          let $this = $(this);
+          let $hamburger = $(this).find('.hamburger');
+
+          if ($hamburger.length > 0) {
+            toggle($hamburger);
+          } else {
+            toggle($this);
+          }
+        });
+      }
+    };
+  }
+  ....
+}
+
+```
+
+In your html, just add the scripts as follows:
 
 
 ``` html
-<script src="../global/js/core.js"></script>
-<script src="assets/js/site.js"></script>
 <script>
-window.YouSite = Site.extend({
-  run: function(next) {
-    // your scripts here
-
-    next();
-  }
-});
-
 $(document).ready(function(){
-  YouSite.run();
+  Site.run();
 });
 </script>
 ```
 
-It will be executed on document ready and all theme functionalities will be initialized.
+All theme functionalities will be initialized. If you need to add some extensions, you can inherit ```Site class```:
 
-##6.3 Config api
-In ```global/js/core.js```, we provide a simple config api:
 
-``` javascript
-/* line 121 */
-// Configs
-// =======
-$.configs = $.configs || {};
+```javascript
+//need complie by babel
+class YourSite extends Site{
+  ...
+}
 
-$.extend($.configs, {
-  data: {},
-  get: function(name) {
-    var callback = function(data, name) {
-      return data[name];
-    }
-
-    var data = this.data;
-
-    for (var i = 0; i < arguments.length; i++) {
-      name = arguments[i];
-
-      data = callback(data, name);
-    }
-
-    return data;
-  },
-
-  set: function(name, value) {
-    this.data[name] = value;
-  },
-
-  extend: function(name, options) {
-    var value = this.get(name);
-    return $.extend(true, value, options);
-  }
+$(document).ready(function(){
+  YourSite.run();
 });
 ```
 
-You can share your config data on all your js files loaded in the page.
+##7.5 Config api
 
-For example, you can setup your site configs in your ```assets/js/configs.js```:
+
+In ```global/js/Config.js```, we provide a simple getter/setter api. By them, you can share your config data on all your js files loaded in the page.
+For example, you can setup your site configs in your ```assets/js/config/tour.js```:
+
 
 ``` javascript
-$.configs.set('site', {
-  fontFamily: "Noto Sans, sans-serif",
-  primaryColor: "blue"
-});
+Config.set('tour', {
+    steps: [{
+      element: "#toggleMenubar",
+      position: "right",
+      intro: "Offcanvas Menu <p class='content'>It is nice custom navigation for desktop users and a seek off-canvas menu for tablet and mobile users</p>"
+    }, {
+      element: "#toggleFullscreen",
+      intro: "Full Screen <p class='content'>Click this button you can view the admin template in full screen</p>"
+    }, {
+      element: "#toggleChat",
+      position: 'left',
+      intro: "Quick Conversations <p class='content'>This is a sidebar dialog box for user conversations list, you can even create a quick conversation with other users</p>"
+    }],
+    skipLabel: "<i class='wb-close'></i>",
+    doneLabel: "<i class='wb-close'></i>",
+    nextLabel: "Next <i class='wb-chevron-right-mini'></i>",
+    prevLabel: "<i class='wb-chevron-left-mini'></i>Prev",
+    showBullets: false
+  })
 ```
 
 Then in your ```assets/js/site.js```
 
 ``` javascript
-var color = $.configs.get('site', 'primaryColor');
-console.info(color); // will output 'blue'
+let tourOptions = Config.get('tour');
+introJs().setOptions(tourOptions)
 ```
 
-##6.4 Component registration
-In ```global/js/core.js``` we also provide a simple component registration that will help your organize your 3rd component.
-
-The full implementation code:
-
-``` javascript
-/* line 176 */
-// Components
-// ==========
-$.components = $.components || {};
-
-$.extend($.components, {
-  _components: {},
-
-  register: function(name, obj) {
-    this._components[name] = obj;
-  },
-
-  init: function(name, context, args) {
-    var self = this;
-
-    if (typeof name === 'undefined') {
-      $.each(this._components, function(name) {
-        self.init(name);
-      });
-    } else {
-      context = context || document;
-      args = args || [];
-
-      var obj = this.get(name);
-
-      if (obj) {
-        switch (obj.mode) {
-          case 'default':
-            return this._initDefault(name, context);
-          case 'init':
-            return this._initComponent(name, obj, context, args);
-          case 'api':
-            return this._initApi(name, obj, args);
-          default:
-            this._initApi(name, obj, context, args);
-            this._initComponent(name, obj, context, args);
-            return;
-        }
-      }
-    }
-  },
-
-  /* init alternative, but only or init mode */
-  call: function(name, context) {
-    var args = Array.prototype.slice.call(arguments, 2);
-    var obj = this.get(name);
-
-    context = context || document;
-
-    return this._initComponent(name, obj, context, args);
-  },
-
-  _initDefault: function(name, context) {
-    if (!$.fn[name]) return;
-
-    var defaults = this.getDefaults(name);
-
-    $('[data-plugin=' + name + ']', context).each(function() {
-      var $this = $(this),
-        options = $.extend(true, {}, defaults, $this.data());
-
-      $this[name](options);
-    });
-  },
+##7.6 Plugin adapter and Data API
 
 
-  _initComponent: function(name, obj, context, args) {
-    if ($.isFunction(obj.init)) {
-      obj.init.apply(obj, [context].concat(args));
-    }
-  },
-
-  _initApi: function(name, obj, args) {
-    if (typeof obj.apiCalled === 'undefined' && $.isFunction(obj.api)) {
-      obj.api.apply(obj, args);
-
-      obj.apiCalled = true;
-    }
-  },
-
-
-  getDefaults: function(name) {
-    var component = this.get(name);
-
-    if (component && typeof component.defaults !== "undefined") {
-      return component.defaults;
-    } else {
-      return {};
-    }
-  },
-
-  get: function(name, property) {
-    if (typeof this._components[name] !== "undefined") {
-      if (typeof property !== "undefined") {
-        return this._components[name][property];
-      } else {
-        return this._components[name];
-      }
-    } else {
-      console.warn('component:' + component + ' script is not loaded.');
-
-      return undefined;
-    }
-  }
-});
-```
-
-
-##6.5 Data API
-Our component solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modular way to organize the initialize script for the 3rd plugin.
-
-###Register
-We use the function below to register component:
-
-    $.components.register(name, obj);
-
-We defined component register mode and initialize function in the object as second argument passed to the register method. There are three modes in the template:
-
-* ```api```: will use **api** function defined in the obj and not need to be re-initialized when new elements added in ```document```.
-* ```default```: will use **default initialize function** which is defined in ```global/js/core.js```.
-* ```init```: will use **init** function and need to be re-initialized when new elements added in ```document```.
+In ```global/js/Plugin.js``` we also provide a simple adapter to registr and organize your 3rd component.
 
 The raty  ```obj``` example:
 
-    /*global/src/js/components/raty.js*/
-    $.components.register("rating", {
-      mode: "init",
-      defaults: {
-        targetKeep: true,
-        icon: "font",
-        starType: "i",
-        starOff: "icon wb-star",
-        starOn: "icon wb-star orange-600",
-        cancelOff: "icon wb-minus-circle",
-        cancelOn: "icon wb-minus-circle orange-600",
-        starHalf: "icon wb-star-half orange-500"
-      },
-      init: function(context) {
-        if (!$.fn.raty) return;
+``` javascript
+    /*global/js/Plugin/raty.js*/
+    const NAME = 'rating';
 
-        var defaults = $.components.getDefaults("rating");
-
-        $('[data-plugin="rating"]', context).each(function() {
-          var $this = $(this);
-          var options = $.extend(true, {}, defaults, $this.data());
-
-          if (options.hints) {
-            options.hints = options.hints.split(',');
-          }
-
-          $this.raty(options);
-        });
+    class Rating extends Plugin {
+      getName() {
+        return NAME;
       }
-    });
 
+      static getDefaults() {
+        return {
+          targetKeep: true,
+          icon: 'font',
+          starType: 'i',
+          starOff: 'icon wb-star',
+          starOn: 'icon wb-star orange-600',
+          cancelOff: 'icon wb-minus-circle',
+          cancelOn: 'icon wb-minus-circle orange-600',
+          starHalf: 'icon wb-star-half orange-500'
+        };
+      }
+
+      render() {
+        if (!$.fn.raty) {
+          return;
+        }
+
+        let $el = this.$el;
+
+        if (this.options.hints) {
+          this.options.hints = this.options.hints.split(',');
+        }
+
+        $el.raty(this.options);
+      }
+    }
+```
+
+You can defined the defaults options in the static function ```getDefaults()``` and initialize the plugin in the ```render()```. The ```render()``` function will be invoked when Plugin is initialized;
+And then you can use the function below to register plugin:
+
+``` javascript
+
+    Plugin.register(NAME, Rating);
+
+```
 
 ### Default Options for 3rd plugin
 We define the **default options** for 3rd plugin by default property in each components' object. You can modify the **default** property to suit your use case.
 When you manually initialize plugin, you can get the defaults options as follow:
 
-    var defaults = $.components.getDefaults('{plugin name}');
+``` javascript
+    import {getDefaults} from Plugin;
 
+    var defaults = getDefaults('{plugin name}');
 
-### Usage
+```
+
+###Data API
+The full implementation code:
+
+Our plugin solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modular way to organize the initialize script for the 3rd plugin.
 Just like [Bootstrap](http://getbootstrap.com/) ```data-api``` usage, add ```data-plugin="{plugin name}"``` to element and add ```[data-{options}]``` to element. The components will be initialized.
 
 For example:
@@ -396,8 +340,8 @@ For example:
 <link rel="stylesheet" href="assets/vendor/raty/jquery.raty.css">
 <script src="assets/vendor/raty/jquery.raty.js"></script>
 // Load Component register file
-<script src="assets/js/components/raty.js"></script>
-// Component dom
+<script src="global/js/Plugin/raty.js"></script>
+// Plugin dom
 <div class="rating" data-score="4" data-plugin="rating"></div>
 ```
 
@@ -415,7 +359,7 @@ If we write script without our component solution, it will be
 // Init Script
 <script>
 $(document).ready(function(){
-  $('rating').each(function(){
+  $('.rating').each(function(){
     var $this = $(this);
     var score = $this.data('score');
 
@@ -440,28 +384,36 @@ The code is simple for one instance, but if you need use a lot rating instaces i
 ###Manually call
 You can also initialize the component manually:
 
-    $.components.init('rating');
 
-We can specific the context with the second argument for the component, it's very useful when we load the dom via ajax:
+``` javascript
+  import {pluginFactory} from Plugin;
 
-    $.components.init('rating', $('.page'));
+  let plugin = pluginFactory('rating', $('.page'), options)
+  plugin.initialize();
+```
 
+And if you want get the registed plugin object, you can use the code below:
+
+
+```javascript
+  import {getPlugin} from Plugin;
+
+  let Rating = getPlugin('rating');
+  let plugin=new Rating($('.page'), options);
+  plugin.initialize();
+```
 
 ### Components Initialization
-The components initialization script is implemented in ```src/js/site.js'```.
+The components initialization script is implemented in ```assets/js/Site.js'```.
 
-``` html
-window.Site = $.site.extend({
-  run: function(next) {
-    // code omitted
-    // ...
-
-    /* line 194 */
-    // Init Loaded Components
-    // ======================
-    $.components.init();
+``` javascript
+class Site extends Base {
+  willProcess() {
+    this.initializePluginAPIs();
+    this.initializePlugins();
   }
-});
+  ...
+}
 ```
 
 You can remove it if you don't need our components solution.
