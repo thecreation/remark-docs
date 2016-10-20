@@ -32,8 +32,7 @@ You should include stylesheet files below within `<head>` tag.
 <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
 ```
 
-Note: You can use another fonts by edit `src/less/vars.less` file.
-
+Note: You can use another fonts by edit `src/scss/_vars.scss` file.
 
 ##4.2 Javascript
 

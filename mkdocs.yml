@@ -16,5 +16,6 @@ pages:
 - [credits.md, 11. Sources and Credits]
 - [support.md, 12. Support]
 - [changelog.md, 13. Changelog]
+- [migration.md, 14. Migration]
 theme: readthedocs
 use_directory_urls: false

@@ -57,7 +57,7 @@ For ```(layout)```
 * **grunt dist-examples**: example css & js distribution task.
 * **grunt dist**: full distribution task.
 
-**Note**: more task configs we defined are under the ```grunt``` folder.
+**Note**: the tasks we defined are under the ```grunt``` folder.
 
 You can learn more about how to write grunt task files from **[http://gruntjs.com/](http://gruntjs.com/)**
 
@@ -101,6 +101,6 @@ For ```(layout)```
 * **gulp dist-examples**: example css & js distribution task.
 * **gulp dist**: full distribution task.
 
-**Note**: more task configs we defined are under the ```gulp``` folder.
+**Note**: the tasks we defined are under the ```gulp``` folder.
 
 You can learn more about how to write gulp task files from **[http://gulpjs.com/](http://gulpjs.com/)**

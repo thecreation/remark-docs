@@ -1,9 +1,8 @@
 #7. Modular JavaScript
 
-
 ##7.1 Source Structure
 Remark template features a highly modular JavaScript source system. Each page only uses the JavaScript it needs and nothing more.
-The complied files are under ```(layout)/assets/js``` and ```global/js/``` folder:
+The complied files are under ``(layout)/assets/js`` and ``global/js/`` folder:
 
     (layout)/assets/js/
     ├── config/
@@ -22,31 +21,24 @@ The complied files are under ```(layout)/assets/js``` and ```global/js/``` folde
     ├── Plugin.js (base plugin class)
     └── State.js (simple state container for apps)
 
-You can find their source files from ```(layout)/src/es/``` and ```global/src/es``` folder.
-
+You can find their source files from ``(layout)/src/es/`` and ``global/src/es`` folder.
 
 ##7.2 ES2015
 
-
 When remark3.0 is coming, every js scripts have been rewritten in ES2015 to take advantage of the newest JavaScript enhancements and use ```bablejs``` as a compiler.
-The new features make our code more strong and readable. 
+The new features make our code more strong and readable.
 
-We use ```babel-es2015-preset``` and UMD support in the babel config. You can customize them in ```global/grunt/babel.js``` or ```global/gulp/options/script.js```.
+We use ``babel-es2015-preset`` and UMD support in the babel config. You can customize them in ``global/grunt/babel.js`` or ``global/gulp/options/script.js``.
 
- 
 ##7.3 Core Script
+In the ``remark 3.0``, we build components that manage their own state, in this case the code will have a better logic.
 
-
-In the remark3.0, we build components that manage their own state, in this case the code will have a better logic. 
-
-In ```global/js/core.js```, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
+In ``global/js/core.js``, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
 
 ###State Container
+``State``is a state container which is defined in ``global/js/State.js``.
 
-```State```is a state container which is defined in ```global/js/State.js``` .
-
- You can initialize the new state with ```State Class```:
-
+You can initialize the new state with ``State Class``:
 
 ``` javascript
 let initialState = {
@@ -56,8 +48,7 @@ let initialState = {
 let state = new State(initialState);
 ```
 
-You can use getter/setter function in ```State Object```:
-
+You can use getter/setter function in ``State Object``:
 
 ``` javascript
 state.get('x') //valueX
@@ -76,19 +67,17 @@ state.on('x', ()=>{
 
 ###Base Component
 
+``Component`` is the core Class of Remark Template, it's defined in ``global/js/Component.js``.
 
-```Component``` is the core Class of Remark Template, it's defined in ```global/js/Component.js```.  It don't determine anything about your HTML or CSS for you. The general idea is to organize your interface into logical views, backed by state, each of which can be updated independently when the model changes, without having to redraw the page. 
+It don't determine anything about your HTML or CSS for you. The general idea is to organize your interface into logical views, backed by state, each of which can be updated independently when the model changes, without having to redraw the page.
 
-You can define an component extend ```Component```, and when you initialize it,  the component have to reference an element already in the DOM by pass the jquery element object as an option:
-
+You can define an component extend ``Component``, and when you initialize it,  the component have to reference an element already in the DOM by pass the jquery element object as an option:
 
 ``` javascript
-
 class Menubar extends Component {
   constructor(){
 
   }
-
   ...
 }
 
@@ -97,26 +86,23 @@ let menubar = new Menubar({
 })
 ```
 
-We introduce mutable state to the component. ```this.state``` is private to the component and can be changed by calling ```this.setState()``` and get the value by ```this.getState()```.
-```getDefaultState()``` executes exactly once during the lifecycle of the component and sets up the initial state of the component.
-
+We introduce mutable state to the component. ``this.state`` is private to the component and can be changed by calling ``this.setState()`` and get the value by ``this.getState()``.
+``getDefaultState()`` executes exactly once during the lifecycle of the component and sets up the initial state of the component.
 
 ``` javascript
-
 class Menubar extends Component {
   getDefaultState(){
      return {
-      menubarType: 'unfold' 
+      menubarType: 'unfold'
     };
   }
 }
 ```
 
-You add the value change handle in ```getDefaultActions()```, and when you update the state by ```this.setState()```, the handle will be called:
+You add the value change handle in ``getDefaultActions()``, and when you update the state by ``this.setState()``, the handle will be called:
 
 
 ``` javascript
-
 class Menubar extends Component {
   getDefaultState(){
      return {
@@ -142,17 +128,15 @@ let menubar = new Menubar({
 menubar.setState('menubarType', 'fold') //menubarType value is fold
 ```
 
-There are two methods are executed at specific points in a component's lifecycle. ```willProccess()``` will be invoked before component run and ```proccessed()``` will be invoked after component run.
-
+There are two methods are executed at specific points in a component's lifecycle. ``willProccess()`` will be invoked before component run and ``proccessed()`` will be invoked after component run.
 
 ##7.4 Site initialization
-
-
 We provided a site initialization script which helps you hook your scripts into the process easily.
-You can hook your scripts by extending ```Site```. It's extend by ```Component```, so you can defined the state or use ```willProccess``` and ```proccessed``` function in the ```Site```
-We also provided ```assets/js/Site.js``` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar...
-Example code snippet below:
 
+You can hook your scripts by extending ``Site``. It's extend by ``Component``, so you can defined the state or use ``willProccess`` and ``proccessed`` function in the ``Site``.
+
+We also provided ``assets/js/Site.js`` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar...
+Example code snippet below:
 
 ``` javascript
 class Site extends Base {
@@ -198,11 +182,9 @@ class Site extends Base {
   }
   ....
 }
-
 ```
 
 In your html, just add the scripts as follows:
-
 
 ``` html
 <script>
@@ -212,8 +194,7 @@ $(document).ready(function(){
 </script>
 ```
 
-All theme functionalities will be initialized. If you need to add some extensions, you can inherit ```Site class```:
-
+All theme functionalities will be initialized. If you need to add some extensions, you can inherit ``Site class``:
 
 ```javascript
 //need complie by babel
@@ -227,10 +208,8 @@ $(document).ready(function(){
 ```
 
 ##7.5 Config api
-
-
-In ```global/js/Config.js```, we provide a simple getter/setter api. By them, you can share your config data on all your js files loaded in the page.
-For example, you can setup your site configs in your ```assets/js/config/tour.js```:
+In ``global/js/Config.js``, we provide a simple getter/setter api. By them, you can share your config data on all your js files loaded in the page.
+For example, you can setup your site configs in your ``assets/js/config/tour.js``:
 
 
 ``` javascript
@@ -255,7 +234,7 @@ Config.set('tour', {
   })
 ```
 
-Then in your ```assets/js/site.js```
+Then in your ``assets/js/site.js``.
 
 ``` javascript
 let tourOptions = Config.get('tour');
@@ -264,10 +243,9 @@ introJs().setOptions(tourOptions)
 
 ##7.6 Plugin adapter and Data API
 
+In ``global/js/Plugin.js`` we also provide a simple adapter to registr and organize your 3rd component.
 
-In ```global/js/Plugin.js``` we also provide a simple adapter to registr and organize your 3rd component.
-
-The raty  ```obj``` example:
+The raty  ``obj`` example:
 
 ``` javascript
     /*global/js/Plugin/raty.js*/
@@ -307,13 +285,11 @@ The raty  ```obj``` example:
     }
 ```
 
-You can defined the defaults options in the static function ```getDefaults()``` and initialize the plugin in the ```render()```. The ```render()``` function will be invoked when Plugin is initialized;
+You can defined the defaults options in the static function ``getDefaults()`` and initialize the plugin in the ``render()``. The ``render()`` function will be invoked when Plugin is initialized;
 And then you can use the function below to register plugin:
 
 ``` javascript
-
     Plugin.register(NAME, Rating);
-
 ```
 
 ### Default Options for 3rd plugin
@@ -324,14 +300,13 @@ When you manually initialize plugin, you can get the defaults options as follow:
     import {getDefaults} from Plugin;
 
     var defaults = getDefaults('{plugin name}');
-
 ```
 
 ###Data API
 The full implementation code:
 
 Our plugin solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modular way to organize the initialize script for the 3rd plugin.
-Just like [Bootstrap](http://getbootstrap.com/) ```data-api``` usage, add ```data-plugin="{plugin name}"``` to element and add ```[data-{options}]``` to element. The components will be initialized.
+Just like [Bootstrap](http://getbootstrap.com/) ``data-api`` usage, add ``data-plugin="{plugin name}"`` to element and add ``[data-{options}]`` to element. The components will be initialized.
 
 For example:
 
@@ -384,7 +359,6 @@ The code is simple for one instance, but if you need use a lot rating instaces i
 ###Manually call
 You can also initialize the component manually:
 
-
 ``` javascript
   import {pluginFactory} from Plugin;
 
@@ -394,17 +368,16 @@ You can also initialize the component manually:
 
 And if you want get the registed plugin object, you can use the code below:
 
-
 ```javascript
   import {getPlugin} from Plugin;
 
   let Rating = getPlugin('rating');
-  let plugin=new Rating($('.page'), options);
+  let plugin= new Rating($('.page'), options);
   plugin.initialize();
 ```
 
 ### Components Initialization
-The components initialization script is implemented in ```assets/js/Site.js'```.
+The components initialization script is implemented in ``assets/js/Site.js``.
 
 ``` javascript
 class Site extends Base {

@@ -1,5 +1,40 @@
 #11. Changelog
 
+[3.0.1] - 2016-10-16
+--------------------
+### Fixed
+- menubar scrollable issue on topbar layout
+- menubar scrollable issue on topicon layout
+- js destroy method typo issue
+- contact app table issue
+- taskboard app console error
+- calendar app js issue
+- iconbar hover menu issue
+- masonry issue
+- material floating field issue
+- material selectable table issue
+
+### Updated
+- blueimp-file-upload to 9.12.6
+- breakpoints-js to 1.0.4
+- jquery-asBreadcrumbs to 0.2.2
+- jquery-asColorPicker to 0.4.3
+- jquery-asGradient to 0.3.2
+- jquery-asHoverScroll to 0.3.1
+- jquery-asPaginator to 0.3.2
+- jquery-asPieProgress to 0.4.5
+- jquery-asProgress to 0.2.3
+- jquery-asRange to 0.3.2
+- jquery-asScrollable to 0.4.4
+- jquery-asScrollbar to 0.5.4
+- jquery-asSpinner to 0.4.2
+- jquery-selective to 0.3.3
+- jquery-slidePanel to 0.3.3
+- jquery-strength to 0.2.4
+- jquery-wizard to 0.4.3
+- peity to 3.2.1
+- tablesaw to 3.0.0-beta.3
+
 [3.0.0] - 2016-10-10
 --------------------
 ### Updated

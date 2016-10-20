@@ -6,12 +6,8 @@ The Remark template is an awesome web application and admin dashboard template w
 ##1.2 Dependencies
 Remark template depends on two main frameworks. The downloadable package contains both of these libraries, so you don't have to manually download them.
 
-* [Bootstrap 3](http://getbootstrap.com/)
-* [jQuery 1.11+](http://jquery.com/)
-
-And the angular-ui pages depends on
-
-* [Angular Js](https://angularjs.org/)
+* [Bootstrap 4](v4-alpha.getbootstrap.com)
+* [jQuery 2.24+](http://jquery.com/)
 
 ##1.3 What's included
 You'll find the following folder struction and files in Remark download package.
@@ -51,15 +47,15 @@ The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files
     │   │   ├── configs/
     │   │   ├── plugins/
     │   │   └── core.js
-    │   ├── less/
+    │   ├── scss/
     │   │   ├── bootstrap/ (bootstrap source files)
     │   │   ├── bootstrap_extend/ (bootstrap override files)
     │   │   ├── mixins/ (bootstrap mixins)
-    │   │   └── vars.less
+    │   │   └── vars.scss
     │   ├── skins/
     │   └── vendor/
     ├── config.json (config for grunt or gulp)
-    ├── color.yml (use for generate src/less/vars-color.less)
+    ├── color.yml (use for generate src/scss/vars-color.scss)
     ├── components.json (define which component file to be combined)
     ├── Gruntfile.js
     ├── gulpfile.js
@@ -92,12 +88,12 @@ The layout folder is the main folder that you may working with. Each layout have
     └── package.json.gulp (use to replace package.json if use gulp)
 
 ###Layout's Source Folder
-The layout's source folder inludes source Less, JavaScript, Skins less, Templates hbs files and assets source files for examples pages.
+The layout's source folder inludes source scss, JavaScript, Skins scss, Templates hbs files and assets source files for examples pages.
 
     src/
     ├── examples/
     ├── js/
-    ├── less/
+    ├── scss/
     ├── skins/
     └── templates/
 

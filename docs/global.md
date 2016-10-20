@@ -51,17 +51,17 @@ And The source files you can see below
         │   ├── configs/
         │   ├── plugins/
         │   └── core.js
-        ├── less/
+        ├── scss/
         │   ├── bootstrap/ (bootstrap source files)
         │   ├── bootstrap_extend/ (improvements styles for remark)
-        │   ├── mixins/ (basic less mixins from bootstrap)
+        │   ├── mixins/ (basic scss mixins from bootstrap)
         │   ├── mixins/ (more useful mixins we defined)
         │   ├── components/ (the components we added to remark)
-        │   └── vars.less
+        │   └── _vars.scss
         ├── skins/
         └── vendor/
             ├── jquery-selective/
-            │   └── jquery-selective.less
+            │   └── jquery-selective.scss
            ...
 
 If you want compile the assets using the source files, you can set up the grunt/gulp. Learn more from previous section.

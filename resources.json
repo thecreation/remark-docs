@@ -47,7 +47,7 @@
       "name": "Sebastian Tschan",
       "url": "https://blueimp.net"
     },
-    "version": "9.12.5"
+    "version": "9.12.6"
   },
   "bootbox": {
     "name": "bootbox",
@@ -168,7 +168,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   "c3": {
     "name": "c3",
@@ -235,13 +235,13 @@
   },
   "d3": {
     "name": "d3",
-    "homepage": "http://d3js.org",
+    "homepage": "https://d3js.org",
     "license": "BSD-3-Clause",
     "author": {
       "name": "Mike Bostock",
-      "url": "http://bost.ocks.org/mike"
+      "url": "https://bost.ocks.org/mike"
     },
-    "version": "3.5.17"
+    "version": "4.2.7"
   },
   "datatables": {
     "name": "datatables",
@@ -471,7 +471,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   "jquery-asColor": {
     "name": "jquery-asColor",
@@ -493,7 +493,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.4.1"
+    "version": "0.4.3"
   },
   "jquery-asGradient": {
     "name": "jquery-asGradient",
@@ -504,7 +504,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   "jquery-asHoverScroll": {
     "name": "jquery-asHoverScroll",
@@ -515,7 +515,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.3.0"
+    "version": "0.3.2"
   },
   "jquery-asPaginator": {
     "name": "jquery-asPaginator",
@@ -526,7 +526,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   "jquery-asPieProgress": {
     "name": "jquery-asPieProgress",
@@ -537,7 +537,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.4.4"
+    "version": "0.4.5"
   },
   "jquery-asProgress": {
     "name": "jquery-asProgress",
@@ -548,7 +548,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   "jquery-asRange": {
     "name": "jquery-asRange",
@@ -559,7 +559,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.3.0"
+    "version": "0.3.2"
   },
   "jquery-asScrollable": {
     "name": "jquery-asScrollable",
@@ -570,7 +570,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.4.3"
+    "version": "0.4.5"
   },
   "jquery-asScrollbar": {
     "name": "jquery-asScrollbar",
@@ -581,7 +581,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.5.3"
+    "version": "0.5.4"
   },
   "jquery-asSpinner": {
     "name": "jquery-asSpinner",
@@ -592,7 +592,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.4.0"
+    "version": "0.4.2"
   },
   "jquery-knob": {
     "name": "jquery-knob",
@@ -642,7 +642,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   "jquery-slidePanel": {
     "name": "jquery-slidePanel",
@@ -653,7 +653,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.3.2"
+    "version": "0.3.3"
   },
   "jquery-strength": {
     "name": "jquery-strength",
@@ -664,7 +664,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   "@fnando": {},
   "jquery-tabledit": {
@@ -693,7 +693,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   "jquery.mmenu": {
     "name": "jquery.mmenu",
@@ -859,7 +859,7 @@
     "author": {
       "name": "Ben Pickles"
     },
-    "version": "3.2.0"
+    "version": "3.2.1"
   },
   "plyr": {
     "name": "plyr",
@@ -969,7 +969,7 @@
       "email": "zach@filamentgroup.com",
       "url": "http://filamentgroup.com/"
     },
-    "version": "3.0.0-beta.2"
+    "version": "3.0.0-beta.3"
   },
   "tether": {
     "name": "tether",
@@ -1214,5 +1214,14 @@
     },
     "type": "icon",
     "version": "0.2.3"
+  },
+  "imagesloaded": {
+    "name": "imagesloaded",
+    "homepage": "https://github.com/desandro/imagesloaded",
+    "license": "MIT",
+    "author": {
+      "name": "David DeSandro"
+    },
+    "version": "4.1.1"
   }
 }

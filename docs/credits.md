@@ -22,7 +22,7 @@ ace-builds  | 1.2.5  | [https://github.com/ajaxorg/ace-builds](https://github.co
 alertify.js  | 1.0.12  | [https://alertifyjs.org/](https://alertifyjs.org/)  | MIT
 animsition  | 4.0.2  | [http://blivesta.github.io/animsition](http://blivesta.github.io/animsition)  | MIT
 autosize  | 3.0.17  | [http://www.jacklmoore.com/autosize](http://www.jacklmoore.com/autosize)  | MIT
-blueimp-file-upload  | 9.12.5  | [https://github.com/blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)  | MIT
+blueimp-file-upload  | 9.12.6  | [https://github.com/blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)  | MIT
 bootbox  | 4.4.0  | [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)  | MIT
 bootstrap-datepicker  | 1.6.4  | [https://github.com/eternicode/bootstrap-datepicker](https://github.com/eternicode/bootstrap-datepicker)  | Apache-2.0
 bootstrap-hover-dropdown  | 2.2.1  | [https://github.com/CWSpear/bootstrap-hover-dropdown](https://github.com/CWSpear/bootstrap-hover-dropdown)  | MIT
@@ -35,7 +35,7 @@ bootstrap-tagsinput  | 0.7.1  | [http://timschlechter.github.io/bootstrap-tagsin
 bootstrap-tokenfield  | 0.12.0  | [http://sliptree.github.io/bootstrap-tokenfield/](http://sliptree.github.io/bootstrap-tokenfield/)  | 
 bootstrap-touchspin  | 3.1.1  | [http://www.virtuosoft.eu/code/bootstrap-touchspin/](http://www.virtuosoft.eu/code/bootstrap-touchspin/)  | 
 bootstrap-treeview  | 1.2.0  | [https://github.com/jonmiles/bootstrap-treeview](https://github.com/jonmiles/bootstrap-treeview)  | 
-breakpoints-js  | 1.0.3  | [https://github.com/amazingSurge/breakpoints-js](https://github.com/amazingSurge/breakpoints-js)  | LGPL-3.0
+breakpoints-js  | 1.0.4  | [https://github.com/amazingSurge/breakpoints-js](https://github.com/amazingSurge/breakpoints-js)  | LGPL-3.0
 c3  | 0.4.11  | [https://github.com/masayuki0812/c3](https://github.com/masayuki0812/c3)  | MIT
 chart.js  | 2.3.0  | [http://www.chartjs.org](http://www.chartjs.org)  | MIT
 chartist  | 0.9.8  | [https://gionkunz.github.io/chartist-js](https://gionkunz.github.io/chartist-js)  | WTFPL
@@ -43,7 +43,7 @@ chartist-plugin-tooltip  | 0.0.11  | [https://github.com/CodeYellowBV/chartist-p
 clockpicker  | 0.0.7  | [http://weareoutman.github.io/clockpicker/](http://weareoutman.github.io/clockpicker/)  | 
 codemirror  | 5.19.0  | [http://codemirror.net](http://codemirror.net)  | MIT
 cropper  | 2.3.4  | [https://fengyuanchen.github.io/cropper](https://fengyuanchen.github.io/cropper)  | MIT
-d3  | 3.5.17  | [http://d3js.org](http://d3js.org)  | BSD-3-Clause
+d3  | 4.2.7  | [https://d3js.org](https://d3js.org)  | BSD-3-Clause
 datatables  | 1.10.12  | [http://datatables.net](http://datatables.net)  | MIT
 datatables-bootstrap  | 0.0.1  | [https://github.com/DataTables/Plugins](https://github.com/DataTables/Plugins)  | MIT
 datatables-fixedheader  | 3.1.0  | [https://datatables.net](https://datatables.net)  | MIT
@@ -67,29 +67,29 @@ intro.js  | 2.3.0  | [http://introjs.com](http://introjs.com)  | See LICENSE.md
 ion-rangeslider  | 2.1.4  | [http://ionden.com/a/plugins/ion.rangeSlider/en.html](http://ionden.com/a/plugins/ion.rangeSlider/en.html)  | MIT
 isotope-layout  | 3.0.1  | [http://isotope.metafizzy.co](http://isotope.metafizzy.co)  | GPL-3.0
 jquery  | 2.2.4  | [http://jquery.com](http://jquery.com)  | MIT
-jquery-asBreadcrumbs  | 0.2.1  | [https://github.com/amazingSurge/jquery-asBreadcrumbs](https://github.com/amazingSurge/jquery-asBreadcrumbs)  | LGPL-3.0
+jquery-asBreadcrumbs  | 0.2.2  | [https://github.com/amazingSurge/jquery-asBreadcrumbs](https://github.com/amazingSurge/jquery-asBreadcrumbs)  | LGPL-3.0
 jquery-asColor  | 0.3.4  | [https://github.com/amazingSurge/asColor](https://github.com/amazingSurge/asColor)  | LGPL-3.0
-jquery-asColorPicker  | 0.4.1  | [https://github.com/amazingSurge/jquery-asColorPicker](https://github.com/amazingSurge/jquery-asColorPicker)  | LGPL-3.0
-jquery-asGradient  | 0.3.1  | [https://github.com/amazingSurge/jquery-asGradient](https://github.com/amazingSurge/jquery-asGradient)  | LGPL-3.0
-jquery-asHoverScroll  | 0.3.0  | [https://github.com/amazingSurge/jquery-asHoverScroll](https://github.com/amazingSurge/jquery-asHoverScroll)  | LGPL-3.0
-jquery-asPaginator  | 0.3.1  | [https://github.com/amazingSurge/jquery-asPaginator](https://github.com/amazingSurge/jquery-asPaginator)  | LGPL-3.0
-jquery-asPieProgress  | 0.4.4  | [https://github.com/amazingSurge/jquery-asPieProgress](https://github.com/amazingSurge/jquery-asPieProgress)  | LGPL-3.0
-jquery-asProgress  | 0.2.2  | [https://github.com/amazingSurge/jquery-asProgress](https://github.com/amazingSurge/jquery-asProgress)  | LGPL-3.0
-jquery-asRange  | 0.3.0  | [https://github.com/amazingSurge/jquery-asRange](https://github.com/amazingSurge/jquery-asRange)  | LGPL-3.0
-jquery-asScrollable  | 0.4.3  | [https://github.com/amazingSurge/jquery-asScrollable](https://github.com/amazingSurge/jquery-asScrollable)  | LGPL-3.0
-jquery-asScrollbar  | 0.5.3  | [https://github.com/amazingSurge/jquery-asScrollbar](https://github.com/amazingSurge/jquery-asScrollbar)  | LGPL-3.0
-jquery-asSpinner  | 0.4.0  | [https://github.com/amazingSurge/jquery-asSpinner](https://github.com/amazingSurge/jquery-asSpinner)  | LGPL-3.0
+jquery-asColorPicker  | 0.4.3  | [https://github.com/amazingSurge/jquery-asColorPicker](https://github.com/amazingSurge/jquery-asColorPicker)  | LGPL-3.0
+jquery-asGradient  | 0.3.2  | [https://github.com/amazingSurge/jquery-asGradient](https://github.com/amazingSurge/jquery-asGradient)  | LGPL-3.0
+jquery-asHoverScroll  | 0.3.2  | [https://github.com/amazingSurge/jquery-asHoverScroll](https://github.com/amazingSurge/jquery-asHoverScroll)  | LGPL-3.0
+jquery-asPaginator  | 0.3.2  | [https://github.com/amazingSurge/jquery-asPaginator](https://github.com/amazingSurge/jquery-asPaginator)  | LGPL-3.0
+jquery-asPieProgress  | 0.4.5  | [https://github.com/amazingSurge/jquery-asPieProgress](https://github.com/amazingSurge/jquery-asPieProgress)  | LGPL-3.0
+jquery-asProgress  | 0.2.3  | [https://github.com/amazingSurge/jquery-asProgress](https://github.com/amazingSurge/jquery-asProgress)  | LGPL-3.0
+jquery-asRange  | 0.3.2  | [https://github.com/amazingSurge/jquery-asRange](https://github.com/amazingSurge/jquery-asRange)  | LGPL-3.0
+jquery-asScrollable  | 0.4.5  | [https://github.com/amazingSurge/jquery-asScrollable](https://github.com/amazingSurge/jquery-asScrollable)  | LGPL-3.0
+jquery-asScrollbar  | 0.5.4  | [https://github.com/amazingSurge/jquery-asScrollbar](https://github.com/amazingSurge/jquery-asScrollbar)  | LGPL-3.0
+jquery-asSpinner  | 0.4.2  | [https://github.com/amazingSurge/jquery-asSpinner](https://github.com/amazingSurge/jquery-asSpinner)  | LGPL-3.0
 jquery-knob  | 1.2.11  | [https://github.com/aterrien/jQuery-Knob#readme](https://github.com/aterrien/jQuery-Knob#readme)  | MIT
 jquery-match-height  | 0.7.0  | [http://brm.io/jquery-match-height/](http://brm.io/jquery-match-height/)  | MIT
 jquery-mousewheel  | 3.1.13  | [https://github.com/jquery/jquery-mousewheel](https://github.com/jquery/jquery-mousewheel)  | 
 jquery-placeholder  | 2.3.1  | [https://github.com/mathiasbynens/jquery-placeholder](https://github.com/mathiasbynens/jquery-placeholder)  | MIT
-jquery-selective  | 0.3.2  | [https://github.com/amazingSurge/jquery-selective](https://github.com/amazingSurge/jquery-selective)  | LGPL-3.0
-jquery-slidePanel  | 0.3.2  | [https://github.com/amazingSurge/jquery-slidePanel](https://github.com/amazingSurge/jquery-slidePanel)  | LGPL-3.0
-jquery-strength  | 0.2.3  | [https://github.com/amazingSurge/jquery-strength](https://github.com/amazingSurge/jquery-strength)  | LGPL-3.0
+jquery-selective  | 0.3.3  | [https://github.com/amazingSurge/jquery-selective](https://github.com/amazingSurge/jquery-selective)  | LGPL-3.0
+jquery-slidePanel  | 0.3.3  | [https://github.com/amazingSurge/jquery-slidePanel](https://github.com/amazingSurge/jquery-slidePanel)  | LGPL-3.0
+jquery-strength  | 0.2.4  | [https://github.com/amazingSurge/jquery-strength](https://github.com/amazingSurge/jquery-strength)  | LGPL-3.0
 undefined  | stable  | [undefined](undefined)  | 
 jquery-tabledit  | 1.0.0  | [https://github.com/piotr-mroczek/jquery-tabledit#readme](https://github.com/piotr-mroczek/jquery-tabledit#readme)  | ISC
 jquery-ui  | 1.12.1  | [http://jqueryui.com](http://jqueryui.com)  | MIT
-jquery-wizard  | 0.4.2  | [https://github.com/amazingSurge/jquery-wizard](https://github.com/amazingSurge/jquery-wizard)  | LGPL-3.0
+jquery-wizard  | 0.4.3  | [https://github.com/amazingSurge/jquery-wizard](https://github.com/amazingSurge/jquery-wizard)  | LGPL-3.0
 jquery.mmenu  | 5.7.4  | [https://github.com/FrDH/jQuery.mmenu#readme](https://github.com/FrDH/jQuery.mmenu#readme)  | CC-BY-NC-4.0
 jsgrid  | 1.5.2  | [http://js-grid.com](http://js-grid.com)  | [object Object]
 jstree  | 3.3.2  | [http://jstree.com](http://jstree.com)  | MIT
@@ -106,7 +106,7 @@ multiselect  | 0.9.12  | [undefined](undefined)  | WTFPL
 notie  | 3.9.4  | [https://jaredreich.com/projects/notie](https://jaredreich.com/projects/notie)  | MIT
 nprogress  | 0.2.0  | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)  | MIT
 owl.carousel  | 2.1.4  | [https://github.com/OwlCarousel2/OwlCarousel2](https://github.com/OwlCarousel2/OwlCarousel2)  | [object Object]
-peity  | 3.2.0  | [https://github.com/benpickles/peity](https://github.com/benpickles/peity)  | MIT
+peity  | 3.2.1  | [https://github.com/benpickles/peity](https://github.com/benpickles/peity)  | MIT
 plyr  | 2.0.7  | [http://plyr.io](http://plyr.io)  | MIT
 raphael  | 2.2.6  | [http://dmitrybaranovskiy.github.io/raphael/](http://dmitrybaranovskiy.github.io/raphael/)  | MIT
 raty-js  | 2.7.1  | [https://github.com/wbotelhos/raty](https://github.com/wbotelhos/raty)  | MIT
@@ -118,7 +118,7 @@ slick-carousel  | 1.6.0  | [https://github.com/kenwheeler/slick#readme](https://
 stickyfill  | 1.1.1  | [https://github.com/webmodules/stickyfill](https://github.com/webmodules/stickyfill)  | 
 summernote  | 0.8.2  | [https://github.com/summernote/summernote#readme](https://github.com/summernote/summernote#readme)  | MIT
 switchery  | 0.0.2  | [https://github.com/antonamurskiy/switchery#readme](https://github.com/antonamurskiy/switchery#readme)  | MIT
-tablesaw  | 3.0.0-beta.2  | [https://github.com/filamentgroup/tablesaw](https://github.com/filamentgroup/tablesaw)  | MIT
+tablesaw  | 3.0.0-beta.3  | [https://github.com/filamentgroup/tablesaw](https://github.com/filamentgroup/tablesaw)  | MIT
 tether  | 1.3.7  | [https://github.com/HubSpot/tether#readme](https://github.com/HubSpot/tether#readme)  | MIT
 textarea-autosize  | 0.4.2  | [http://javierjulio.github.io/textarea-autosize/](http://javierjulio.github.io/textarea-autosize/)  | MIT
 timepicker  | 1.11.5  | [http://jonthornton.github.com/jquery-timepicker/](http://jonthornton.github.com/jquery-timepicker/)  | MIT
@@ -142,6 +142,7 @@ toolbar  | 1.1.0  | [https://github.com/paulkinzett/toolbar](https://github.com/
 formvalidation  | 0.8.1  | [http://formvalidation.io](http://formvalidation.io)  | commercial license
 jquery.sparkline  | 2.1.2  | [https://github.com/gwatts/jquery.sparkline](https://github.com/gwatts/jquery.sparkline)  | BSD
 jquery-hoverintent  | 1.8.1  | [http://cherne.net/brian/resources/jquery.hoverIntent.html](http://cherne.net/brian/resources/jquery.hoverIntent.html)  | MIT
+imagesloaded  | 4.1.1  | [https://github.com/desandro/imagesloaded](https://github.com/desandro/imagesloaded)  | MIT
 
 ###11.3 Images
 
