@@ -8,6 +8,7 @@
 - Tablesaw style issue
 - login and register page background image issue
 - chat sidebar mobile position issue
+- rename label class to tag
 
 ### Updated
 - autosize to 3.0.19
