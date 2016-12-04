@@ -28,10 +28,12 @@ gulp.task('credits', function(){
 
   Object.keys(resources).forEach(function(name){
     if(typeof resources[name]['type'] === 'undefined' || resources[name]['type'] !== 'icon'){
-      content += resources[name]['name'] +
-      "  | " + (typeof resources[name]['version'] !== 'undefined'? resources[name]['version'] : 'stable') +
-      "  | [" + resources[name]['homepage'] + "](" + resources[name]['homepage']  + ")"+
-      "  | " + (typeof resources[name]['license'] !== 'undefined'? resources[name]['license'] : '') +"\n";
+      if(typeof resources[name]['name'] !== 'undefined'){
+        content += resources[name]['name'] +
+        "  | " + (typeof resources[name]['version'] !== 'undefined'? resources[name]['version'] : 'stable') +
+        "  | [" + resources[name]['homepage'] + "](" + resources[name]['homepage']  + ")"+
+        "  | " + (typeof resources[name]['license'] !== 'undefined'? resources[name]['license'] : '') +"\n";
+      }
     }
   });
 

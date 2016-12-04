@@ -1,5 +1,65 @@
 #11. Changelog
 
+[3.0.5] - 2016-12-4
+--------------------
+### Fixed
+- mmenu layout grid menu issue
+- icon single page range issue
+- Tablesaw style issue
+- login and register page background image issue
+- chat sidebar mobile position issue
+
+### Updated
+- autosize to 3.0.19
+- blueimp-file-upload to 9.14.0
+- bootstrap-select to 1.12.1
+- codemirror to 5.21.0
+- d3 to 4.4.0
+- datepair.js to 0.4.15
+- jquery-asRange to 0.3.3
+- moment to 2.17.1
+- plyr to 2.0.11
+- tether to 1.4.0
+- timepicker to 1.11.8
+
+[3.0.4] - 2016-11-27
+--------------------
+### Fixed
+- skins issue
+- navbar dropbar issue
+
+### Updated
+- jquery-asScrollable to 0.4.6
+
+[3.0.3] - 2016-11-16
+--------------------
+### Fixed
+- Travel app js issue
+- basic table js issue
+- Contact app responsive issue
+- Sidebar sm layout issue
+- Iconbar menubar issue
+
+### Updated
+- autosize to 3.0.18
+- blueimp-file-upload to 9.14.0
+- chart.js to 2.4.0
+- chartist to 0.10.1
+- codemirror to 5.20.2
+- d3 to 4.3.0
+- flag-icon-css to 2.8.0
+- floatthead to 1.4.5
+- jquery-asPieProgress to 0.4.6
+- jquery-selective to 0.3.5
+- jquery.mmenu to 5.7.8
+- jstree to 3.3.3
+- moment to 2.16.0
+- owl.carousel to 2.2.0
+- plyr to 2.0.10
+- raphael to 2.2.7
+- timepicker to 1.11.6
+- webui-popover to 1.2.17
+
 [3.0.2] - 2016-10-20
 --------------------
 ### Fixed
