@@ -1,5 +1,38 @@
 #11. Changelog
 
+If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/downloads).
+
+[3.0.6] - 2017-1-8
+--------------------
+### Added
+- table-dragger plugin
+
+### Fixed
+- font weight override issue
+- panel action page js issue
+- login v2 scrollbar issue
+- travel app tabs issue
+- fix app console warning issue
+
+### Improved
+- remove logo when loading
+
+### Updated
+- autosize to 3.0.20
+- blueimp-file-upload to 9.14.2
+- codemirror to 5.22.0
+- d3 to 4.4.1
+- datatables to 1.10.13
+- fullcalendar to 3.1.0
+- highlight.js to 9.9.0
+- html5sortable to 0.4.3
+- intro.js to 2.4.0
+- ion-rangeslider to 2.1.6
+- jquery-asScrollable to 0.4.7
+- jsgrid to 1.5.3
+- notie to 3.9.5
+- timepicker to 1.11.9
+
 [3.0.5] - 2016-12-4
 --------------------
 ### Fixed

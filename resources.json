@@ -33,7 +33,7 @@
       "email": "hello@jacklmoore.com",
       "url": "http://www.jacklmoore.com"
     },
-    "version": "3.0.19"
+    "version": "3.0.20"
   },
   "blueimp-file-upload": {
     "name": "blueimp-file-upload",
@@ -43,7 +43,7 @@
       "name": "Sebastian Tschan",
       "url": "https://blueimp.net"
     },
-    "version": "9.14.1"
+    "version": "9.14.2"
   },
   "bootbox": {
     "name": "bootbox",
@@ -198,7 +198,7 @@
     "name": "codemirror",
     "homepage": "http://codemirror.net",
     "license": "MIT",
-    "version": "5.21.0"
+    "version": "5.22.0"
   },
   "cropper": {
     "name": "cropper",
@@ -218,7 +218,7 @@
       "name": "Mike Bostock",
       "url": "https://bost.ocks.org/mike"
     },
-    "version": "4.4.0"
+    "version": "4.4.1"
   },
   "datatables": {
     "name": "datatables",
@@ -228,7 +228,7 @@
       "name": "Allan Jardine",
       "url": "http://sprymedia.co.uk"
     },
-    "version": "1.10.12"
+    "version": "1.10.13"
   },
   "datatables-bootstrap": {
     "name": "datatables-bootstrap",
@@ -316,7 +316,7 @@
       "email": "arshaw@arshaw.com",
       "url": "http://arshaw.com/"
     },
-    "version": "3.0.1"
+    "version": "3.1.0"
   },
   "gmaps": {
     "name": "gmaps",
@@ -370,7 +370,7 @@
       "email": "andu@ctrlz.ro",
       "url": "http://alexandrubadiu.ro"
     },
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   "icheck": {
     "name": "icheck",
@@ -384,7 +384,7 @@
     "homepage": "http://introjs.com",
     "license": "See LICENSE.md",
     "author": "Afshin Mehrabani <afshin.meh@gmail.com>",
-    "version": "2.3.0"
+    "version": "2.4.0"
   },
   "ion-rangeslider": {
     "name": "ion-rangeslider",
@@ -395,7 +395,7 @@
       "email": "ionden.tech@gmail.com",
       "url": "https://github.com/IonDen"
     },
-    "version": "2.1.4"
+    "version": "2.1.6"
   },
   "isotope-layout": {
     "name": "isotope-layout",
@@ -522,7 +522,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.4.6"
+    "version": "0.4.7"
   },
   "jquery-asScrollbar": {
     "name": "jquery-asScrollbar",
@@ -655,7 +655,7 @@
       "url": "https://github.com/tabalinas/jsgrid/blob/master/LICENSE"
     },
     "author": "Artem Tabalin",
-    "version": "1.5.2"
+    "version": "1.5.3"
   },
   "jstree": {
     "name": "jstree",
@@ -733,11 +733,7 @@
     "name": "moment",
     "homepage": "http://momentjs.com",
     "license": "MIT",
-    "author": {
-      "name": "Iskren Ivov Chernev",
-      "email": "iskren.chernev@gmail.com",
-      "url": "https://github.com/ichernev"
-    },
+    "author": "Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
     "version": "2.17.1"
   },
   "morris.js": {
@@ -760,7 +756,7 @@
     "homepage": "https://jaredreich.com/projects/notie",
     "license": "MIT",
     "author": "Jared Reich",
-    "version": "3.9.4"
+    "version": "3.9.5"
   },
   "nprogress": {
     "name": "nprogress",
@@ -791,10 +787,7 @@
     "name": "plyr",
     "homepage": "http://plyr.io",
     "license": "MIT",
-    "author": {
-      "name": "Sam Potts",
-      "email": "sam@selz.com"
-    },
+    "author": "Sam Potts <sam@selz.com>",
     "version": "2.0.11"
   },
   "raphael": {
@@ -919,7 +912,7 @@
       "name": "Jon Thornton",
       "url": "https://github.com/jonthornton"
     },
-    "version": "1.11.8"
+    "version": "1.11.9"
   },
   "to-markdown": {
     "name": "to-markdown",
@@ -1154,5 +1147,12 @@
     "homepage": "https://github.com/Leaflet/Leaflet.markercluster",
     "license": "MIT"
   },
-  "@fnando": {}
+  "@fnando": {},
+  "table-dragger": {
+    "name": "table-dragger",
+    "homepage": "https://sindu12jun.github.io/table-dragger/",
+    "license": "MIT",
+    "author": "sindu12jun <imgonnalovetheworld@gmail.com>",
+    "version": "1.0.1"
+  }
 }

@@ -21,8 +21,8 @@ Name          | Version      | Url        | License
 ace-builds  | 1.2.5  | [https://github.com/ajaxorg/ace-builds](https://github.com/ajaxorg/ace-builds)  | BSD
 alertify.js  | 1.0.12  | [https://alertifyjs.org/](https://alertifyjs.org/)  | MIT
 animsition  | 4.0.2  | [http://blivesta.github.io/animsition](http://blivesta.github.io/animsition)  | MIT
-autosize  | 3.0.19  | [http://www.jacklmoore.com/autosize](http://www.jacklmoore.com/autosize)  | MIT
-blueimp-file-upload  | 9.14.1  | [https://github.com/blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)  | MIT
+autosize  | 3.0.20  | [http://www.jacklmoore.com/autosize](http://www.jacklmoore.com/autosize)  | MIT
+blueimp-file-upload  | 9.14.2  | [https://github.com/blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)  | MIT
 bootbox  | 4.4.0  | [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)  | MIT
 bootstrap-datepicker  | 1.6.4  | [https://github.com/eternicode/bootstrap-datepicker](https://github.com/eternicode/bootstrap-datepicker)  | Apache-2.0
 bootstrap-hover-dropdown  | 2.2.1  | [https://github.com/CWSpear/bootstrap-hover-dropdown](https://github.com/CWSpear/bootstrap-hover-dropdown)  | MIT
@@ -41,10 +41,10 @@ chart.js  | 2.4.0  | [http://www.chartjs.org](http://www.chartjs.org)  | MIT
 chartist  | 0.10.1  | [https://gionkunz.github.io/chartist-js](https://gionkunz.github.io/chartist-js)  | WTFPL
 chartist-plugin-tooltip  | 0.0.11  | [https://github.com/CodeYellowBV/chartist-plugin-tooltip#readme](https://github.com/CodeYellowBV/chartist-plugin-tooltip#readme)  | ISC
 clockpicker  | 0.0.7  | [http://weareoutman.github.io/clockpicker/](http://weareoutman.github.io/clockpicker/)  | MIT
-codemirror  | 5.21.0  | [http://codemirror.net](http://codemirror.net)  | MIT
+codemirror  | 5.22.0  | [http://codemirror.net](http://codemirror.net)  | MIT
 cropper  | 2.3.4  | [https://fengyuanchen.github.io/cropper](https://fengyuanchen.github.io/cropper)  | MIT
-d3  | 4.4.0  | [https://d3js.org](https://d3js.org)  | BSD-3-Clause
-datatables  | 1.10.12  | [http://datatables.net](http://datatables.net)  | MIT
+d3  | 4.4.1  | [https://d3js.org](https://d3js.org)  | BSD-3-Clause
+datatables  | 1.10.13  | [http://datatables.net](http://datatables.net)  | MIT
 datatables-bootstrap  | 0.0.1  | [https://github.com/DataTables/Plugins](https://github.com/DataTables/Plugins)  | MIT
 datatables-fixedheader  | 3.1.0  | [https://datatables.net](https://datatables.net)  | MIT
 datatables-responsive  | 1.0.7  | [https://github.com/DataTables/Responsive](https://github.com/DataTables/Responsive)  | MIT
@@ -55,16 +55,16 @@ dropify  | 0.2.1  | [https://github.com/JeremyFagis/dropify](https://github.com/
 flag-icon-css  | 2.8.0  | [https://github.com/lipis/flag-icon-css#readme](https://github.com/lipis/flag-icon-css#readme)  | MIT
 floatthead  | 1.4.5  | [https://github.com/mkoryak/floatThead](https://github.com/mkoryak/floatThead)  | MIT
 formatter.js  | 0.1.5  | [https://github.com/firstopinion/formatter.js](https://github.com/firstopinion/formatter.js)  | MIT
-fullcalendar  | 3.0.1  | [http://fullcalendar.io/](http://fullcalendar.io/)  | MIT
+fullcalendar  | 3.1.0  | [http://fullcalendar.io/](http://fullcalendar.io/)  | MIT
 gmaps  | 0.4.24  | [http://hpneo.github.com/gmaps/](http://hpneo.github.com/gmaps/)  | MIT
 gridstack  | 0.2.6  | [http://troolee.github.io/gridstack.js/](http://troolee.github.io/gridstack.js/)  | MIT
 highlight.js  | 9.7.0  | [https://highlightjs.org/](https://highlightjs.org/)  | BSD-3-Clause
 holderjs  | 2.9.4  | [http://holderjs.com](http://holderjs.com)  | MIT
 html5shiv  | 3.7.3  | [https://github.com/aFarkas/html5shiv#readme](https://github.com/aFarkas/html5shiv#readme)  | MIT and GPL2
-html5sortable  | 0.4.2  | [https://github.com/voidberg/html5sortable#readme](https://github.com/voidberg/html5sortable#readme)  | MIT
+html5sortable  | 0.4.3  | [https://github.com/voidberg/html5sortable#readme](https://github.com/voidberg/html5sortable#readme)  | MIT
 icheck  | 1.0.2  | [http://fronteed.com/iCheck/](http://fronteed.com/iCheck/)  | MIT
-intro.js  | 2.3.0  | [http://introjs.com](http://introjs.com)  | See LICENSE.md
-ion-rangeslider  | 2.1.4  | [http://ionden.com/a/plugins/ion.rangeSlider/en.html](http://ionden.com/a/plugins/ion.rangeSlider/en.html)  | MIT
+intro.js  | 2.4.0  | [http://introjs.com](http://introjs.com)  | See LICENSE.md
+ion-rangeslider  | 2.1.6  | [http://ionden.com/a/plugins/ion.rangeSlider/en.html](http://ionden.com/a/plugins/ion.rangeSlider/en.html)  | MIT
 isotope-layout  | 3.0.1  | [http://isotope.metafizzy.co](http://isotope.metafizzy.co)  | GPL-3.0
 jquery  | 2.2.4  | [http://jquery.com](http://jquery.com)  | MIT
 jquery-asBreadcrumbs  | 0.2.2  | [https://github.com/amazingSurge/jquery-asBreadcrumbs](https://github.com/amazingSurge/jquery-asBreadcrumbs)  | LGPL-3.0
@@ -76,7 +76,7 @@ jquery-asPaginator  | 0.3.2  | [https://github.com/amazingSurge/jquery-asPaginat
 jquery-asPieProgress  | 0.4.6  | [https://github.com/amazingSurge/jquery-asPieProgress](https://github.com/amazingSurge/jquery-asPieProgress)  | LGPL-3.0
 jquery-asProgress  | 0.2.3  | [https://github.com/amazingSurge/jquery-asProgress](https://github.com/amazingSurge/jquery-asProgress)  | LGPL-3.0
 jquery-asRange  | 0.3.3  | [https://github.com/amazingSurge/jquery-asRange](https://github.com/amazingSurge/jquery-asRange)  | LGPL-3.0
-jquery-asScrollable  | 0.4.6  | [https://github.com/amazingSurge/jquery-asScrollable](https://github.com/amazingSurge/jquery-asScrollable)  | LGPL-3.0
+jquery-asScrollable  | 0.4.7  | [https://github.com/amazingSurge/jquery-asScrollable](https://github.com/amazingSurge/jquery-asScrollable)  | LGPL-3.0
 jquery-asScrollbar  | 0.5.4  | [https://github.com/amazingSurge/jquery-asScrollbar](https://github.com/amazingSurge/jquery-asScrollbar)  | LGPL-3.0
 jquery-asSpinner  | 0.4.2  | [https://github.com/amazingSurge/jquery-asSpinner](https://github.com/amazingSurge/jquery-asSpinner)  | LGPL-3.0
 jquery-knob  | 1.2.11  | [https://github.com/aterrien/jQuery-Knob#readme](https://github.com/aterrien/jQuery-Knob#readme)  | MIT
@@ -90,7 +90,7 @@ jquery-tabledit  | 1.0.0  | [https://github.com/piotr-mroczek/jquery-tabledit#re
 jquery-ui  | 1.12.1  | [http://jqueryui.com](http://jqueryui.com)  | MIT
 jquery-wizard  | 0.4.3  | [https://github.com/amazingSurge/jquery-wizard](https://github.com/amazingSurge/jquery-wizard)  | LGPL-3.0
 jquery.mmenu  | 5.7.8  | [https://github.com/FrDH/jQuery.mmenu#readme](https://github.com/FrDH/jQuery.mmenu#readme)  | CC-BY-NC-4.0
-jsgrid  | 1.5.2  | [http://js-grid.com](http://js-grid.com)  | [object Object]
+jsgrid  | 1.5.3  | [http://js-grid.com](http://js-grid.com)  | [object Object]
 jstree  | 3.3.3  | [http://jstree.com](http://jstree.com)  | MIT
 jvectormap  | 2.0.4  | [http://jvectormap.com](http://jvectormap.com)  | GPL
 ladda  | 1.0.0  | [http://lab.hakim.se/ladda](http://lab.hakim.se/ladda)  | MIT
@@ -102,7 +102,7 @@ masonry-layout  | 4.1.1  | [http://masonry.desandro.com](http://masonry.desandro
 moment  | 2.17.1  | [http://momentjs.com](http://momentjs.com)  | MIT
 morris.js  | 0.5.0  | [http://morrisjs.github.com/morris.js](http://morrisjs.github.com/morris.js)  | BSD-2-Clause
 multiselect  | 0.9.12  | [undefined](undefined)  | WTFPL
-notie  | 3.9.4  | [https://jaredreich.com/projects/notie](https://jaredreich.com/projects/notie)  | MIT
+notie  | 3.9.5  | [https://jaredreich.com/projects/notie](https://jaredreich.com/projects/notie)  | MIT
 nprogress  | 0.2.0  | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)  | MIT
 owl.carousel  | 2.2.0  | [https://github.com/OwlCarousel2/OwlCarousel2](https://github.com/OwlCarousel2/OwlCarousel2)  | MIT
 peity  | 3.2.1  | [https://github.com/benpickles/peity](https://github.com/benpickles/peity)  | MIT
@@ -120,7 +120,7 @@ switchery  | 0.0.2  | [https://github.com/antonamurskiy/switchery#readme](https:
 tablesaw  | 3.0.0-beta.3  | [https://github.com/filamentgroup/tablesaw](https://github.com/filamentgroup/tablesaw)  | MIT
 tether  | 1.4.0  | [https://github.com/HubSpot/tether#readme](https://github.com/HubSpot/tether#readme)  | MIT
 textarea-autosize  | 0.4.2  | [http://javierjulio.github.io/textarea-autosize/](http://javierjulio.github.io/textarea-autosize/)  | MIT
-timepicker  | 1.11.8  | [http://jonthornton.github.com/jquery-timepicker/](http://jonthornton.github.com/jquery-timepicker/)  | MIT
+timepicker  | 1.11.9  | [http://jonthornton.github.com/jquery-timepicker/](http://jonthornton.github.com/jquery-timepicker/)  | MIT
 to-markdown  | 3.0.3  | [https://github.com/domchristie/to-markdown#readme](https://github.com/domchristie/to-markdown#readme)  | MIT
 toastr  | 2.1.2  | [http://www.toastrjs.com](http://www.toastrjs.com)  | MIT
 typeahead.js  | 0.11.1  | [http://twitter.github.com/typeahead.js](http://twitter.github.com/typeahead.js)  | MIT
@@ -143,6 +143,7 @@ jquery.sparkline  | 2.1.2  | [https://github.com/gwatts/jquery.sparkline](https:
 jquery-hoverintent  | 1.8.1  | [http://cherne.net/brian/resources/jquery.hoverIntent.html](http://cherne.net/brian/resources/jquery.hoverIntent.html)  | MIT
 imagesloaded  | 4.1.1  | [https://github.com/desandro/imagesloaded](https://github.com/desandro/imagesloaded)  | MIT
 leaflet-markercluster  | stable  | [https://github.com/Leaflet/Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)  | MIT
+table-dragger  | 1.0.1  | [https://sindu12jun.github.io/table-dragger/](https://sindu12jun.github.io/table-dragger/)  | MIT
 
 ###11.3 Images
 
