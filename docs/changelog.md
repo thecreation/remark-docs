@@ -1,6 +1,6 @@
 #11. Changelog
 
-If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/downloads).
+If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
 [3.0.6] - 2017-1-8
 --------------------
