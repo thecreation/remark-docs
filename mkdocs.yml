@@ -6,7 +6,7 @@ pages:
 - [overview.md, 1. Overview]
 - [generator.md, 2. Generator]
 - [build.md, 3. Building Tools]
-- [files.md, 4. File Structure]
+- [files.md, 4. Files]
 - [global.md, 5. Global Assets]
 - [style.md, 6. Customize Styles]
 - [javascript.md, 7. Modular JavaScript]
@@ -17,5 +17,6 @@ pages:
 - [support.md, 12. Support]
 - [changelog.md, 13. Changelog]
 - [migration.md, 14. Migration]
+- [faq.md, 15. FAQ]
 theme: readthedocs
 use_directory_urls: false

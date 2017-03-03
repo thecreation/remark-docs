@@ -1,4 +1,4 @@
-#4. File Structure
+#4. Files
 We list the necessary styles and scripts that you can use in a page in this section.
 
 ##4.1 Styles
@@ -116,3 +116,13 @@ By adding the script below, it will initialise the template functions. We explai
 })(document, window, jQuery);
 </script>
 ```
+
+## 4.3 Skins
+The skins css is under `(layout)/assets/skins/` folder. If you want change the skin of the template to another color, you can include the color's css file after `assets/css/site.css` file before `<head>`.
+
+The code below will use red skin.
+``` html
+<link href="../assets/skins/red.css" rel="stylesheet" type="text/css">
+```
+
+If you want customize the colors or create a new skin, you can customize the skin's scss file on `(layout)/src/skins/` folder. After done, using `gulp dist-skins` or `grunt dist-skins` to get css files updated.

@@ -25,20 +25,20 @@ You can find their source files from ``(layout)/src/es/`` and ``global/src/es`` 
 
 ##7.2 ES2015
 
-When remark3.0 is coming, every js scripts have been rewritten in ES2015 to take advantage of the newest JavaScript enhancements and use ```bablejs``` as a compiler.
+With new remark 3.0, every js scripts have been rewritten in ES2015 to take advantage of the newest JavaScript enhancements and use `babel` as a compiler.
 The new features make our code more strong and readable.
 
 We use ``babel-es2015-preset`` and UMD support in the babel config. You can customize them in ``global/grunt/babel.js`` or ``global/gulp/options/script.js``.
 
 ##7.3 Core Script
-In the ``remark 3.0``, we build components that manage their own state, in this case the code will have a better logic.
+We build components that manage their own state, in this case the code will have a better logic.
 
-In ``global/js/core.js``, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
+In `global/js/core.js`, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
 
 ###State Container
-``State``is a state container which is defined in ``global/js/State.js``.
+`State`is a state container which is defined in `global/js/State.js`.
 
-You can initialize the new state with ``State Class``:
+You can initialize the new state with `State Class`:
 
 ``` javascript
 let initialState = {
@@ -243,7 +243,7 @@ introJs().setOptions(tourOptions)
 
 ##7.6 Plugin adapter and Data API
 
-In ``global/js/Plugin.js`` we also provide a simple adapter to registr and organize your 3rd component.
+In `global/js/Plugin.js` we also provide a simple adapter to register and organize your 3rd component.
 
 The raty  ``obj`` example:
 
@@ -285,7 +285,7 @@ The raty  ``obj`` example:
     }
 ```
 
-You can defined the defaults options in the static function ``getDefaults()`` and initialize the plugin in the ``render()``. The ``render()`` function will be invoked when Plugin is initialized;
+You can defined the defaults options in the static function `getDefaults()` and initialize the plugin in the `render()`. The `render()` function will be invoked when Plugin is initialized;
 And then you can use the function below to register plugin:
 
 ``` javascript
@@ -302,7 +302,7 @@ When you manually initialize plugin, you can get the defaults options as follow:
     var defaults = getDefaults('{plugin name}');
 ```
 
-###Data API
+### Data API
 The full implementation code:
 
 Our plugin solution is very similar with [Bootstrap](http://getbootstrap.com/) **data-api** syntax. It's a modular way to organize the initialize script for the 3rd plugin.
@@ -362,7 +362,7 @@ You can also initialize the component manually:
 ``` javascript
   import {pluginFactory} from Plugin;
 
-  let plugin = pluginFactory('rating', $('.page'), options)
+  let plugin = pluginFactory('rating', $('.page'), options);
   plugin.initialize();
 ```
 
@@ -390,3 +390,53 @@ class Site extends Base {
 ```
 
 You can remove it if you don't need our components solution.
+
+##7.7 Using Site and Plugin Api With ES5.
+### Site Api
+You can using `Site.getInstance()` method to get `Site` instance. It have some useful api to work with.
+
+For example, you can initialze all plugin components with `initializePlugins` method.
+
+``` javascript
+var site = Site.getInstance();
+site.initializePlugins();
+```
+
+`initializePlugins` method can works with specific dom element.
+
+``` javascript
+var site = Site.getInstance();
+site.initializePlugins($('#page-content'));
+```
+
+### Plugin Api
+YOu can use `Plugin` instance to work with plugins.
+
+The `getDefaults` method will return the default options of a specific plugin that uesd in the `Remark`.
+
+``` javascript
+var defaults = Plugin.getDefaults('switchery');
+
+// Define the options
+var options = jQuery.extends(true, defaults, {
+    color: '#64bd63'
+});
+
+var elem = document.querySelector('.switch');
+var switchery = new Switchery(elem, options);
+```
+
+The `getPlugin` method will a specific plugin instance wrapper to work with the plugin.
+
+The code below will works result the same as the code above:
+It use custom color option for the `.switch` element. Also the options will extends the default template specific settings.
+``` javascript
+var Switcher = Plugin.getPlugin('switchery');
+
+var #elem = $('.switch');
+var plugin= new Switcher($elem, {
+    color: '#64bd63'
+});
+plugin.initialize();
+```
+

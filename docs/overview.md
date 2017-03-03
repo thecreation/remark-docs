@@ -66,7 +66,7 @@ The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files
 ###Layout's Folder
 The layout folder is the main folder that you may working with. Each layout have independent grunt/gulp environment. The folder includes the pre-complied assets, source files, and examples pages. More specifically, it includes the following and more:
 
-    base/
+    base/ (layout root)
     ├── assets/
     │   ├── css/
     │   ├── data/
@@ -97,7 +97,28 @@ The layout's source folder inludes source scss, JavaScript, Skins scss, Template
     ├── skins/
     └── templates/
 
-##1.4 Browser Support
+##1.4 Plain Html Version
+If you just want use plain html without sources and build tools, you can copy these folders out into a new folder.
+
+    base/ (layout root)
+    ├── assets/
+    │   ├── css/
+    │   ├── data/
+    │   ├── examples/
+    │   ├── images/
+    │   ├── js/
+    │   └── skins/
+    ├── html/
+
+    global/
+    ├── css/
+    ├── fonts/
+    ├── js/
+    ├── vendor/ (3rd plugins)
+
+The root html file is `(new folder)/base/html/index.html`.
+
+##1.5 Browser Support
 Remark is built to work best in the latest desktop and mobile browsers, older browsers might display differently styled, though fully functional, renderings of certain components.
 
 * IE9+
