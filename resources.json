@@ -4,7 +4,7 @@
     "homepage": "https://github.com/ajaxorg/ace-builds",
     "license": "BSD",
     "author": "",
-    "version": "1.2.5"
+    "version": "1.2.6"
   },
   "alertify.js": {
     "name": "alertify.js",
@@ -43,7 +43,7 @@
       "name": "Sebastian Tschan",
       "url": "https://blueimp.net"
     },
-    "version": "9.14.2"
+    "version": "9.17.0"
   },
   "bootbox": {
     "name": "bootbox",
@@ -90,7 +90,7 @@
       "name": "Silvio Moreto",
       "url": "https://github.com/silviomoreto"
     },
-    "version": "1.12.1"
+    "version": "1.12.2"
   },
   "bootstrap-sweetalert": {
     "name": "bootstrap-sweetalert",
@@ -104,7 +104,7 @@
     "homepage": "https://github.com/wenzhixin/bootstrap-table",
     "license": "MIT",
     "author": "wenzhixin <wenzhixin2010@gmail.com> (http://wenzhixin.net.cn/)",
-    "version": "1.11.0"
+    "version": "1.11.2"
   },
   "bootstrap-tagsinput": {
     "name": "bootstrap-tagsinput",
@@ -164,7 +164,7 @@
     "name": "chart.js",
     "homepage": "http://www.chartjs.org",
     "license": "MIT",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "author": {
       "name": "nnnick"
     }
@@ -198,7 +198,7 @@
     "name": "codemirror",
     "homepage": "http://codemirror.net",
     "license": "MIT",
-    "version": "5.22.0"
+    "version": "5.24.2"
   },
   "cropper": {
     "name": "cropper",
@@ -208,7 +208,7 @@
       "name": "Fengyuan Chen",
       "url": "http://chenfengyuan.com"
     },
-    "version": "2.3.4"
+    "version": "3.0.0-beta"
   },
   "d3": {
     "name": "d3",
@@ -218,7 +218,7 @@
       "name": "Mike Bostock",
       "url": "https://bost.ocks.org/mike"
     },
-    "version": "4.4.1"
+    "version": "4.7.0"
   },
   "datatables": {
     "name": "datatables",
@@ -298,7 +298,7 @@
     "homepage": "https://github.com/mkoryak/floatThead",
     "license": "MIT",
     "author": "Misha Koryak",
-    "version": "1.4.5"
+    "version": "2.0.3"
   },
   "formatter.js": {
     "name": "formatter.js",
@@ -309,14 +309,14 @@
   },
   "fullcalendar": {
     "name": "fullcalendar",
-    "homepage": "http://fullcalendar.io/",
+    "homepage": "https://fullcalendar.io/",
     "license": "MIT",
     "author": {
       "name": "Adam Shaw",
       "email": "arshaw@arshaw.com",
       "url": "http://arshaw.com/"
     },
-    "version": "3.1.0"
+    "version": "3.2.0"
   },
   "gmaps": {
     "name": "gmaps",
@@ -370,7 +370,7 @@
       "email": "andu@ctrlz.ro",
       "url": "http://alexandrubadiu.ro"
     },
-    "version": "0.4.3"
+    "version": "0.4.4"
   },
   "icheck": {
     "name": "icheck",
@@ -402,7 +402,7 @@
     "homepage": "http://isotope.metafizzy.co",
     "license": "GPL-3.0",
     "author": "Metafizzy",
-    "version": "3.0.1"
+    "version": "3.0.2"
   },
   "jquery": {
     "name": "jquery",
@@ -558,7 +558,7 @@
     "homepage": "http://brm.io/jquery-match-height/",
     "license": "MIT",
     "author": "Liam Brummitt <liam@brm.io> (http://brm.io/)",
-    "version": "0.7.0"
+    "version": "0.7.2"
   },
   "jquery-mousewheel": {
     "name": "jquery-mousewheel",
@@ -756,7 +756,7 @@
     "homepage": "https://jaredreich.com/projects/notie",
     "license": "MIT",
     "author": "Jared Reich",
-    "version": "3.9.5"
+    "version": "4.1.0"
   },
   "nprogress": {
     "name": "nprogress",
@@ -884,7 +884,7 @@
       "url": "http://filamentgroup.com/",
       "company": "Filament Group"
     },
-    "version": "3.0.0-beta.3"
+    "version": "3.0.0"
   },
   "tether": {
     "name": "tether",
@@ -942,7 +942,7 @@
     "homepage": "https://github.com/sandywalker/webui-popover",
     "license": "MIT",
     "author": "Sandy Duan <sanddywalker@gmail.com>",
-    "version": "1.2.17"
+    "version": "1.2.18"
   },
   "x-editable": {
     "name": "x-editable",
@@ -963,7 +963,7 @@
   "FooTable": {
     "name": "FooTable",
     "homepage": "https://github.com/fooplugins/FooTable",
-    "version": "3.1.3",
+    "version": "3.1.4",
     "license": "GPL v3"
   },
   "editable-table": {
@@ -972,10 +972,10 @@
     "license": "MIT"
   },
   "gauge.js": {
-    "name": "bernii/gauge.js",
+    "name": "gauge.js",
     "homepage": "https://github.com/bernii/gauge.js",
     "license": "MIT",
-    "version": "1.2.1"
+    "version": "1.3.2"
   },
   "jquery-labelauty": {
     "name": "jquery-labelauty",
@@ -1154,5 +1154,10 @@
     "license": "MIT",
     "author": "sindu12jun <imgonnalovetheworld@gmail.com>",
     "version": "1.0.1"
+  },
+  "flot": {
+    "name": "Flot",
+    "homepage": "https://github.com/flot/flot",
+    "version": "0.8.3"
   }
 }

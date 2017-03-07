@@ -2,6 +2,58 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[3.1.0] - 2017-3-7
+--------------------
+### Fixed
+- A link button color issue
+- Icon box align bug
+- Arrow spacing 1px bug for popover
+- Panel actions example toggle error
+- Rating files missing issue
+- Ribbon issue with browser Edge and ie 11
+- File upload input 1px space issue
+- Jquery tabledit button background issue
+- Bootstrap select shadow issue in material style
+- Bootstrap table dynamic url problem
+- Datatable extention issue
+- Chartist tooltip location issue
+- Taskboard js error
+- Menubar.js console error in Iconbar layout
+- Topbar menu background color issue in Topbar layout
+- Topbar menu dark skin color issue in Topbar layout
+- Nav tabs console warning
+- Dashboard v2 page issue
+- Floatthead top issue in Topbar and Topicon layout
+
+### Improved
+- Footable examples
+- Rebuild structure/media.html base on flexbox
+- Ribbon text overflow
+- Utilties helper (sizing-w/h, spacing, flex)
+- Rename tag to badge for avoid conflicts with wordpress stlyes
+- Adjust tooltip arrow
+- Adjust card base on flexbox
+- Adjust list group base on flexbox
+- Adjust input-group and btn-group base on flexbox
+- Media app overview page
+- Profile v2 page
+
+### Updated
+- Bootstrap to 4.0.0-alpha.6 (20170307)
+- ace-builds to 1.2.6
+- blueimp-file-upload to 9.17.0
+- bootstrap-table to 1.11.2
+- chart.js to 2.5.0
+- codemirror to 5.24.2
+- cropper to 3.0.0-beta
+- d3 to 4.7.0
+- floatthead to 2.0.3
+- fullcalendar to 3.2.0
+- html5sortable to 0.4.4
+- jquery-match-height to 0.7.2
+- notie to 4.1.0
+- tablesaw to 3.0.0
+
 [3.0.6] - 2017-1-8
 --------------------
 ### Added

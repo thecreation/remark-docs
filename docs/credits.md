@@ -18,32 +18,32 @@ web-icons  | 0.2.3  | [https://github.com/amazingSurge/web-icons](https://github
 ###11.2 Plugins
 Name          | Version      | Url        | License
 ------------- | ------------ |------------|------------
-ace-builds  | 1.2.5  | [https://github.com/ajaxorg/ace-builds](https://github.com/ajaxorg/ace-builds)  | BSD
+ace-builds  | 1.2.6  | [https://github.com/ajaxorg/ace-builds](https://github.com/ajaxorg/ace-builds)  | BSD
 alertify.js  | 1.0.12  | [https://alertifyjs.org/](https://alertifyjs.org/)  | MIT
 animsition  | 4.0.2  | [http://blivesta.github.io/animsition](http://blivesta.github.io/animsition)  | MIT
 autosize  | 3.0.20  | [http://www.jacklmoore.com/autosize](http://www.jacklmoore.com/autosize)  | MIT
-blueimp-file-upload  | 9.14.2  | [https://github.com/blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)  | MIT
+blueimp-file-upload  | 9.17.0  | [https://github.com/blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)  | MIT
 bootbox  | 4.4.0  | [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)  | MIT
 bootstrap-datepicker  | 1.6.4  | [https://github.com/eternicode/bootstrap-datepicker](https://github.com/eternicode/bootstrap-datepicker)  | Apache-2.0
 bootstrap-hover-dropdown  | 2.2.1  | [https://github.com/CWSpear/bootstrap-hover-dropdown](https://github.com/CWSpear/bootstrap-hover-dropdown)  | MIT
 bootstrap-markdown  | 2.10.0  | [https://github.com/toopay/bootstrap-markdown](https://github.com/toopay/bootstrap-markdown)  | Apache-2.0
 bootstrap-maxlength  | 1.6.0  | [https://github.com/mimo84/bootstrap-maxlength#readme](https://github.com/mimo84/bootstrap-maxlength#readme)  | MIT
-bootstrap-select  | 1.12.1  | [http://silviomoreto.github.io/bootstrap-select](http://silviomoreto.github.io/bootstrap-select)  | MIT
+bootstrap-select  | 1.12.2  | [http://silviomoreto.github.io/bootstrap-select](http://silviomoreto.github.io/bootstrap-select)  | MIT
 bootstrap-sweetalert  | 1.0.1  | [http://lipis.github.io/bootstrap-sweetalert/](http://lipis.github.io/bootstrap-sweetalert/)  | MIT
-bootstrap-table  | 1.11.0  | [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)  | MIT
+bootstrap-table  | 1.11.2  | [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)  | MIT
 bootstrap-tagsinput  | 0.7.1  | [http://timschlechter.github.io/bootstrap-tagsinput/examples/](http://timschlechter.github.io/bootstrap-tagsinput/examples/)  | MIT
 bootstrap-tokenfield  | 0.12.0  | [http://sliptree.github.io/bootstrap-tokenfield/](http://sliptree.github.io/bootstrap-tokenfield/)  | MIT
 bootstrap-touchspin  | 3.1.1  | [http://www.virtuosoft.eu/code/bootstrap-touchspin/](http://www.virtuosoft.eu/code/bootstrap-touchspin/)  | Apache 2.0
 bootstrap-treeview  | 1.2.0  | [https://github.com/jonmiles/bootstrap-treeview](https://github.com/jonmiles/bootstrap-treeview)  | Apache 2.0
 breakpoints-js  | 1.0.4  | [https://github.com/amazingSurge/breakpoints-js](https://github.com/amazingSurge/breakpoints-js)  | LGPL-3.0
 c3  | 0.4.11  | [https://github.com/masayuki0812/c3](https://github.com/masayuki0812/c3)  | MIT
-chart.js  | 2.4.0  | [http://www.chartjs.org](http://www.chartjs.org)  | MIT
+chart.js  | 2.5.0  | [http://www.chartjs.org](http://www.chartjs.org)  | MIT
 chartist  | 0.10.1  | [https://gionkunz.github.io/chartist-js](https://gionkunz.github.io/chartist-js)  | WTFPL
 chartist-plugin-tooltip  | 0.0.11  | [https://github.com/CodeYellowBV/chartist-plugin-tooltip#readme](https://github.com/CodeYellowBV/chartist-plugin-tooltip#readme)  | ISC
 clockpicker  | 0.0.7  | [http://weareoutman.github.io/clockpicker/](http://weareoutman.github.io/clockpicker/)  | MIT
-codemirror  | 5.22.0  | [http://codemirror.net](http://codemirror.net)  | MIT
-cropper  | 2.3.4  | [https://fengyuanchen.github.io/cropper](https://fengyuanchen.github.io/cropper)  | MIT
-d3  | 4.4.1  | [https://d3js.org](https://d3js.org)  | BSD-3-Clause
+codemirror  | 5.24.2  | [http://codemirror.net](http://codemirror.net)  | MIT
+cropper  | 3.0.0-beta  | [https://fengyuanchen.github.io/cropper](https://fengyuanchen.github.io/cropper)  | MIT
+d3  | 4.7.0  | [https://d3js.org](https://d3js.org)  | BSD-3-Clause
 datatables  | 1.10.13  | [http://datatables.net](http://datatables.net)  | MIT
 datatables-bootstrap  | 0.0.1  | [https://github.com/DataTables/Plugins](https://github.com/DataTables/Plugins)  | MIT
 datatables-fixedheader  | 3.1.0  | [https://datatables.net](https://datatables.net)  | MIT
@@ -53,19 +53,19 @@ datepair.js  | 0.4.15  | [http://jonthornton.github.com/Datepair.js](http://jont
 draggabilly  | 2.1.1  | [http://draggabilly.desandro.com/](http://draggabilly.desandro.com/)  | MIT
 dropify  | 0.2.1  | [https://github.com/JeremyFagis/dropify](https://github.com/JeremyFagis/dropify)  | MIT
 flag-icon-css  | 2.8.0  | [https://github.com/lipis/flag-icon-css#readme](https://github.com/lipis/flag-icon-css#readme)  | MIT
-floatthead  | 1.4.5  | [https://github.com/mkoryak/floatThead](https://github.com/mkoryak/floatThead)  | MIT
+floatthead  | 2.0.3  | [https://github.com/mkoryak/floatThead](https://github.com/mkoryak/floatThead)  | MIT
 formatter.js  | 0.1.5  | [https://github.com/firstopinion/formatter.js](https://github.com/firstopinion/formatter.js)  | MIT
-fullcalendar  | 3.1.0  | [http://fullcalendar.io/](http://fullcalendar.io/)  | MIT
+fullcalendar  | 3.2.0  | [https://fullcalendar.io/](https://fullcalendar.io/)  | MIT
 gmaps  | 0.4.24  | [http://hpneo.github.com/gmaps/](http://hpneo.github.com/gmaps/)  | MIT
 gridstack  | 0.2.6  | [http://troolee.github.io/gridstack.js/](http://troolee.github.io/gridstack.js/)  | MIT
 highlight.js  | 9.7.0  | [https://highlightjs.org/](https://highlightjs.org/)  | BSD-3-Clause
 holderjs  | 2.9.4  | [http://holderjs.com](http://holderjs.com)  | MIT
 html5shiv  | 3.7.3  | [https://github.com/aFarkas/html5shiv#readme](https://github.com/aFarkas/html5shiv#readme)  | MIT and GPL2
-html5sortable  | 0.4.3  | [https://github.com/voidberg/html5sortable#readme](https://github.com/voidberg/html5sortable#readme)  | MIT
+html5sortable  | 0.4.4  | [https://github.com/voidberg/html5sortable#readme](https://github.com/voidberg/html5sortable#readme)  | MIT
 icheck  | 1.0.2  | [http://fronteed.com/iCheck/](http://fronteed.com/iCheck/)  | MIT
 intro.js  | 2.4.0  | [http://introjs.com](http://introjs.com)  | See LICENSE.md
 ion-rangeslider  | 2.1.6  | [http://ionden.com/a/plugins/ion.rangeSlider/en.html](http://ionden.com/a/plugins/ion.rangeSlider/en.html)  | MIT
-isotope-layout  | 3.0.1  | [http://isotope.metafizzy.co](http://isotope.metafizzy.co)  | GPL-3.0
+isotope-layout  | 3.0.2  | [http://isotope.metafizzy.co](http://isotope.metafizzy.co)  | GPL-3.0
 jquery  | 2.2.4  | [http://jquery.com](http://jquery.com)  | MIT
 jquery-asBreadcrumbs  | 0.2.2  | [https://github.com/amazingSurge/jquery-asBreadcrumbs](https://github.com/amazingSurge/jquery-asBreadcrumbs)  | LGPL-3.0
 jquery-asColor  | 0.3.4  | [https://github.com/amazingSurge/asColor](https://github.com/amazingSurge/asColor)  | LGPL-3.0
@@ -80,7 +80,7 @@ jquery-asScrollable  | 0.4.7  | [https://github.com/amazingSurge/jquery-asScroll
 jquery-asScrollbar  | 0.5.4  | [https://github.com/amazingSurge/jquery-asScrollbar](https://github.com/amazingSurge/jquery-asScrollbar)  | LGPL-3.0
 jquery-asSpinner  | 0.4.2  | [https://github.com/amazingSurge/jquery-asSpinner](https://github.com/amazingSurge/jquery-asSpinner)  | LGPL-3.0
 jquery-knob  | 1.2.11  | [https://github.com/aterrien/jQuery-Knob#readme](https://github.com/aterrien/jQuery-Knob#readme)  | MIT
-jquery-match-height  | 0.7.0  | [http://brm.io/jquery-match-height/](http://brm.io/jquery-match-height/)  | MIT
+jquery-match-height  | 0.7.2  | [http://brm.io/jquery-match-height/](http://brm.io/jquery-match-height/)  | MIT
 jquery-mousewheel  | 3.1.13  | [https://github.com/jquery/jquery-mousewheel](https://github.com/jquery/jquery-mousewheel)  | 
 jquery-placeholder  | 2.3.1  | [https://github.com/mathiasbynens/jquery-placeholder](https://github.com/mathiasbynens/jquery-placeholder)  | MIT
 jquery-selective  | 0.3.5  | [https://github.com/amazingSurge/jquery-selective](https://github.com/amazingSurge/jquery-selective)  | LGPL-3.0
@@ -102,7 +102,7 @@ masonry-layout  | 4.1.1  | [http://masonry.desandro.com](http://masonry.desandro
 moment  | 2.17.1  | [http://momentjs.com](http://momentjs.com)  | MIT
 morris.js  | 0.5.0  | [http://morrisjs.github.com/morris.js](http://morrisjs.github.com/morris.js)  | BSD-2-Clause
 multiselect  | 0.9.12  | [undefined](undefined)  | WTFPL
-notie  | 3.9.5  | [https://jaredreich.com/projects/notie](https://jaredreich.com/projects/notie)  | MIT
+notie  | 4.1.0  | [https://jaredreich.com/projects/notie](https://jaredreich.com/projects/notie)  | MIT
 nprogress  | 0.2.0  | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)  | MIT
 owl.carousel  | 2.2.0  | [https://github.com/OwlCarousel2/OwlCarousel2](https://github.com/OwlCarousel2/OwlCarousel2)  | MIT
 peity  | 3.2.1  | [https://github.com/benpickles/peity](https://github.com/benpickles/peity)  | MIT
@@ -117,19 +117,19 @@ slick-carousel  | 1.6.0  | [https://github.com/kenwheeler/slick#readme](https://
 stickyfill  | 1.1.1  | [https://github.com/webmodules/stickyfill](https://github.com/webmodules/stickyfill)  | MIT
 summernote  | 0.8.2  | [https://github.com/summernote/summernote#readme](https://github.com/summernote/summernote#readme)  | MIT
 switchery  | 0.0.2  | [https://github.com/antonamurskiy/switchery#readme](https://github.com/antonamurskiy/switchery#readme)  | MIT
-tablesaw  | 3.0.0-beta.3  | [https://github.com/filamentgroup/tablesaw](https://github.com/filamentgroup/tablesaw)  | MIT
+tablesaw  | 3.0.0  | [https://github.com/filamentgroup/tablesaw](https://github.com/filamentgroup/tablesaw)  | MIT
 tether  | 1.4.0  | [https://github.com/HubSpot/tether#readme](https://github.com/HubSpot/tether#readme)  | MIT
 textarea-autosize  | 0.4.2  | [http://javierjulio.github.io/textarea-autosize/](http://javierjulio.github.io/textarea-autosize/)  | MIT
 timepicker  | 1.11.9  | [http://jonthornton.github.com/jquery-timepicker/](http://jonthornton.github.com/jquery-timepicker/)  | MIT
 to-markdown  | 3.0.3  | [https://github.com/domchristie/to-markdown#readme](https://github.com/domchristie/to-markdown#readme)  | MIT
 toastr  | 2.1.2  | [http://www.toastrjs.com](http://www.toastrjs.com)  | MIT
 typeahead.js  | 0.11.1  | [http://twitter.github.com/typeahead.js](http://twitter.github.com/typeahead.js)  | MIT
-webui-popover  | 1.2.17  | [https://github.com/sandywalker/webui-popover](https://github.com/sandywalker/webui-popover)  | MIT
+webui-popover  | 1.2.18  | [https://github.com/sandywalker/webui-popover](https://github.com/sandywalker/webui-popover)  | MIT
 x-editable  | 1.5.1  | [http://github.com/vitalets/x-editable](http://github.com/vitalets/x-editable)  | MIT
 Flot  | 0.8.3  | [https://github.com/flot/flot](https://github.com/flot/flot)  | Apache 2.0
-FooTable  | 3.1.3  | [https://github.com/fooplugins/FooTable](https://github.com/fooplugins/FooTable)  | GPL v3
+FooTable  | 3.1.4  | [https://github.com/fooplugins/FooTable](https://github.com/fooplugins/FooTable)  | GPL v3
 editable-table  | stable  | [https://github.com/mindmup/editable-table](https://github.com/mindmup/editable-table)  | MIT
-bernii/gauge.js  | 1.2.1  | [https://github.com/bernii/gauge.js](https://github.com/bernii/gauge.js)  | MIT
+gauge.js  | 1.3.2  | [https://github.com/bernii/gauge.js](https://github.com/bernii/gauge.js)  | MIT
 jquery-labelauty  | 1.1.1  | [https://github.com/fntneves/jquery-labelauty](https://github.com/fntneves/jquery-labelauty)  | MIT
 jquery_appear  | 0.3.6  | [https://github.com/morr/jquery.appear](https://github.com/morr/jquery.appear)  | MIT
 mapbox.js  | 2.4.0  | [https://github.com/mapbox/mapbox.js](https://github.com/mapbox/mapbox.js)  | See LICENSE.md
@@ -144,6 +144,7 @@ jquery-hoverintent  | 1.8.1  | [http://cherne.net/brian/resources/jquery.hoverIn
 imagesloaded  | 4.1.1  | [https://github.com/desandro/imagesloaded](https://github.com/desandro/imagesloaded)  | MIT
 leaflet-markercluster  | stable  | [https://github.com/Leaflet/Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)  | MIT
 table-dragger  | 1.0.1  | [https://sindu12jun.github.io/table-dragger/](https://sindu12jun.github.io/table-dragger/)  | MIT
+Flot  | 0.8.3  | [https://github.com/flot/flot](https://github.com/flot/flot)  | 
 
 ###11.3 Images
 
