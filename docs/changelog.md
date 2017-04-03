@@ -2,6 +2,86 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[3.2.0] - 2017-4-3
+--------------------
+### Fixed
+- Login, register page menubar js error issue
+- Document article list group nav item issue
+- Skins color issue
+- Cover gallery issue
+- Media heading font size issue
+- Form maxlength plugin margin issue
+- Menubar folded mode sub menu parent click issue
+- Safari web icons issue
+- Tour demo not working issue
+
+### Updated
+- blueimp-file-upload to 9.18.0
+- fullcalendar to 3.3.1
+- maplace-js to 0.2.10
+- Summernote to 0.8.3
+- Brand icons to 0.3.4
+- Web icons to 0.2.4
+
+[3.1.2] - 2017-3-27
+--------------------
+### Fixed
+- Skins issue
+- Form wizard issue
+- Cover gallery issue
+- Media heading font size issue
+- List group float issue
+- Bootstrap select styling issue
+- Tooltip arrow issue in widget page
+- Social wizard rounded corner issue
+- Max length status text padding issue
+- Footable searchbar styling issue
+- Responsive table select layout issue
+- Mailbox action button not highlight issue
+
+### Updated
+- codemirror to 5.25.0
+- Cropper to 3.0.0-rc
+- D3 to 4.7.3
+- Fullcalendar to 3.3.0
+- intro.js to 2.5.0
+- ion-rangeslider to 2.1.7
+- Jquery SlidePanel to 0.3.4
+- maplace-js to 0.2.9
+- moment to 2.18.1
+- highlight.js to 9.10.0
+- isotope to 3.0.3
+- notie to 4.3.0
+- screenfull to 3.1.0
+- plyr to 2.0.12
+- to-markdown to 3.0.4
+
+[3.1.1] - 2017-3-17
+--------------------
+### Fixed
+- Menubar actived item color issue in Topbar layout
+- nav-tab-vertical solid left issue
+- nav-tabs-vertical border-bottom-color issue
+- Remove unnecessary html and fix styles issue for footable plugin
+- Badge not overlap icon issue
+- Navbar search issue
+- input-group uot working issue
+
+### Improved
+- Replace context-menu plugin with new active one
+- w/h/m/p css helper class (utilties)
+- use raw bootstrap scss source instead of modified one
+
+### Updated
+- Font awesome icons to 4.7.0
+- Web icons to 0.2.3
+- 7-stroke icons to 1.2.0
+- Ionicons icons to 3.0.0
+- Material design iconic icons to 2.2.0
+- Open iconic icons to 1.1.1
+- Themify icons to 1.0.1
+- Weather icons to 1.3.2
+
 [3.1.0] - 2017-3-7
 --------------------
 ### Fixed

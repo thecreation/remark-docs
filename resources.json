@@ -43,7 +43,7 @@
       "name": "Sebastian Tschan",
       "url": "https://blueimp.net"
     },
-    "version": "9.17.0"
+    "version": "9.18.0"
   },
   "bootbox": {
     "name": "bootbox",
@@ -198,7 +198,7 @@
     "name": "codemirror",
     "homepage": "http://codemirror.net",
     "license": "MIT",
-    "version": "5.24.2"
+    "version": "5.25.0"
   },
   "cropper": {
     "name": "cropper",
@@ -208,7 +208,7 @@
       "name": "Fengyuan Chen",
       "url": "http://chenfengyuan.com"
     },
-    "version": "3.0.0-beta"
+    "version": "3.0.0-rc"
   },
   "d3": {
     "name": "d3",
@@ -218,7 +218,7 @@
       "name": "Mike Bostock",
       "url": "https://bost.ocks.org/mike"
     },
-    "version": "4.7.0"
+    "version": "4.7.4"
   },
   "datatables": {
     "name": "datatables",
@@ -284,7 +284,7 @@
     "homepage": "https://github.com/JeremyFagis/dropify",
     "license": "MIT",
     "author": "Jeremy FAGIS <jeremy@fagis.fr> (http://fagis.fr)",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   "flag-icon-css": {
     "name": "flag-icon-css",
@@ -316,7 +316,7 @@
       "email": "arshaw@arshaw.com",
       "url": "http://arshaw.com/"
     },
-    "version": "3.2.0"
+    "version": "3.3.1"
   },
   "gmaps": {
     "name": "gmaps",
@@ -382,9 +382,9 @@
   "intro.js": {
     "name": "intro.js",
     "homepage": "http://introjs.com",
-    "license": "See LICENSE.md",
+    "license": "AGPL-3.0",
     "author": "Afshin Mehrabani <afshin.meh@gmail.com>",
-    "version": "2.4.0"
+    "version": "2.5.0"
   },
   "ion-rangeslider": {
     "name": "ion-rangeslider",
@@ -395,14 +395,14 @@
       "email": "ionden.tech@gmail.com",
       "url": "https://github.com/IonDen"
     },
-    "version": "2.1.6"
+    "version": "2.1.7"
   },
   "isotope-layout": {
     "name": "isotope-layout",
     "homepage": "http://isotope.metafizzy.co",
     "license": "GPL-3.0",
     "author": "Metafizzy",
-    "version": "3.0.2"
+    "version": "3.0.3"
   },
   "jquery": {
     "name": "jquery",
@@ -599,7 +599,7 @@
       "email": "amazingSurge@gmail.com",
       "url": "amazingSurge.com"
     },
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   "jquery-strength": {
     "name": "jquery-strength",
@@ -713,7 +713,7 @@
     "homepage": "https://github.com/danielemoraschi/maplace.js",
     "license": "MIT",
     "author": "Daniele Moraschi <daniele.moraschi@gmail.com>",
-    "version": "0.2.7"
+    "version": "0.2.10"
   },
   "marked": {
     "name": "marked",
@@ -734,7 +734,7 @@
     "homepage": "http://momentjs.com",
     "license": "MIT",
     "author": "Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
-    "version": "2.17.1"
+    "version": "2.18.1"
   },
   "morris.js": {
     "name": "morris.js",
@@ -756,7 +756,7 @@
     "homepage": "https://jaredreich.com/projects/notie",
     "license": "MIT",
     "author": "Jared Reich",
-    "version": "4.1.0"
+    "version": "4.3.0"
   },
   "nprogress": {
     "name": "nprogress",
@@ -788,7 +788,7 @@
     "homepage": "http://plyr.io",
     "license": "MIT",
     "author": "Sam Potts <sam@selz.com>",
-    "version": "2.0.11"
+    "version": "2.0.12"
   },
   "raphael": {
     "name": "raphael",
@@ -832,7 +832,7 @@
       "email": "sindresorhus@gmail.com",
       "url": "sindresorhus.com"
     },
-    "version": "3.0.2"
+    "version": "3.1.0"
   },
   "select2": {
     "name": "select2",
@@ -865,7 +865,7 @@
       "name": "hackerwins",
       "email": "<susukang98@gmail.com>"
     },
-    "version": "0.8.2"
+    "version": "0.8.3"
   },
   "switchery": {
     "name": "switchery",
@@ -919,7 +919,7 @@
     "homepage": "https://github.com/domchristie/to-markdown#readme",
     "license": "MIT",
     "author": "Dom Christie",
-    "version": "3.0.3"
+    "version": "3.0.4"
   },
   "toastr": {
     "name": "toastr",
@@ -1159,5 +1159,15 @@
     "name": "Flot",
     "homepage": "https://github.com/flot/flot",
     "version": "0.8.3"
+  },
+  "jquery-contextmenu": {
+    "name": "jquery-contextmenu",
+    "homepage": "http://swisnl.github.io/jQuery-contextMenu/",
+    "license": "MIT",
+    "author": {
+      "name": "Björn Brala",
+      "url": "http://www.swis.nl"
+    },
+    "version": "2.4.4"
   }
 }
