@@ -2,6 +2,40 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[3.2.1] - 2017-5-19
+--------------------
+### Fixed
+- topbar menu can't close issue
+- datatable buttons not working issue
+- input addon issue
+- button addon issue
+- document article sidebar issue
+- navbar search issue
+- mega menu dropdown issue
+- chat sidebar scroll issue
+- button primary border issue
+
+### Updated
+- chartist to 0.11.0
+- codemirror to 5.25.2
+- cropper to 3.0.0-rc.1
+- d3 to 4.9.1
+- fullcalendar to 3.4.0
+- gridstack to 0.3.0
+- html5sortable to 0.6.0
+- isotope to 3.0.4
+- mmenu to 6.1.0
+- jstree to 3.3.4
+- masonry to 4.2.0
+- notie to 4.3.1
+- plyr to 2.0.13
+- screenfull to 3.2.0
+- gauge.js to 1.3.4
+- mapbox.js to 3.1.0
+- media-match to 2.0.3
+- imagesloaded to 4.1.2
+- datatables to 1.10.15
+
 [3.2.0] - 2017-4-3
 --------------------
 ### Fixed

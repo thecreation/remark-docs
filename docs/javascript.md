@@ -33,7 +33,7 @@ We use ``babel-es2015-preset`` and UMD support in the babel config. You can cust
 ##7.3 Core Script
 We build components that manage their own state, in this case the code will have a better logic.
 
-In `global/js/core.js`, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
+In `global/js/Base.js`, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
 
 ###State Container
 `State`is a state container which is defined in `global/js/State.js`.

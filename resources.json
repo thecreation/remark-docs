@@ -173,7 +173,7 @@
     "name": "chartist",
     "homepage": "https://gionkunz.github.io/chartist-js",
     "author": "Gion Kunz",
-    "version": "0.10.1",
+    "version": "0.11.0",
     "license": "WTFPL"
   },
   "chartist-plugin-tooltip": {
@@ -198,7 +198,7 @@
     "name": "codemirror",
     "homepage": "http://codemirror.net",
     "license": "MIT",
-    "version": "5.25.0"
+    "version": "5.25.2"
   },
   "cropper": {
     "name": "cropper",
@@ -208,7 +208,7 @@
       "name": "Fengyuan Chen",
       "url": "http://chenfengyuan.com"
     },
-    "version": "3.0.0-rc"
+    "version": "3.0.0-rc.1"
   },
   "d3": {
     "name": "d3",
@@ -218,7 +218,7 @@
       "name": "Mike Bostock",
       "url": "https://bost.ocks.org/mike"
     },
-    "version": "4.7.4"
+    "version": "4.9.1"
   },
   "datatables": {
     "name": "datatables",
@@ -316,7 +316,7 @@
       "email": "arshaw@arshaw.com",
       "url": "http://arshaw.com/"
     },
-    "version": "3.3.1"
+    "version": "3.4.0"
   },
   "gmaps": {
     "name": "gmaps",
@@ -330,7 +330,7 @@
     "homepage": "http://troolee.github.io/gridstack.js/",
     "license": "MIT",
     "author": "Pavel Reznikov <pashka.reznikov@gmail.com>",
-    "version": "0.2.6"
+    "version": "0.3.0"
   },
   "highlight.js": {
     "name": "highlight.js",
@@ -366,11 +366,11 @@
     "homepage": "https://github.com/voidberg/html5sortable#readme",
     "license": "MIT",
     "author": {
-      "name": "Alexandru Badiu",
-      "email": "andu@ctrlz.ro",
-      "url": "http://alexandrubadiu.ro"
+      "name": "Lukas Oppermann",
+      "email": "lukas@vea.re",
+      "url": "http://vea.re"
     },
-    "version": "0.4.4"
+    "version": "0.6.0"
   },
   "icheck": {
     "name": "icheck",
@@ -402,7 +402,7 @@
     "homepage": "http://isotope.metafizzy.co",
     "license": "GPL-3.0",
     "author": "Metafizzy",
-    "version": "3.0.3"
+    "version": "3.0.4"
   },
   "jquery": {
     "name": "jquery",
@@ -645,7 +645,7 @@
     "homepage": "https://github.com/FrDH/jQuery.mmenu#readme",
     "license": "CC-BY-NC-4.0",
     "author": "Fred Heusschen <info@frebsite.nl>",
-    "version": "5.7.8"
+    "version": "6.1.0"
   },
   "jsgrid": {
     "name": "jsgrid",
@@ -666,7 +666,7 @@
       "email": "jstree@jstree.com",
       "url": "http://vakata.com"
     },
-    "version": "3.3.3"
+    "version": "3.3.4"
   },
   "jvectormap": {
     "name": "jvectormap",
@@ -727,7 +727,7 @@
     "homepage": "http://masonry.desandro.com",
     "license": "MIT",
     "author": "David DeSandro",
-    "version": "4.1.1"
+    "version": "4.2.0"
   },
   "moment": {
     "name": "moment",
@@ -753,10 +753,10 @@
   },
   "notie": {
     "name": "notie",
-    "homepage": "https://jaredreich.com/projects/notie",
+    "homepage": "https://jaredreich.com/notie",
     "license": "MIT",
     "author": "Jared Reich",
-    "version": "4.3.0"
+    "version": "4.3.1"
   },
   "nprogress": {
     "name": "nprogress",
@@ -787,8 +787,8 @@
     "name": "plyr",
     "homepage": "http://plyr.io",
     "license": "MIT",
-    "author": "Sam Potts <sam@selz.com>",
-    "version": "2.0.12"
+    "author": "Sam Potts <sam@potts.es>",
+    "version": "2.0.13"
   },
   "raphael": {
     "name": "raphael",
@@ -832,7 +832,7 @@
       "email": "sindresorhus@gmail.com",
       "url": "sindresorhus.com"
     },
-    "version": "3.1.0"
+    "version": "3.2.0"
   },
   "select2": {
     "name": "select2",
@@ -975,7 +975,7 @@
     "name": "gauge.js",
     "homepage": "https://github.com/bernii/gauge.js",
     "license": "MIT",
-    "version": "1.3.2"
+    "version": "1.3.4"
   },
   "jquery-labelauty": {
     "name": "jquery-labelauty",
@@ -996,7 +996,7 @@
     "name": "mapbox.js",
     "homepage": "https://github.com/mapbox/mapbox.js",
     "license": "See LICENSE.md",
-    "version": "2.4.0"
+    "version": "3.1.0"
   },
   "leaflet.markercluster": {
     "name": "leaflet.markercluster",
@@ -1007,7 +1007,7 @@
   "media-match": {
     "name": "media-match",
     "homepage": "https://github.com/weblinc/media-match",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "license": "MIT"
   },
   "nestable2": {
@@ -1140,7 +1140,7 @@
     "homepage": "https://github.com/desandro/imagesloaded",
     "license": "MIT",
     "author": "David DeSandro",
-    "version": "4.1.1"
+    "version": "4.1.2"
   },
   "leaflet-markercluster": {
     "name": "leaflet-markercluster",
@@ -1169,5 +1169,205 @@
       "url": "http://www.swis.nl"
     },
     "version": "2.4.4"
+  },
+  "datatables.net": {
+    "name": "datatables.net",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.10.15"
+  },
+  "datatables.net-bs4": {
+    "name": "datatables.net-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.10.15"
+  },
+  "datatables.net-buttons": {
+    "name": "datatables.net-buttons",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "2.2.0"
+  },
+  "datatables.net-buttons-bs4": {
+    "name": "datatables.net-buttons-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.3.1"
+  },
+  "datatables.net-colreorder": {
+    "name": "datatables.net-colreorder",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.3.3"
+  },
+  "datatables.net-colreorder-bs4": {
+    "name": "datatables.net-colreorder-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.3.3"
+  },
+  "datatables.net-fixedcolumns": {
+    "name": "datatables.net-fixedcolumns",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "3.2.2"
+  },
+  "datatables.net-fixedcolumns-bs4": {
+    "name": "datatables.net-fixedcolumns-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "3.2.2"
+  },
+  "datatables.net-fixedheader": {
+    "name": "datatables.net-fixedheader",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "3.1.2"
+  },
+  "datatables.net-fixedheader-bs4": {
+    "name": "datatables.net-fixedheader-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "3.1.2"
+  },
+  "datatables.net-responsive": {
+    "name": "datatables.net-responsive",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "2.1.1"
+  },
+  "datatables.net-responsive-bs4": {
+    "name": "datatables.net-responsive-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "2.1.1"
+  },
+  "datatables.net-rowgroup": {
+    "name": "datatables.net-rowgroup",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.0.0"
+  },
+  "datatables.net-rowgroup-bs4": {
+    "name": "datatables.net-rowgroup-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.0.0"
+  },
+  "datatables.net-rowreorder": {
+    "name": "datatables.net-rowreorder",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.2.0"
+  },
+  "datatables.net-rowreorder-bs4": {
+    "name": "datatables.net-rowreorder-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.2.0"
+  },
+  "datatables.net-scroller": {
+    "name": "datatables.net-scroller",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.4.2"
+  },
+  "datatables.net-scroller-bs4": {
+    "name": "datatables.net-scroller-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.4.2"
+  },
+  "datatables.net-select": {
+    "name": "datatables.net-select",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.2.2"
+  },
+  "datatables.net-select-bs4": {
+    "name": "datatables.net-select-bs4",
+    "homepage": "https://datatables.net",
+    "license": "MIT",
+    "author": {
+      "name": "SpryMedia Ltd",
+      "url": "http://datatables.net"
+    },
+    "version": "1.2.2"
   }
 }
