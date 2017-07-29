@@ -1,7 +1,7 @@
 #2. Generator
 
 ##2.1 Install Node.js
-First, you must download and **install node.js** (which includes npm). **npm** stands for node packaged modules and is a way to manage development dependencies through [Node.js](http://nodejs.org/download/). You can check it in your terminal window using these commands ```node --version``` and ```npm --version```. You can download [Node.js](http://nodejs.org/download/) here.
+First, you must download and **install node.js** (which includes npm). **npm** stands for node packaged modules and is a way to manage development dependencies through [Node.js](https://nodejs.org/en/download/). You can check it in your terminal window using these commands ```node --version``` and ```npm --version```. You can download [Node.js](http://nodejs.org/download/) here.
 
 ##2.2 Prepare package
 Run ```npm install``` on the root folder of Remark download package from command line.
