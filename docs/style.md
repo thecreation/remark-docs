@@ -4,7 +4,7 @@
 All style changes, fixes, and improvements made for Remark will typically be added to ```(layout)/assets/css``` folder.
 The pre-complied styles for 3rd plugins are in each plugin folders under ```global/vendor/(plugin name)``` folder.
 
-To prevent losing your changes, you should add all of your customizations to a new stylesheet and include it separately in your pages. **Note** Also you must disable all ```grunt dist-css``` tasks in ```Gruntfile.js```.
+To prevent losing your changes, you should add all of your customizations to a new stylesheet and include it separately in your pages. **Note** Also you must disable all ```gulp styles``` tasks in ```gulpfile.babel.js```.
 
 ##6.2 Using Sass
  [Bootstrap](http://getbootstrap.com/) uses [Sass](http://sass-lang.com/) as its CSS pre-processor system. It will give you access to all the tools to perform even the most complex customizations with ease. So it is highly recommended that you switch to use the [Sass](http://sass-lang.com/) system as it is far superior, and offers a great deal of features and optimizations.
@@ -42,7 +42,7 @@ This section is only for [Sass](http://sass-lang.com/) users.
 We have added many features that allow variables, mixins, functions and many other techniques that allow you to make CSS more maintainable, themable and extendable. You will find them in ```global/src/scss/mixins_extend``` and you can use them to write the styles you like.
 
 In fact there is a simpler way to customize Remark. We have defined many variables in remark.
-If you want a customized site, you just change them and use ```grunt dist-css``` command to compile **css**. The style will be changed.
+If you want a customized site, you just change them and use ```gulp styles``` command to compile **css**. The style will be changed.
 
 The core variables is defined in:
 

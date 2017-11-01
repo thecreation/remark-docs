@@ -2,6 +2,100 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[4.0.0] - 2017-11-1
+--------------------
+### Improved
+- New gulp building system
+- Webpack sample config
+- New color skins
+- Automatic update 3rd vendor with gulp vendor task
+
+### Updated
+- bootstrap to v4-beta-2
+- ace-builds to 1.2.9
+- autosize to 4.0.0
+- blueimp-file-upload to 9.19.1
+- bootstrap-select to 1.12.4
+- breakpoints-js to 1.0.5
+- c3 to 0.4.18
+- chart.js to 2.7.1
+- codemirror to 5.31.0
+- cropper to 3.1.3
+- d3 to 3.5.17
+- fullcalendar to 3.6.2
+- html5sortable to 0.6.3
+- intro.js to 2.8.0-alpha.1
+- jquery to 3.2.1
+- jquery-asBreadcrumbs to 0.2.3
+- jquery-asColor to 0.3.6
+- jquery-asColorPicker to 0.4.4
+- jquery-asGradient to 0.3.3
+- jquery-asHoverScroll to 0.3.6
+- jquery-asPaginator to 0.3.3
+- jquery-asPieProgress to 0.4.7
+- jquery-asProgress to 0.2.4
+- jquery-asRange to 0.3.4
+- jquery-asScrollable to 0.4.10
+- jquery-asScrollbar to 0.5.7
+- jquery-asSpinner to 0.4.3
+- jquery-slidePanel to 0.3.5
+- jquery-strength to 0.2.5
+- jquery-wizard to 0.4.4
+- jquery.mmenu to 6.1.8
+- ladda to 1.0.5
+- moment to 2.19.1
+- plyr to 2.0.16
+- rickshaw to 1.6.3
+- screenfull to 3.3.2
+- select2 to 4.0.6-rc.0
+- slick-carousel to 1.8.1
+- summernote to 0.8.8
+- tablesaw to 3.0.5
+- timepicker to 1.11.12
+- FooTable to 3.1.6
+- gauge.js to 1.3.5
+- nestable2 to 1.6.0
+- table-dragger to 1.0.2
+- jquery-contextmenu 2.6.3
+- datatables.net to 1.10.16
+
+[3.3.0] - 2017-7-9
+--------------------
+### Fixed
+- Sortable list margin issue
+- Sortable list-group margin issue
+- Form wizard with pearls steps issue
+- Blog wizard cover quote border issue
+- Menubar margin issue in center layout
+- Mailbox icon margin issue
+- Gauge.js charts render issue
+- Dropify font weight issue when hover
+- Site menu item sub level not align issue
+- List item margin issue in ccode editor page
+- Menubar flipped layout issue
+- Project layout broken issue
+- Panel portlets drag not working issue
+- Jquery Tabledit btn toolbar issue
+- Recent activity widget text color issue
+- Flex layout issue in IE 11
+
+### Updated
+- ace-builds to 1.2.8
+- autosize to 3.0.21
+- bootbox to 1.7.1
+- bootstrap-select to 1.12.3
+- c3 to 0.4.14
+- chart.js to 2.6.0
+- codemirror to 5.27.4
+- cropper to 3.0.0-rc.3
+- html5sortable to 0.6.1
+- ion-rangeslider to 2.2.0
+- summernote to 0.8.4
+- tablesaw to 3.0.2
+- to-markdown to 3.1.0
+- mapbox.js to 3.1.1
+- imagesloaded to 4.1.3
+
 [3.2.1] - 2017-5-19
 --------------------
 ### Fixed

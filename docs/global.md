@@ -46,7 +46,7 @@ And The source files you can see below
         │   │   └── brand-icons.less
         │  ...
         │
-        ├── js/
+        ├── es/
         │   ├── components/
         │   ├── configs/
         │   ├── plugins/
@@ -64,4 +64,4 @@ And The source files you can see below
             │   └── jquery-selective.scss
            ...
 
-If you want compile the assets using the source files, you can set up the grunt/gulp. Learn more from previous section.
+We use [assets-manager](https://github.com/amazingSurge/assets-manager) to copy all 3rd vendors to `global/vendor` folder. Just exec `gulp vendor` command on `global` folder or generated layout folder.

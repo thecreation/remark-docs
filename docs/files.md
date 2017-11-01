@@ -66,25 +66,23 @@ Breakpoints();
 ``` html
 <script src="../../global/vendor/babel-external-helpers/babel-external-helpers.js"></script>
 <script src="../../global/vendor/jquery/jquery.js"></script>
-<script src="../../global/vendor/tether/tether.js"></script>
+<script src="../../global/vendor/popper-js/umd/popper.min.js"></script>
 <script src="../../global/vendor/bootstrap/bootstrap.js"></script>
 <script src="../../global/vendor/animsition/animsition.js"></script>
 <script src="../../global/vendor/mousewheel/jquery.mousewheel.js"></script>
 <script src="../../global/vendor/asscrollbar/jquery-asScrollbar.js"></script>
 <script src="../../global/vendor/asscrollable/jquery-asScrollable.js"></script>
 <script src="../../global/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
-<script src="../../global/vendor/screenfull/screenfull.js"></script>
-<script src="../../global/vendor/slidepanel/jquery-slidePanel.js"></script>
 ```
 
 #### Template relating scripts
 
 ``` html
-<script src="../../global/js/State.js"></script>
 <script src="../../global/js/Component.js"></script>
 <script src="../../global/js/Plugin.js"></script>
 <script src="../../global/js/Base.js"></script>
 <script src="../../global/js/Config.js"></script>
+
 <script src="../assets/js/Section/Menubar.js"></script>
 <script src="../assets/js/Section/GridMenu.js"></script>
 <script src="../assets/js/Section/Sidebar.js"></script>
@@ -109,7 +107,9 @@ By adding the script below, it will initialise the template functions. We explai
 <script>
 (function(document, window, $) {
   'use strict';
+
   var Site = window.Site;
+  
   $(document).ready(function() {
     Site.run();
   });
@@ -125,4 +125,4 @@ The code below will use red skin.
 <link href="../assets/skins/red.css" rel="stylesheet" type="text/css">
 ```
 
-If you want customize the colors or create a new skin, you can customize the skin's scss file on `(layout)/src/skins/` folder. After done, using `gulp dist-skins` or `grunt dist-skins` to get css files updated.
+If you want customize the colors or create a new skin, you can customize the skin's scss file on `(layout)/src/skins/` folder. After done, using `gulp skins`.

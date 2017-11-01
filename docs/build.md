@@ -1,106 +1,117 @@
 #3. Building Tools
-
-##3.1 Install Node.js
-First, you must download and **install node.js** (which includes npm). **npm** stands for node packaged modules and is a way to manage development dependencies through [Node.js](http://nodejs.org/download/). You can check it in your terminal window using these commands ```node --version``` and ```npm --version```. You can download [Node.js](http://nodejs.org/download/) here.
-
-##3.2 Files Structure
+##3.1 Files Structure
 We supply building tools for each layouts and global folder. They are independent that you need install the packages separately. The files relating to the building tools you will see below:
 
     (layout)/
-    ├── grunt/ (grunt task configs)
-    ├── gulp/ (gulp task configs)
-    ├── config.json
-    ├── Gruntfile.js
-    ├── gulpfile.js
-    ├── package.json
-    ├── package.json.grunt
-    └── package.json.gulp
+    ├── tasks/
+    ├── .babelrc
+    ├── config.js
+    ├── gulpfile.babel.js
+    └── package.json
 
-There are two task running tools: grunt and gulp. You can choose one to work with. The default package.json use grunt. If you want use gulp, just replace package.json.gulp with package.json.
+##3.2 Install Tools
 
-##3.3 Working with Grunt
-[Grunt](http://gruntjs.com/) is a JavaScript task runner (Automation), save yourself from repetitive tasks. It's how we compile our code, run tests, and more.
+### Node version manager
 
-###Installing Grunt
-From the command line:
+Install [NVM](https://github.com/creationix/nvm). And use the latest version of NodeJS.
 
-* Install **grunt-cli** globally with ```npm install -g grunt-cli```.
-* Navigate to the root ```/remark/(style)/global``` or ```/remark/(style)/(layout)``` directory, then run ```npm install```. **npm** will look at the ```package.json``` file and automatically install the necessary local dependencies listed there.
+```
+nvm install node
+nvm use node
+```
 
-When completed, you'll be able to run the various Grunt commands provided from the command line.
+### Install Sass
 
-###Grunt Commands
+Go to [sass-lang.com/install](http://sass-lang.com/install) for installation in command line.
 
-    grunt
+```
+gem install sass
+```
 
-We have defined all the task by default. **Grunt** will compile **less** files. You can modify or add your task in ```Grunfile.js```.
+Before install sass, you should [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [install Gem](https://rubygems.org/pages/download).
 
-Useful commands list:
 
-For ```global```
+### Install Babel
 
-* **grunt clean-dist**: clean task.
-* **grunt dist-js**: complied js file and minify them.
-* **grunt dist-css**: complied less file and minify them.
-* **grunt less-compile**: complied less file.
-* **grunt dist-vendor**: vendor distribution task.
-* **grunt dist-fonts**: fonts distribution task.
-* **grunt dist**: full distribution task.
+[Install Babel globally](https://babeljs.io/docs/usage/cli/#installation).
 
-For ```(layout)```
+```
+npm install --global babel-cli
+```
 
-* **grunt clean-dist**: clean task.
-* **grunt dist-js**: complied js file and minify them.
-* **grunt dist-css**: complied less file and minify them.
-* **grunt dist-html**: html distribution task.
-* **grunt less-compile**: complied less file.
-* **grunt dist-examples**: example css & js distribution task.
-* **grunt dist**: full distribution task.
+### Install Gulp
+[Install Gulp globally](http://gulpjs.com/).
 
-**Note**: the tasks we defined are under the ```grunt``` folder.
+```
+npm install --global gulp-cli
+```
 
-You can learn more about how to write grunt task files from **[http://gruntjs.com/](http://gruntjs.com/)**
 
-##3.4 Working with Gulp
-[Gulp](http://gulpjs.com/) is another awesome JavaScript task runner. If you are familiar with gulp, you can use it instead of Grunt.
+##3.3 Getting started
 
-###Installing Gulp
-From the command line:
+###Install Dependencies
+Before using gulp, we need go to the layout folder, installing the dependencies.
 
-* Install gulp globally with ```npm install --global gulp```.
-* Navigate to the root ```/remark/(style)/global``` or ```/remark/(style)/(layout)``` directory.
-* Rename ```package.json.gulp``` to ```package.json``` to replace the old one. Then run ```npm install```. **npm** will look at the ```package.json``` file and automatically install the necessary local dependencies listed there.
+```bash
+$ npm install
+```
 
-When completed, you'll be able to run the various Gulp commands provided from the command line.
+###Build the project
 
-###Gulp Commands
+```bash
+$ gulp
+```
 
-    gulp
+##3.4 List of Gulp tasks
 
-We have defined all the task by default. **Gulp** will compile **less** files. You can modify or add your task in ```gulpfile.js```.
+To run separate task type in command line `gulp [task_name]`.
+Almost all tasks also have watch mode - `gulp watch:[task_name]`, but you don't need to use it directly.
 
-Useful commands list:
+### Main tasks
+Task name          | Description                                                      
+:------------------|:----------------------------------
+`default`          | will start all tasks required by project in dev mode: initial build, watch files, run server with livereload
+`build`            | builds all content and assets from `src` to `html` and `assets`.
+`dev`              | builds your project without optimization.
 
-For ```global```
+### Core tasks
+Task name          | Description                                                      
+:------------------|:----------------------------------
+`styles`           | compile all scss from `src/scss` to `assets/css` folder. 
+`scripts`          | compile all js from `src/es` to `assets/js` folder. 
+`html`             | compile all hbs files to html files.
+`usemin`           | replaces references to non-optimized scripts or stylesheets into a set of HTML files
+`skins`            | compile all scss from `src/skins` to `assets/skins` folder. 
 
-* **gulp clean-dist**: clean task.
-* **gulp dist-js**: complied js file and minify them.
-* **gulp dist-css**: complied less file and minify them.
-* **gulp less-compile**: complied less file.
-* **gulp dist-vendor**: vendor distribution task.
-* **gulp dist-fonts**: fonts distribution task.
-* **gulp dist**: full distribution task.
+### Assets related tasks
+Task name          | Description                                                      
+:------------------|:----------------------------------
+`vendor`           | copy vendor files from registry distributions to `assets/vendor` path.
+`fonts`            | copy files from `src/fonts` path to `assets/fonts` path.
+`images`           | optimize and copies images in `src/images` to `assets/images`.
 
-For ```(layout)```
+### Dev tasks
+Task name          | Description                                                      
+:------------------|:----------------------------------
+`clean`            | remove `html` folder.
+`beautify`         | beautify your source files in `src/scss` and `src/es`.
+`server`           | start a BrowserSync instance.
+`watch`            | watchs for changes in `src/` path and rebuilds parts of the site as necessary.
 
-* **gulp clean-dist**: clean task.
-* **gulp dist-js**: complied js file and minify them.
-* **gulp dist-css**: complied less file and minify them.
-* **gulp dist-html**: html distribution task.
-* **gulp less-compile**: complied less file.
-* **gulp dist-examples**: example css & js distribution task.
-* **gulp dist**: full distribution task.
+### Dev tasks
+Task name          | Description                                                      
+:------------------|:----------------------------------
+`examples`         | generate examples assets
 
-**Note**: the tasks we defined are under the ```gulp``` folder.
+### Version tasks
+Task name          | Description                                                      
+:------------------|:----------------------------------
+`version:major`    | MAJOR version when you make incompatible API changes
+`version:minor`    | MINOR version when you add functionality in a backwards-compatible manner
+`version:patch`    | PATCH version when you make backwards-compatible bug fixes.
+`version`          | alias to `version:path`.
 
-You can learn more about how to write gulp task files from **[http://gulpjs.com/](http://gulpjs.com/)**
+All available tasks are placed in a folder `tasks`. 
+
+## 3.5 Configuration
+Global variables and site metadata can be found inside `config.js`. Your can make some modification in the file.

@@ -18,8 +18,7 @@ The complied files are under ``(layout)/assets/js`` and ``global/js/`` folder:
     ├── Base.js (core script)
     ├── Component.js (simple viewmodel class)
     ├── Config.js (getter/setter helper for config)
-    ├── Plugin.js (base plugin class)
-    └── State.js (simple state container for apps)
+    └── Plugin.js (base plugin class)
 
 You can find their source files from ``(layout)/src/es/`` and ``global/src/es`` folder.
 
@@ -28,48 +27,12 @@ You can find their source files from ``(layout)/src/es/`` and ``global/src/es`` 
 With new remark 3.0, every js scripts have been rewritten in ES2015 to take advantage of the newest JavaScript enhancements and use `babel` as a compiler.
 The new features make our code more strong and readable.
 
-We use ``babel-es2015-preset`` and UMD support in the babel config. You can customize them in ``global/grunt/babel.js`` or ``global/gulp/options/script.js``.
+We use ``babel-preset-env`` and UMD support in the babel config. You can customize them in ``global/tasks/scripts.js``.
 
 ##7.3 Core Script
-We build components that manage their own state, in this case the code will have a better logic.
-
 In `global/js/Base.js`, we provided three useful functionalities: **Site initialization**, **Config api**, and **Component registration**.
 
-###State Container
-`State`is a state container which is defined in `global/js/State.js`.
-
-You can initialize the new state with `State Class`:
-
-``` javascript
-let initialState = {
-  x: 'valueX',
-  y: 'valueY'
-}
-let state = new State(initialState);
-```
-
-You can use getter/setter function in ``State Object``:
-
-``` javascript
-state.get('x') //valueX
-
-state.set('y', 'newValueY')
-state.get('y') //valueY
-```
-
-You can add listener to attach an handler when the value has been changed:
-
-``` javascript
-state.on('x', ()=>{
-  console.log('Value x has been changed');
-});
-```
-
-###Base Component
-
 ``Component`` is the core Class of Remark Template, it's defined in ``global/js/Component.js``.
-
-It don't determine anything about your HTML or CSS for you. The general idea is to organize your interface into logical views, backed by state, each of which can be updated independently when the model changes, without having to redraw the page.
 
 You can define an component extend ``Component``, and when you initialize it,  the component have to reference an element already in the DOM by pass the jquery element object as an option:
 
@@ -86,100 +49,29 @@ let menubar = new Menubar({
 })
 ```
 
-We introduce mutable state to the component. ``this.state`` is private to the component and can be changed by calling ``this.setState()`` and get the value by ``this.getState()``.
-``getDefaultState()`` executes exactly once during the lifecycle of the component and sets up the initial state of the component.
-
-``` javascript
-class Menubar extends Component {
-  getDefaultState(){
-     return {
-      menubarType: 'unfold'
-    };
-  }
-}
-```
-
-You add the value change handle in ``getDefaultActions()``, and when you update the state by ``this.setState()``, the handle will be called:
-
-
-``` javascript
-class Menubar extends Component {
-  getDefaultState(){
-     return {
-      menubarType: 'unfold' // unfold, fold, open, hide;
-    };
-  }
-
-  getDefaultActions() {
-    return {
-      menubarType: 'change'
-    };
-  }
-
-  change(type) {
-    console.log("menubarType value is change to "+type );
-  }
-}
-
-let menubar = new Menubar({
-  $el: $('.site-menubar')
-})
-
-menubar.setState('menubarType', 'fold') //menubarType value is fold
-```
-
-There are two methods are executed at specific points in a component's lifecycle. ``willProccess()`` will be invoked before component run and ``proccessed()`` will be invoked after component run.
-
 ##7.4 Site initialization
 We provided a site initialization script which helps you hook your scripts into the process easily.
 
-You can hook your scripts by extending ``Site``. It's extend by ``Component``, so you can defined the state or use ``willProccess`` and ``proccessed`` function in the ``Site``.
+It will sets up all theme functionalities e.g. menubar, gridmenu, sidebar...
 
-We also provided ``assets/js/Site.js`` file which sets up all theme functionalities e.g. menubar, gridmenu, sidebar...
+You can hook your scripts by extending ``Site``. 
+
 Example code snippet below:
 
 ``` javascript
 class Site extends Base {
-  willProcess() {
-    this.initializePluginAPIs();
-    this.initializePlugins();
-  }
-
-  processed() {
+  process() {
     this.polyfillIEWidth();
     this.initBootstrap();
 
     this.setupMenubar();
     this.setupGridMenu();
+    this.setupFullScreen();
+    this.setupMegaNavbar();
+    this.setupTour();
+    this.setupNavbarCollpase();
   }
 
-  getDefaultState() {
-    return {
-      menubarType:'folded'
-    };
-  }
-
-  getDefaultActions() {
-    return {
-      menubarType(type) {
-        let toggle = function($el) {
-          $el.toggleClass('hided', !(type === 'open'));
-          $el.toggleClass('unfolded', !(type === 'fold'));
-        };
-
-        $('[data-toggle="menubar"]').each(function() {
-          let $this = $(this);
-          let $hamburger = $(this).find('.hamburger');
-
-          if ($hamburger.length > 0) {
-            toggle($hamburger);
-          } else {
-            toggle($this);
-          }
-        });
-      }
-    };
-  }
   ....
 }
 ```
@@ -198,11 +90,11 @@ All theme functionalities will be initialized. If you need to add some extension
 
 ```javascript
 //need complie by babel
-class YourSite extends Site{
+class YourSite extends Site {
   ...
 }
 
-$(document).ready(function(){
+$(document).ready(function() {
   YourSite.run();
 });
 ```
@@ -248,41 +140,41 @@ In `global/js/Plugin.js` we also provide a simple adapter to register and organi
 The raty  ``obj`` example:
 
 ``` javascript
-    /*global/js/Plugin/raty.js*/
-    const NAME = 'rating';
+/*global/js/Plugin/raty.js*/
+const NAME = 'rating';
 
-    class Rating extends Plugin {
-      getName() {
-        return NAME;
-      }
+class Rating extends Plugin {
+  getName() {
+    return NAME;
+  }
 
-      static getDefaults() {
-        return {
-          targetKeep: true,
-          icon: 'font',
-          starType: 'i',
-          starOff: 'icon wb-star',
-          starOn: 'icon wb-star orange-600',
-          cancelOff: 'icon wb-minus-circle',
-          cancelOn: 'icon wb-minus-circle orange-600',
-          starHalf: 'icon wb-star-half orange-500'
-        };
-      }
+  static getDefaults() {
+    return {
+      targetKeep: true,
+      icon: 'font',
+      starType: 'i',
+      starOff: 'icon wb-star',
+      starOn: 'icon wb-star orange-600',
+      cancelOff: 'icon wb-minus-circle',
+      cancelOn: 'icon wb-minus-circle orange-600',
+      starHalf: 'icon wb-star-half orange-500'
+    };
+  }
 
-      render() {
-        if (!$.fn.raty) {
-          return;
-        }
-
-        let $el = this.$el;
-
-        if (this.options.hints) {
-          this.options.hints = this.options.hints.split(',');
-        }
-
-        $el.raty(this.options);
-      }
+  render() {
+    if (!$.fn.raty) {
+      return;
     }
+
+    let $el = this.$el;
+
+    if (this.options.hints) {
+      this.options.hints = this.options.hints.split(',');
+    }
+
+    $el.raty(this.options);
+  }
+}
 ```
 
 You can defined the defaults options in the static function `getDefaults()` and initialize the plugin in the `render()`. The `render()` function will be invoked when Plugin is initialized;
@@ -381,7 +273,7 @@ The components initialization script is implemented in ``assets/js/Site.js``.
 
 ``` javascript
 class Site extends Base {
-  willProcess() {
+  initialize() {
     this.initializePluginAPIs();
     this.initializePlugins();
   }

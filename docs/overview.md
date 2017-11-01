@@ -1,13 +1,13 @@
 #1. Overview
 
 ##1.1 Introduction
-The Remark template is an awesome web application and admin dashboard template which built with Boostrap 3 and jQuery. There is an extra package supports Angular-UI. It provides a large selection of ready-made UI Components, Widgets, Modules and Web Apps for you to customize and create multiple projects.
+The Remark template is an awesome web application and admin dashboard template which built with Boostrap 4 and jQuery. It provides a large selection of ready-made UI Components, Widgets, Modules and Web Apps for you to customize and create multiple projects.
 
 ##1.2 Dependencies
 Remark template depends on two main frameworks. The downloadable package contains both of these libraries, so you don't have to manually download them.
 
-* [Bootstrap 4](v4-alpha.getbootstrap.com)
-* [jQuery 2.24+](http://jquery.com/)
+* [Bootstrap 4](getbootstrap.com)
+* [jQuery 3.2.1](http://jquery.com/)
 
 ##1.3 What's included
 You'll find the following folder struction and files in Remark download package.
@@ -20,29 +20,35 @@ We have ```classic``` style and ```material``` style. You can choose one to use.
     ├── classic/
     │   ├── global/
     │   ├── base/ (layout)
+    │   ├── center/ (layout)
     │   ├── iconbar/ (layout)
     │   ├── mmenu/ (layout)
+    │   ├── topicon/ (layout)
     │   └── topbar/ (layout)
     ├── material/
     │   ├── global/
-    │   └── base/ (layout)
+    │   ├── base/ (layout)
+    │   ├── center/ (layout)
+    │   ├── iconbar/ (layout)
+    │   ├── mmenu/ (layout)
+    │   ├── topicon/ (layout)
+    │   └── topbar/ (layout)
     ├── changelog.md
     └── docs
 
 ###Global's Folder
-The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files, along with source Less, and JavaScript. It has independent grunt/gulp environment. The assets will serve all layouts.
+The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files, along with source Less, and JavaScript. It has independent gulp environment. The assets will serve all layouts.
 
     global/
     ├── css/
     ├── fonts/
     ├── js/
-    ├── grunt/ (grunt task configs)
-    ├── gulp/ (gulp task configs)
+    ├── tasks/
     ├── portraits/ (example portraits images)
     ├── vendor/ (3rd plugins)
     ├── src/ (source files)
     │   ├── fonts/
-    │   ├── js/
+    │   ├── es/
     │   │   ├── components/
     │   │   ├── configs/
     │   │   ├── plugins/
@@ -54,17 +60,14 @@ The global folder includes the pre-compiled assets, CSS, JavaScript, Fonts files
     │   │   └── vars.scss
     │   ├── skins/
     │   └── vendor/
-    ├── config.json (config for grunt or gulp)
-    ├── color.yml (use for generate src/scss/vars-color.scss)
-    ├── components.json (define which component file to be combined)
-    ├── Gruntfile.js
-    ├── gulpfile.js
-    ├── package.json
-    ├── package.json.grunt (use to replace package.json if use grunt)
-    └── package.json.gulp (use to replace package.json if use gulp)
+    ├── bower.json
+    ├── manifest.json (config file for vendors)
+    ├── config.js
+    ├── gulpfile.babel.js
+    └── package.json
 
 ###Layout's Folder
-The layout folder is the main folder that you may working with. Each layout have independent grunt/gulp environment. The folder includes the pre-complied assets, source files, and examples pages. More specifically, it includes the following and more:
+The layout folder is the main folder that you may working with. Each layout have independent gulp environment. The folder includes the pre-complied assets, source files, and examples pages. More specifically, it includes the following and more:
 
     base/ (layout root)
     ├── assets/
@@ -74,25 +77,21 @@ The layout folder is the main folder that you may working with. Each layout have
     │   ├── images/
     │   ├── js/
     │   └── skins/
-    ├── grunt/ (grunt task configs)
-    ├── gulp/ (gulp task configs)
+    ├── tasks/
     ├── html/ (compiled html file)
     ├── src/ (source files)
     ├── README.md
     ├── bower.json
-    ├── config.json (config for grunt or gulp)
-    ├── Gruntfile.js
+    ├── config.js
     ├── gulpfile.js
-    ├── package.json
-    ├── package.json.grunt (use to replace package.json if use grunt)
-    └── package.json.gulp (use to replace package.json if use gulp)
+    └── package.json
 
 ###Layout's Source Folder
 The layout's source folder inludes source scss, JavaScript, Skins scss, Templates hbs files and assets source files for examples pages.
 
     src/
     ├── examples/
-    ├── js/
+    ├── es/
     ├── scss/
     ├── skins/
     └── templates/

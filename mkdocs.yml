@@ -2,21 +2,21 @@ site_name: Remark Admin Template Docs
 repo_url: https://github.com/amazingSurge/remark-docs/
 site_author: amazingsurge
 pages:
-- [index.md, Home]
-- [overview.md, 1. Overview]
-- [generator.md, 2. Generator]
-- [build.md, 3. Building Tools]
-- [files.md, 4. Files]
-- [global.md, 5. Global Assets]
-- [style.md, 6. Customize Styles]
-- [javascript.md, 7. Modular JavaScript]
-- [structure.md, 8. Template Structure]
-- [components.md, 9. Components]
-- [psd.md, 10. PSD Files]
-- [credits.md, 11. Sources and Credits]
-- [support.md, 12. Support]
-- [changelog.md, 13. Changelog]
-- [migration.md, 14. Migration]
-- [faq.md, 15. FAQ]
+    - Home: index.md
+    - 1. Overview: overview.md
+    - 2. Generator: generator.md
+    - 3. Building Tools: build.md
+    - 4. Files: files.md
+    - 5. Global Assets: global.md
+    - 6. Customize Styles: style.md
+    - 7. Modular JavaScript: javascript.md
+    - 8. Template Structure: structure.md
+    - 9. Components: components.md
+    - 10. PSD Files: psd.md
+    - 11. Sources and Credits: credits.md
+    - 12. Support: support.md
+    - 13. Changelog: changelog.md
+    - 14. Migration: migration.md
+    - 15. FAQ: faq.md 
 theme: readthedocs
 use_directory_urls: false
