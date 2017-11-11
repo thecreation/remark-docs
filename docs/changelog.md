@@ -2,6 +2,17 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[4.0.1] - 2017-11-12
+--------------------
+### Improved
+- New logo
+
+### Fixed
+- Mmenu animate issue
+- Travel app issue
+- Button outline issue
+- Roboto font not set issue
+
 [4.0.0] - 2017-11-1
 --------------------
 ### Improved
