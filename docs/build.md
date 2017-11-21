@@ -46,6 +46,13 @@ npm install --global babel-cli
 npm install --global gulp-cli
 ```
 
+### Install Bower
+
+[Install Bower globally](https://bower.io/).
+
+```
+npm install --global bower
+```
 
 ##3.3 Getting started
 
@@ -54,6 +61,12 @@ Before using gulp, we need go to the layout folder, installing the dependencies.
 
 ```bash
 $ npm install
+```
+
+And install dependencies from bower.
+
+```bash
+$ bower install
 ```
 
 ###Build the project

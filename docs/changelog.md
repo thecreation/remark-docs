@@ -2,6 +2,23 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[4.0.2] - 2017-11-18
+--------------------
+### Fixed
+- Skin issue
+- Form validation issue
+
+### Updated
+- fullcalendar to 3.7.0
+- moment to 2.19.2
+- plyr to 2.0.18
+- raty-js to 2.8.0
+- tether to 1.4.1
+- blueimp-load-image to 2.17.1
+- sortablejs to 1.7.0
+- popper.js to 1.12.9
+- stickyfilljs to 2.0.3
+
 [4.0.1] - 2017-11-12
 --------------------
 ### Improved
