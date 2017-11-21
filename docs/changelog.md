@@ -2,6 +2,12 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[4.0.3] - 2017-11-21
+--------------------
+### Fixed
+- npm dependency issue
+- Generator issue
+
 [4.0.2] - 2017-11-18
 --------------------
 ### Fixed
