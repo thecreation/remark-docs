@@ -64,4 +64,4 @@ And The source files you can see below
             │   └── jquery-selective.scss
            ...
 
-We use [assets-manager](https://github.com/amazingSurge/assets-manager) to copy all 3rd vendors to `global/vendor` folder. Just exec `gulp vendor` command on `global` folder or generated layout folder.
+We use [assets-manager](https://github.com/thecreation/assets-manager) to copy all 3rd vendors to `global/vendor` folder. Just exec `gulp vendor` command on `global` folder or generated layout folder.

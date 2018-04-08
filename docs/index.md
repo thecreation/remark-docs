@@ -3,9 +3,9 @@ Thank you for purchasing Remark template. If you have any questions that are bey
 
 __Created: 7/23/2015 __
 
-__By: amazingSurge Team__
+__By: Creation Studio__
 
-__Email:  support@amazingsurge.com __
+__Email:  support@thecreation.com __
 
 
 The Remark template is a best complex solution for awesome web application and admin dashboard template.

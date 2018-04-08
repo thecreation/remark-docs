@@ -1,6 +1,6 @@
 site_name: Remark Admin Template Docs
-repo_url: https://github.com/amazingSurge/remark-docs/
-site_author: amazingsurge
+repo_url: https://github.com/thecreation/remark-docs/
+site_author: thecreation
 pages:
     - Home: index.md
     - 1. Overview: overview.md

@@ -2,6 +2,89 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[4.1.2] - 2018-4-8
+--------------------
+### Fixed
+- Material style assets issue
+
+[4.1.1] - 2018-4-3
+--------------------
+### Fixed
+- Raty plugin issue
+- App issues in center layout
+- C3 chart plugin issue
+
+[4.1.0] - 2018-3-28
+--------------------
+### Fixed
+- Pure Button style issue
+- Less and more button issue
+- Dropdown menu issue
+- Tabs and accordion issue
+- Navbar style issue
+- Tooltip/Popover arrow issue
+- Page header z-index issue
+- Table bordered style issue
+- Badge skins issue
+- Input group styles issue
+- Mmenu chat sidebar disappear issue
+- Topicon site-menubar bg styles issue
+- Video plyr plugin not working issue
+- Rating version confilct bug issue
+- Scrollbar is covered issue
+- Summernote icons issue
+- JQuery File Upload issue
+- Touchspin styles issue
+- Ionrangeslider styles issue
+- asSpinner styles issue
+- Ladda Buttons styles issue
+- footable styles issue
+- jstree icon styles issue
+- Tour styles issue
+- Profile-v3 page styles issue
+- spacing issue in email page
+- Email page styles issue
+- Location app issue
+- slidepanel button issue in apps
+
+### Updated
+- bootstrap to v4.0.0
+- ace-builds to 1.3.1
+- blueimp-file-upload to 9.21.0
+- c3 to 0.4.21
+- codemirror to 5.35.0
+- cropper to 3.1.5
+- d3 to 4.13.0
+- flag-icon-css to 3.0.0
+- floatthead to 2.1.1
+- fullcalendar to 3.8.2
+- html5sortable to 0.7.0
+- isotope-layout to 3.0.5
+- jquery to 3.3.1
+- jquery-asHoverScroll to 0.3.7
+- jquery.mmenu to 7.0.2
+- jstree to 3.3.5
+- ladda to 1.0.6
+- marked to 0.3.16
+- masonry-layout to 4.2.1
+- moment to 2.20.1
+- peity to 3.3.0
+- rickshaw to 1.6.4
+- select2 to 4.0.6-rc.1
+- summernote to 0.8.10
+- tablesaw to 3.0.9
+- tether to 1.4.3
+- to-markdown to 3.1.1
+- toastr to 2.1.4
+- imagesloaded to 4.1.4
+- datatables.net-buttons-bs4 to 1.5.1
+- datatables.net-fixedcolumns-bs4 to 3.2.4
+- datatables.net-responsive to 2.2.1
+- datatables.net-responsive-bs4 to 2.2.1
+- datatables.net-scroller-bs4 to 1.4.4
+- datatables.net-select-bs4 to 1.2.5
+- blueimp-load-image to 2.18.0
+
 [4.0.3] - 2017-11-21
 --------------------
 ### Fixed
