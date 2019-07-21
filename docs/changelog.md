@@ -2,6 +2,130 @@
 
 If you enjoy Remark, please leave a nice review on [themeforest](https://themeforest.net/item/remark-responsive-bootstrap-4-admin-template/11989202).
 
+[5.1.0] - 2019-7-22
+--------------------
+### Updated
+- ace-builds to 1.4.5
+- blueimp-canvas-to-blob to 3.15.0
+- blueimp-file-upload to 10.0.0
+- blueimp-load-image to 2.23.0
+- blueimp-tmpl to 3.12.0
+- bootbox to 5.2.0
+- bootstrap to 4.3.1
+- bootstrap-datepicker to 1.9.0
+- bootstrap-select to ^1.13.10
+- bootstrap-table to 1.15.3
+- c3 to 0.7.2
+- chart.js to 2.8.0
+- chartist to 0.11.3
+- codemirror to 5.48.2
+- d3 to 5.9.7
+- datatables.net-buttons-bs4 to 1.5.6
+- datatables.net-scroller-bs4 to 2.0.0
+- datatables.net-select-bs4 to 1.3.0
+- flag-icon-css to 3.3.0
+- floatthead to 2.1.3
+- fullcalendar to 3.10.0
+- highlight.js to 9.15.8
+- html5sortable to 0.9.16
+- ion-rangeslider to 2.3.0
+- jquery to 3.4.1
+- jquery-contextmenu to 2.8.0
+- jquery.mmenu to 7.3.3
+- jstree to 3.3.8
+- marked to 0.7.0
+- moment to 2.24.0
+- plyr to 3.5.6
+- popper.js to 1.15.0
+- raphael to 2.2.8
+- screenfull to 4.2.0
+- select2 to 4.0.8
+- sortablejs to 1.9.0
+- summernote to 0.8.12
+- tablesaw to 3.1.2
+- tether to 1.4.7
+- timepicker to 1.11.15 
+
+[5.0.1] - 2018-11-26
+--------------------
+### Fixed
+- Page loading issue
+
+### Updated
+- ace-builds to 1.4.2 
+- blueimp-file-upload to 9.28.0 
+- blueimp-load-image to 2.20.1 
+- codemirror to 5.42.0 
+- marked to 0.5.2 
+- summernote to 0.8.11
+
+[5.0.0] - 2018-11-6
+--------------------
+### Fixed
+- Alertify & notie.js issue
+- Button group alignment issues
+- Dropdown menu shake issue
+- List group alignment issues
+- Map box mark issues
+- Iconbar menubar click issue in mobile
+- Input group issues
+- Popover arrow issues
+- Sortable & nastable issue
+- Toastr not working issue
+
+### Updated
+- bootstrap to 4.1.3
+- ace-builds to 1.4.1
+- autosize to 4.0.2
+- blueimp-file-upload to 9.28.0
+- blueimp-load-image to 2.20.1
+- bootstrap-datepicker to 1.8.0
+- bootstrap-select to 1.13.3
+- bootstrap-touchspin to 4.2.5
+- breakpoints-js to 1.0.6
+- c3 to 0.6.8
+- chart.js to 2.7.3
+- codemirror to 5.41.0
+- cropper to 4.0.0
+- d3 to 5.7.0
+- datatables to 1.10.18
+- datatables.net to 1.10.19
+- datatables.net-bs4 to 1.10.19
+- datatables.net-buttons-bs4 to 1.5.4
+- datatables.net-colreorder-bs4 to 1.5.1
+- datatables.net-fixedcolumns-bs4 to 3.2.6
+- datatables.net-fixedheader-bs4 to 3.1.5
+- datatables.net-responsive to 2.2.3
+- datatables.net-responsive-bs4 to 2.2.3
+- datatables.net-rowgroup-bs4 to 1.1.0
+- datatables.net-rowreorder-bs4 to 1.2.5
+- datatables.net-scroller-bs4 to 1.5.1
+- datatables.net-select-bs4 to 1.2.7
+- event-drops to 1.3.0
+- flag-icon-css to 3.2.1
+- floatthead to 2.1.2
+- gridstack to 0.4.0
+- highlight.js to 9.13.1
+- holderjs to 2.9.6
+- html5sortable to 0.9.8
+- intro.js to 2.9.3
+- isotope-layout to 3.0.6
+- jquery-contextmenu to 2.7.1
+- jquery_appear to  0.4.1
+- jstree to 3.3.7
+- ladda to 2.0.1
+- marked to 0.5.1
+- masonry-layout to 4.2.2
+- moment to 2.22.2
+- owl.carousel to 2.3.4
+- plyr to 3.4.7
+- popper.js to 1.14.5
+- rickshaw to 1.6.6
+- screenfull to 3.3.3
+- stickyfilljs to 2.1.0
+- tether to 1.4.5
+- timepicker to 1.11.14
+
 [4.1.2] - 2018-4-8
 --------------------
 ### Fixed

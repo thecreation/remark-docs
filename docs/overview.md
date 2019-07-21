@@ -7,7 +7,7 @@ The Remark template is an awesome web application and admin dashboard template w
 Remark template depends on two main frameworks. The downloadable package contains both of these libraries, so you don't have to manually download them.
 
 * [Bootstrap 4](getbootstrap.com)
-* [jQuery 3.2.1](http://jquery.com/)
+* [jQuery 3.4.1](http://jquery.com/)
 
 ##1.3 What's included
 You'll find the following folder struction and files in Remark download package.

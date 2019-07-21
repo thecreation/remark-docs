@@ -3,7 +3,7 @@
   "description": "The best backend-end framework for developing responsive, mobile first projects on the web.",
   "version": "1.0.0",
   "dependencies": {
-    "gulp": "*",
+    "gulp": "^4.0.2",
     "gulp-json-editor": "*"
   }
 }

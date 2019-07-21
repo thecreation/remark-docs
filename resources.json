@@ -4,7 +4,7 @@
     "homepage": "https://github.com/ajaxorg/ace-builds",
     "license": "BSD",
     "author": "",
-    "version": "1.3.1"
+    "version": "1.4.5"
   },
   "alertify.js": {
     "name": "alertify.js",
@@ -47,7 +47,7 @@
       "name": "Sebastian Tschan",
       "url": "https://blueimp.net"
     },
-    "version": "9.21.0"
+    "version": "10.0.0"
   },
   "bootbox": {
     "name": "bootbox",
@@ -57,7 +57,7 @@
       "name": "Nick Payne",
       "email": "nick@kurai.co.uk"
     },
-    "version": "4.4.0"
+    "version": "5.2.0"
   },
   "bootstrap-datepicker": {
     "name": "bootstrap-datepicker",
@@ -67,7 +67,7 @@
       "name": "Andrew Rowls",
       "email": "eternicode@gmail.com"
     },
-    "version": "1.7.1"
+    "version": "1.9.0"
   },
   "bootstrap-hover-dropdown": {
     "name": "bootstrap-hover-dropdown",
@@ -102,7 +102,7 @@
       "name": "Silvio Moreto",
       "url": "https://github.com/silviomoreto"
     },
-    "version": "1.12.4"
+    "version": "1.13.10"
   },
   "bootstrap-sweetalert": {
     "name": "bootstrap-sweetalert",
@@ -123,7 +123,7 @@
       "email": "wenzhixin2010@gmail.com",
       "url": "http://wenzhixin.net.cn/"
     },
-    "version": "1.11.2"
+    "version": "1.15.3"
   },
   "bootstrap-tagsinput": {
     "name": "bootstrap-tagsinput",
@@ -179,13 +179,13 @@
     "homepage": "https://github.com/c3js/c3#readme",
     "license": "MIT",
     "author": "Masayuki Tanaka",
-    "version": "0.4.21"
+    "version": "0.7.2"
   },
   "chart.js": {
     "name": "chart.js",
     "homepage": "http://www.chartjs.org",
     "license": "MIT",
-    "version": "2.7.1",
+    "version": "2.8.0",
     "author": {
       "name": "nnnick"
     }
@@ -196,7 +196,7 @@
     "author": {
       "name": "Gion Kunz"
     },
-    "version": "0.11.0",
+    "version": "0.11.3",
     "license": "WTFPL"
   },
   "chartist-plugin-tooltip": {
@@ -221,7 +221,7 @@
     "name": "codemirror",
     "homepage": "http://codemirror.net",
     "license": "MIT",
-    "version": "5.35.0"
+    "version": "5.48.2"
   },
   "cropper": {
     "name": "cropper",
@@ -241,7 +241,7 @@
       "name": "Mike Bostock",
       "url": "https://bost.ocks.org/mike"
     },
-    "version": "4.13.0"
+    "version": "5.9.7"
   },
   "datatables": {
     "name": "datatables",
@@ -322,7 +322,7 @@
       "name": "Panayiotis Lipiridis",
       "email": "lipiridis@gmail.com"
     },
-    "version": "3.0.0",
+    "version": "3.3.0",
     "license": "MIT"
   },
   "floatthead": {
@@ -332,7 +332,7 @@
     "author": {
       "name": "Misha Koryak"
     },
-    "version": "2.1.1"
+    "version": "2.1.3"
   },
   "formatter.js": {
     "name": "formatter.js",
@@ -353,7 +353,7 @@
       "email": "arshaw@arshaw.com",
       "url": "http://arshaw.com/"
     },
-    "version": "3.8.2"
+    "version": "3.10.0"
   },
   "gmaps": {
     "name": "gmaps",
@@ -382,7 +382,7 @@
       "name": "Ivan Sagalaev",
       "email": "maniac@softwaremaniacs.org"
     },
-    "version": "9.7.0"
+    "version": "9.15.8"
   },
   "holderjs": {
     "name": "holderjs",
@@ -444,7 +444,7 @@
       "email": "ionden.tech@gmail.com",
       "url": "IonDen"
     },
-    "version": "2.2.0"
+    "version": "2.3.0"
   },
   "isotope-layout": {
     "name": "isotope-layout",
@@ -463,7 +463,7 @@
       "name": "JS Foundation and other contributors",
       "url": "https://github.com/jquery/jquery/blob/3.3.1/AUTHORS.txt"
     },
-    "version": "3.3.1"
+    "version": "3.4.1"
   },
   "jquery-asBreadcrumbs": {
     "name": "jquery-asBreadcrumbs",
@@ -705,7 +705,7 @@
       "name": "Fred Heusschen",
       "email": "info@frebsite.nl"
     },
-    "version": "7.0.2"
+    "version": "7.3.3"
   },
   "jsgrid": {
     "name": "jsgrid",
@@ -728,7 +728,7 @@
       "email": "jstree@jstree.com",
       "url": "http://vakata.com"
     },
-    "version": "3.3.5"
+    "version": "3.3.8"
   },
   "jvectormap": {
     "name": "jvectormap",
@@ -787,7 +787,7 @@
     "author": {
       "name": "Christopher Jeffrey"
     },
-    "version": "0.3.16"
+    "version": "0.7.0"
   },
   "masonry-layout": {
     "name": "masonry-layout",
@@ -807,7 +807,7 @@
       "email": "iskren.chernev@gmail.com",
       "url": "https://github.com/ichernev"
     },
-    "version": "2.20.1"
+    "version": "2.24.0"
   },
   "morris.js": {
     "name": "morris.js",
@@ -871,7 +871,7 @@
       "name": "Sam Potts",
       "email": "sam@potts.es"
     },
-    "version": "3.0.0-beta.15"
+    "version": "3.5.6"
   },
   "raphael": {
     "name": "raphael",
@@ -880,7 +880,7 @@
     "author": {
       "name": "Dmitry Baranovskiy"
     },
-    "version": "2.2.7"
+    "version": "2.2.8"
   },
   "raty-js": {
     "name": "raty-js",
@@ -917,7 +917,7 @@
       "email": "sindresorhus@gmail.com",
       "url": "sindresorhus.com"
     },
-    "version": "3.3.2"
+    "version": "4.2.0"
   },
   "select2": {
     "name": "select2",
@@ -927,7 +927,7 @@
       "name": "Kevin Brown",
       "url": "https://github.com/kevin-brown"
     },
-    "version": "4.0.6-rc.1"
+    "version": "4.0.8"
   },
   "slick-carousel": {
     "name": "slick-carousel",
@@ -953,7 +953,7 @@
       "name": "hackerwins",
       "email": "<susukang98@gmail.com"
     },
-    "version": "0.8.10"
+    "version": "0.8.12"
   },
   "switchery": {
     "name": "switchery",
@@ -972,13 +972,13 @@
       "url": "http://filamentgroup.com/",
       "company": "Filament Group"
     },
-    "version": "3.0.9"
+    "version": "3.1.2"
   },
   "tether": {
     "name": "tether",
     "homepage": "https://github.com/HubSpot/tether#readme",
     "license": "MIT",
-    "version": "1.4.3"
+    "version": "1.4.7"
   },
   "textarea-autosize": {
     "name": "textarea-autosize",
@@ -1000,7 +1000,7 @@
       "name": "Jon Thornton",
       "url": "https://github.com/jonthornton"
     },
-    "version": "1.11.12"
+    "version": "1.11.15"
   },
   "to-markdown": {
     "name": "to-markdown",
@@ -1266,7 +1266,7 @@
       "name": "Björn Brala",
       "url": "http://www.swis.nl"
     },
-    "version": "2.6.3"
+    "version": "2.8.0"
   },
   "datatables.net": {
     "name": "datatables.net",
@@ -1506,7 +1506,7 @@
       "name": "Konstantin Lebedev",
       "email": "ibnRubaXa@gmail.com"
     },
-    "version": "1.7.0"
+    "version": "1.9.0"
   },
   "popper.js": {
     "name": "popper.js",
@@ -1516,7 +1516,7 @@
       "name": "Federico Zivolo",
       "email": "federico.zivolo@gmail.com"
     },
-    "version": "1.12.9"
+    "version": "1.15.0"
   },
   "stickyfilljs": {
     "name": "stickyfilljs",

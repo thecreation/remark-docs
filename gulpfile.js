@@ -3,7 +3,7 @@ var resources = require('./resources.json');
 var images = require('./images.json');
 var fs = require('fs');
 
-gulp.task('credits', function(){
+gulp.task('credits', function(done){
   var content = '';
 
   content += "#11. Sources and Credits\n";
@@ -49,4 +49,5 @@ gulp.task('credits', function(){
   });
 
   fs.writeFileSync('./docs/credits.md', content);
+  done();
 });

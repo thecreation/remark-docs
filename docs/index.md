@@ -5,7 +5,7 @@ __Created: 7/23/2015 __
 
 __By: Creation Studio__
 
-__Email:  support@thecreation.com __
+__Email:  support@thecreation.co __
 
 
 The Remark template is a best complex solution for awesome web application and admin dashboard template.
